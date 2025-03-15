@@ -13,7 +13,9 @@ if __name__ == '__main__':
         print("Error: Invalid module name format.")
     else:
         try:
-            subprocess.run(['python', '-m', module], check=True)
+            top_module = module.split('.')[0]
+            sub_module = module.split('.')[1]
+            subprocess.run(['python', '-m', f"{top_module}.main", "--module" , sub_module], check=True)
         except subprocess.CalledProcessError as e:
             print(f"Error executing module: {e}")
         except Exception as e:
