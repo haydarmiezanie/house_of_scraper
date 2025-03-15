@@ -35,4 +35,3 @@ Check the result in: `/result` (this directory is automatically created by the t
 If you encounter any issues with the code, feel free to reach out:
 - GitHub Issues: [Open an issue](https://github.com/haydarmiezanie/house_of_scraper/issues)
 - LinkedIn: [Haydar Miezanie](https://www.linkedin.com/in/haydar-miezanie-abdul-jamil-916302162/)
-test
