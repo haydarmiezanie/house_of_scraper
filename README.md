@@ -28,7 +28,6 @@ House of Scraper is a Python-based web scraping tool designed to extract data fr
    py -m scraper --module "IDX.stocks"
    ```
 Check the result in: `/result` (this directory is automatically created by the tool if it does not already exist).
-Check the result in : `/result` (this directory is automatically created by the tool if it does not already exist).
    
 
 ## Any Issue ?
