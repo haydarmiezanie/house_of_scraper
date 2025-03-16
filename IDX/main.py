@@ -5,9 +5,9 @@ def main(url, module_name):
 
     scraper = cloudscraper.create_scraper(
         browser={
-            'browser': 'chrome',
+            'browser' : 'chrome',
             'platform': 'windows',
-            'desktop': True
+            'desktop' : True
         }
     )
     
@@ -27,12 +27,13 @@ def main(url, module_name):
 
 url ={
     'broker': 'https://www.idx.co.id/primary/TradingSummary/GetBrokerSummary?length=9999&start=0',
-    'stocks': 'https://www.idx.co.id/primary/TradingSummary/GetStockSummary?length=9999&start=0'
+    'stocks': 'https://www.idx.co.id/primary/TradingSummary/GetStockSummary?length=9999&start=0',
+    'index' : 'https://www.idx.co.id/primary/TradingSummary/GetIndexSummary?length=9999&start=0'
 }
 
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('--module', choices=['broker', 'stocks'], required=True)
+    parser.add_argument('--module', choices=list(url.keys()), required=True)
     args = parser.parse_args()
     main(url[args.module], args.module) 
