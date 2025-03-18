@@ -2,7 +2,8 @@ def main(url, module_name):
     import cloudscraper
     import json
     import os
-
+    import requests
+    
     scraper = cloudscraper.create_scraper(
         browser={
             'browser' : 'chrome',
@@ -16,7 +17,7 @@ def main(url, module_name):
         if data.status_code == 200:
             data = json.loads(data.text)
         else:
-            raise Exception(f"Failed to fetch data. HTTP Status Code: {data.status_code}")
+            raise requests.exceptions.HTTPError(f"Failed to fetch data. HTTP Status Code: {data.status_code}")
         os.makedirs(os.path.join(os.getcwd(), 'result'), exist_ok=True)
         result_path = os.path.join(os.getcwd(), 'result', f'IDX_{module_name}.json')
         with open(result_path, 'w') as f:
