@@ -2,7 +2,7 @@
 ### A Python-based tool for efficient web data extraction
 
 ## Overview
-House of Scraper is a Python-based web scraping tool designed to extract data from various websites efficiently. Leveraging libraries such as `cloudscraper`, which helps bypass anti-bot measures and captchas, this tool simplifies the process of collecting and processing web data.
+House of Scraper is a Python-based web scraping tool designed to extract data from various websites efficiently. Leveraging libraries such as `cloudscraper` and `requests`, which helps bypass anti-bot measures and captchas, this tool simplifies the process of collecting and processing web data.
 
 ## Features
 
