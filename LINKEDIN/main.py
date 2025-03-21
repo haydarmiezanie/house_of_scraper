@@ -35,7 +35,7 @@ def main(url, module_name):
     import os
     import json
     response=request(url)
-    if module_name != 'people':
+    if module_name == 'job':
         list_job = response["metadata"]["jobCardPrefetchQueries"][0]["prefetchJobPostingCardUrns"]
         list_data = []
         for job_id in list_job:
@@ -47,7 +47,7 @@ def main(url, module_name):
             list_data.append(data)
             print(f'Success scrape Job: {url_id}')
             
-    list_data=response if module_name == 'people' else list_data
+    list_data=response if module_name != 'job' else list_data
     os.makedirs(os.path.join(os.getcwd(), 'result'), exist_ok=True)
     result_path = os.path.join(os.getcwd(), 'result', f'LINKEDIN_{module_name}.json')
     with open(result_path, 'w') as f:
@@ -56,8 +56,9 @@ def main(url, module_name):
 
     
 url = {
-        'job': 'https://www.linkedin.com/voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollection-218&count=25&q=jobSearch&query=(origin:JOB_COLLECTION_PAGE_SEARCH_BUTTON,locationUnion:(geoId:102478259),spellCorrectionEnabled:true)&start=0',
-        'people': 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(PEOPLE))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+        'job'   : 'https://www.linkedin.com/voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollection-218&count=50&q=jobSearch&query=(origin:JOB_COLLECTION_PAGE_SEARCH_BUTTON,locationUnion:(geoId:102478259),spellCorrectionEnabled:true)&start=0',
+        'people': 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(PEOPLE))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8',
+        'posts' : 'https://www.linkedin.com/voyager/api/graphql?variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(CONTENT)))),count:50)&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
     }
 
 if __name__ == '__main__':
