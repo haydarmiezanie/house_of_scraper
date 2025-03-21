@@ -35,9 +35,9 @@ def main(url, module_name):
     import os
     import json
     response=request(url)
-    list_job = response["metadata"]["jobCardPrefetchQueries"][0]["prefetchJobPostingCardUrns"]
-    list_data = []
     if module_name != 'people':
+        list_job = response["metadata"]["jobCardPrefetchQueries"][0]["prefetchJobPostingCardUrns"]
+        list_data = []
         for job_id in list_job:
             url_id = re.search(r"\d+", job_id).group()
             sub_url = {
