@@ -20,7 +20,7 @@ def main(url, module_name):
         else:
             data = scraper.get(url=url)
         if data.status_code == 200:
-            data = json.loads(data.text)
+            data = data.json()
         else:
             raise requests.exceptions.HTTPError(f"Failed to fetch data. HTTP Status Code: {data.status_code}")
         os.makedirs(os.path.join(os.getcwd(), 'result'), exist_ok=True)
