@@ -28,8 +28,10 @@ def main(url, module_name):
         with open(result_path, 'w') as f:
             json.dump(data, f, indent=4)
         print(f'{module_name} data saved to {result_path}')
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+    except OSError as e:
+        print(f"File operation error while saving {module_name} data to {result_path}: {e}")
+    except (TypeError, ValueError) as e:
+        print(f"JSON processing error while saving {module_name} data: {e}")
 
 url = {
     "searchJobs": "https://glints.com/api/v2/graphql?op=searchJobs",
