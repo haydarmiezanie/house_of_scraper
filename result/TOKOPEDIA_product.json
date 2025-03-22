@@ -1,0 +1,823 @@
+{
+    "data": {
+        "pdpGetLayout": {
+            "requestID": "cvf7j7j2okd3q4jqhbs0",
+            "name": "Default Layout Desktop",
+            "pdpSession": "{\"ttspi\":1730844210197857683,\"ttsku\":1730844210197923219,\"sid\":233728,\"ttssid\":7495809407130372499,\"sd\":\"xsianstore\",\"stier\":3,\"cat\":{\"id\":3054,\"ttsid\":602097,\"d\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"ttsd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}]},\"pid\":16210692076,\"ppn\":\"REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN\",\"dcid\":16210692077,\"cp\":{\"lr\":{}},\"opr\":1096000,\"pr\":1096000,\"mo\":1,\"pn\":\"REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Biru\",\"purl\":\"https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219\",\"pa\":\"redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219\",\"st\":3,\"cn\":\"new\",\"li\":1,\"ln\":\"Default Layout Desktop\",\"w\":0.5,\"sf\":{},\"nid\":3,\"ws\":{},\"stat\":{\"cr\":2,\"r\":5,\"cs\":2,\"mcs\":\"2\"},\"fst\":[{\"FSID\":0,\"PartnerName\":\"\",\"FSType\":0,\"ShopID\":0}],\"mnwhs\":{\"16210692076\":{\"pid\":16210692076,\"wid\":300404,\"pr\":1096000,\"s\":3},\"16210692077\":{\"pid\":16210692077,\"wid\":300404,\"pr\":1096000,\"s\":3},\"16210692078\":{\"pid\":16210692078,\"wid\":300404,\"pr\":1096000,\"s\":5}},\"umps\":3,\"nv\":{\"id\":0,\"n\":\"\",\"c\":[]},\"cr\":{},\"d\":{},\"fscp\":{\"ra\":{},\"tps\":2,\"grp\":100,\"ps\":3},\"exp\":{\"saatc\":true},\"patcs\":{\"lid\":21,\"pi\":16210692077,\"pid\":16210692076,\"whid\":300404,\"pr\":1096000,\"opr\":1096000,\"cat\":{\"id\":3054},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"v\":1,\"vd\":{\"16210692077\":{\"ttsp\":1730844210197857683,\"ttssku\":1730844210197923219,\"cp\":{\"lr\":{}},\"p\":1096000,\"op\":1096000,\"isc\":true,\"whid\":300404,\"mo\":1,\"patcs\":{\"pi\":16210692077,\"pid\":16210692076,\"whid\":300404,\"pr\":1096000,\"opr\":1096000,\"cat\":{\"id\":3054},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":3,\"w\":500,\"ib\":true},\"16210692078\":{\"ttsp\":1730844210197857683,\"ttssku\":1730844210197988755,\"cp\":{\"lr\":{}},\"p\":1096000,\"op\":1096000,\"isc\":true,\"whid\":300404,\"mo\":1,\"patcs\":{\"pi\":16210692078,\"pid\":16210692076,\"whid\":300404,\"pr\":1096000,\"opr\":1096000,\"cat\":{\"id\":3054},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":5,\"w\":500,\"ib\":true}},\"pi\":16210692077,\"pse\":1,\"ps\":\"ACTIVE\",\"fc\":[\"tidak_kadaluwarsa\",\"shipment\"],\"cod\":true,\"cui\":{},\"srq\":{\"rs\":4.9,\"tr\":344,\"trt\":843},\"prtg\":{\"rs\":\"5.0\",\"tr\":2,\"trf\":\"2\",\"trtif\":\"0\"},\"ss\":1,\"ma\":[{\"t\":\"Cara Klaim\",\"v\":[\"Hubungi Merek\"]},{\"t\":\"Periode Garansi\",\"v\":[\"12 Bulan\"]},{\"t\":\"Status Sinyal\",\"v\":[\"Sinyal Aktif\"]},{\"t\":\"Tipe Garansi\",\"v\":[\"Garansi Merek (Resmi)\"]}],\"p2c\":{},\"pm\":true,\"sia\":true,\"swa\":true,\"etm\":true,\"ispt\":true,\"zid\":\"rh37fftv3ivhofU\"}",
+            "basicInfo": {
+                "alias": "redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                "createdAt": "2025-02-08T13:29:15+07:00",
+                "isQA": false,
+                "id": "16210692077",
+                "shopID": "233728",
+                "shopName": "XsianStore",
+                "minOrder": 1,
+                "maxOrder": 3,
+                "weight": 500,
+                "weightUnit": "GRAM",
+                "condition": "NEW",
+                "status": "ACTIVE",
+                "url": "https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                "needPrescription": false,
+                "catalogID": "0",
+                "isLeasing": false,
+                "isBlacklisted": false,
+                "isTokoNow": false,
+                "menu": {
+                    "id": "26829056",
+                    "name": "Redmi Baru",
+                    "url": "https://www.tokopedia.com/xsianstore/etalase/redmi-baru",
+                    "__typename": "pdpMenu"
+                },
+                "category": {
+                    "id": "3054",
+                    "name": "Android OS",
+                    "title": "",
+                    "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet/handphone/android-os",
+                    "isAdult": false,
+                    "isKyc": false,
+                    "minAge": 0,
+                    "detail": [
+                        {
+                            "id": "65",
+                            "name": "Handphone & Tablet",
+                            "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet",
+                            "isAdult": false,
+                            "__typename": "pdpCategoryDetail"
+                        },
+                        {
+                            "id": "24",
+                            "name": "Handphone",
+                            "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet/handphone",
+                            "isAdult": false,
+                            "__typename": "pdpCategoryDetail"
+                        },
+                        {
+                            "id": "3054",
+                            "name": "Android OS",
+                            "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet/handphone/android-os",
+                            "isAdult": false,
+                            "__typename": "pdpCategoryDetail"
+                        }
+                    ],
+                    "ttsID": "602097",
+                    "ttsDetail": [
+                        {
+                            "id": "601739",
+                            "name": "Phones & Electronics",
+                            "breadcrumbURL": "",
+                            "isAdult": false,
+                            "__typename": "pdpCategoryDetail"
+                        },
+                        {
+                            "id": "995976",
+                            "name": "Phones & Tablets",
+                            "breadcrumbURL": "",
+                            "isAdult": false,
+                            "__typename": "pdpCategoryDetail"
+                        },
+                        {
+                            "id": "602097",
+                            "name": "Mobile Phones",
+                            "breadcrumbURL": "",
+                            "isAdult": false,
+                            "__typename": "pdpCategoryDetail"
+                        }
+                    ],
+                    "__typename": "pdpCategory"
+                },
+                "txStats": {
+                    "transactionSuccess": "2",
+                    "transactionReject": "0",
+                    "countSold": "2",
+                    "paymentVerified": "2",
+                    "itemSoldFmt": "2",
+                    "__typename": "pdpTxStats"
+                },
+                "stats": {
+                    "countView": "0",
+                    "countReview": "2",
+                    "countTalk": "0",
+                    "rating": 5,
+                    "__typename": "pdpStats"
+                },
+                "productID": "16210692077",
+                "ttsPID": "1730844210197857683",
+                "ttsSKUID": "1730844210197923219",
+                "ttsShopID": "7495809407130372499",
+                "isAggregatedWithTTS": false,
+                "__typename": "pdpBasicInfo"
+            },
+            "components": [
+                {
+                    "name": "product_media",
+                    "type": "product_media",
+                    "position": "[0,0,1,4]",
+                    "data": [
+                        {
+                            "media": [
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                    "description": "Biru",
+                                    "variantOptionID": "3428593351",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                    "description": "Hitam",
+                                    "variantOptionID": "3428593352",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                }
+                            ],
+                            "videos": [],
+                            "__typename": "pdpDataProductMedia"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "ticker_info",
+                    "type": "ticker_info",
+                    "position": "[1,0,1,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "variant_options",
+                    "type": "variant",
+                    "position": "[2,0,1,4]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "product_content",
+                    "type": "product_content",
+                    "position": "[1,1,1,1]",
+                    "data": [
+                        {
+                            "name": "REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Biru",
+                            "price": {
+                                "value": 1096000,
+                                "currency": "IDR",
+                                "priceFmt": "Rp1.096.000",
+                                "slashPriceFmt": "",
+                                "discPercentage": "",
+                                "__typename": "pdpContentSnapshotPrice"
+                            },
+                            "campaign": {
+                                "campaignID": "0",
+                                "campaignType": "0",
+                                "campaignTypeName": "",
+                                "campaignIdentifier": 0,
+                                "background": "",
+                                "percentageAmount": 0,
+                                "originalPrice": 0,
+                                "discountedPrice": 0,
+                                "originalStock": 0,
+                                "stock": 0,
+                                "stockSoldPercentage": 0,
+                                "threshold": 0,
+                                "startDate": "",
+                                "endDate": "",
+                                "endDateUnix": "0",
+                                "appLinks": "",
+                                "isAppsOnly": false,
+                                "isActive": false,
+                                "hideGimmick": false,
+                                "showStockBar": false,
+                                "__typename": "pdpContentSnapshotCampaign"
+                            },
+                            "thematicCampaign": {
+                                "additionalInfo": "",
+                                "background": "",
+                                "campaignName": "",
+                                "icon": "",
+                                "__typename": "pdpContentSnapshotThematicCampaign"
+                            },
+                            "stock": {
+                                "useStock": true,
+                                "value": "3",
+                                "stockWording": "Stok <b style='color:red'>tersisa &lt;5,</b> beli segera!",
+                                "__typename": "pdpContentSnapshotStock"
+                            },
+                            "variant": {
+                                "isVariant": true,
+                                "parentID": "16210692076",
+                                "__typename": "pdpContentSnapshotVariant"
+                            },
+                            "wholesale": [],
+                            "isCashback": {
+                                "percentage": 0,
+                                "__typename": "pdpContentSnapshotIsCashback"
+                            },
+                            "isTradeIn": false,
+                            "isOS": false,
+                            "isPowerMerchant": true,
+                            "isWishlist": false,
+                            "isCOD": true,
+                            "preorder": {
+                                "duration": 0,
+                                "timeUnit": "UNKNOWN",
+                                "isActive": false,
+                                "preorderInDays": 0,
+                                "__typename": "pdpContentSnapshotPreorder"
+                            },
+                            "__typename": "pdpDataProductContent"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "new_variant_options",
+                    "type": "variant",
+                    "position": "[1,2,1,1]",
+                    "data": [
+                        {
+                            "errorCode": 0,
+                            "parentID": "16210692076",
+                            "defaultChild": "16210692077",
+                            "sizeChart": "",
+                            "totalStockFmt": "8",
+                            "variants": [
+                                {
+                                    "productVariantID": "976271384",
+                                    "variantID": "1",
+                                    "name": "warna",
+                                    "identifier": "colour",
+                                    "option": [
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3428593351",
+                                            "variantUnitValueID": "0",
+                                            "value": "Biru",
+                                            "hex": "",
+                                            "stock": "3",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3428593352",
+                                            "variantUnitValueID": "0",
+                                            "value": "Hitam",
+                                            "hex": "",
+                                            "stock": "5",
+                                            "__typename": "pdpProductVariantOption"
+                                        }
+                                    ],
+                                    "__typename": "pdpProductVariantOutput"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "productID": "16210692077",
+                                    "price": 1096000,
+                                    "priceFmt": "Rp1.096.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3428593351
+                                    ],
+                                    "optionName": [
+                                        "Biru"
+                                    ],
+                                    "productName": "REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Biru",
+                                    "productURL": "https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "3",
+                                        "isBuyable": true,
+                                        "stockWordingHTML": "Stok <b style='color:red'>tersisa &lt;5,</b> beli segera!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "3",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": true,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730844210197857683",
+                                    "ttsSKUID": "1730844210197923219",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "16210692078",
+                                    "price": 1096000,
+                                    "priceFmt": "Rp1.096.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3428593352
+                                    ],
+                                    "optionName": [
+                                        "Hitam"
+                                    ],
+                                    "productName": "REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Hitam",
+                                    "productURL": "https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197988755",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "5",
+                                        "isBuyable": true,
+                                        "stockWordingHTML": "Stok <b>tersisa &lt;10,</b> beli segera!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "5",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": true,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730844210197857683",
+                                    "ttsSKUID": "1730844210197988755",
+                                    "__typename": "pdpProductVariantChildren"
+                                }
+                            ],
+                            "__typename": "pdpDataProductVariant"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "product_detail",
+                    "type": "product_detail",
+                    "position": "[1,3,1,1]",
+                    "data": [
+                        {
+                            "content": [
+                                {
+                                    "title": "Kondisi",
+                                    "subtitle": "Baru",
+                                    "applink": "",
+                                    "showAtFront": true,
+                                    "isAnnotation": false,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Berat Satuan",
+                                    "subtitle": "500 g",
+                                    "applink": "",
+                                    "showAtFront": false,
+                                    "isAnnotation": false,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Min. Pemesanan",
+                                    "subtitle": "1 Buah",
+                                    "applink": "",
+                                    "showAtFront": true,
+                                    "isAnnotation": false,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Kategori",
+                                    "subtitle": "Android OS",
+                                    "applink": "https://www.tokopedia.com/p/handphone-tablet/handphone/android-os",
+                                    "showAtFront": false,
+                                    "isAnnotation": false,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Etalase",
+                                    "subtitle": "Redmi Baru",
+                                    "applink": "https://www.tokopedia.com/xsianstore/etalase/redmi-baru",
+                                    "showAtFront": true,
+                                    "isAnnotation": false,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Deskripsi",
+                                    "subtitle": "FITUR UNGGULAN\n\nTriple slot untuk dua kartu SIM dan microSD\n\nSistem operasi Android edisi Go yang ringan\n\nLayar 6,71 inci yang lebar dan sudah mendukung refresh rate 90 Hz\n\nPenampilan bodi kece\n\nBaca kelebihan & kekurangan selengkapnya \u2192\n\nSPESIFIKASI\n\nUMUM\n\nTahun Rilis2024Jaringan2G, 3G, 4GSIM CardDual SIM (Slot Khusus)eSIMTidak\n\nBODY\n\nDimensi168.3 x 76.3 x 8.32 mmBerat193 gramKetahanan-Fitur Lainnya- Penutup belakang kaca atau kulit sintetis\n- Berat: 199 g (Midnight Black dan Lake Blue) | 193 g (Olive Green)\n\nLAYAR UTAMA\n\nJenisIPS LCDUkuran6.71 inciRefresh Rate90 HzResolusi720 x 1650 pikselRasio20:9Kerapatan268 ppiProteksiCorning Gorilla Glass 3Fitur Lainnya- Tingkat kecerahan 400 nit\n- Touch sampling rate 120 Hz\n- Rasio layar ke bodi 82,9%\n\nHARDWARE\n\nChipsetMediaTek Helio G36CPUOcta-core (4x2.2 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)GPUPowerVR GE8320\n\nMEMORI\n\nRAM4 GBJenis RAMLPDDR4XMemori Internal128 GBJenis MemorieMMC 5.1Memori EksternalAda (Slot Khusus)\n\nKAMERA UTAMA\n\nJumlah Kamera2Konfigurasi\n\n8 MP (wide),\n\nMP (monochrome),\n\nFiturAF, LED flash, Video: 1080p@30fps\n\nKAMERA DEPAN\n\nJumlah Kamera1Konfigurasi\n\n5 MP (wide), f/2.2\n\nFiturVideo: 1080p@30fps\n\nKONEKTIVITAS\n\nWLANWi-Fi 802.11 a/b/g/n/Bluetooth5.0, A2DP, LEInfraredTidak AdaNFCTidak AdaGPSGPS, A-GPS, GLONASS, GALILEO, BDSUSBTipe-C 2.0, USB On-The-Go\n\nBATERAI\n\nJenisLi-PoKapasitas5000 mAhFiturPengisian 10W\n\nFITUR\n\nOS (Saat Rilis)Android 14 (edisi Go)SensorFingerprint (menyatu dengan tombol power), akselerometer, cahaya, proksimitasJack 3.5mmAdaWarnaMidnight Black, Star BlueFitur Lainnya- Virtual RAM hingga 4 GB\n- Dukungan microSD sampai 1 TB\n- Radio FM\n\n* Harap bertanya terlebih dahulu untuk ketersediaan unit.\n* Harga dapat berubah sewaktu-waktu\n* Untuk berat sudah termasuk packing & belum termasuk packing kayu.\n\nNote:\n-Toko buka setiap saat hari\n-Pengiriman mulai dari pukul 12.00 WIB s/d 17.00 WIB\n\nHappy Shopping :)\n",
+                                    "applink": "",
+                                    "showAtFront": true,
+                                    "isAnnotation": false,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Cara Klaim",
+                                    "subtitle": "Hubungi Merek",
+                                    "applink": "",
+                                    "showAtFront": false,
+                                    "isAnnotation": true,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Periode Garansi",
+                                    "subtitle": "12 Bulan",
+                                    "applink": "",
+                                    "showAtFront": false,
+                                    "isAnnotation": true,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Status Sinyal",
+                                    "subtitle": "Sinyal Aktif",
+                                    "applink": "",
+                                    "showAtFront": false,
+                                    "isAnnotation": true,
+                                    "__typename": "pdpContentProductDetail"
+                                },
+                                {
+                                    "title": "Tipe Garansi",
+                                    "subtitle": "Garansi Merek (Resmi)",
+                                    "applink": "",
+                                    "showAtFront": false,
+                                    "isAnnotation": true,
+                                    "__typename": "pdpContentProductDetail"
+                                }
+                            ],
+                            "__typename": "pdpDataProductDetail"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "obat_keras",
+                    "type": "custom_info",
+                    "position": "[1,4,1,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "shop_credibility",
+                    "type": "shop_credibility",
+                    "position": "[1,6,1,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "shipment_v4",
+                    "type": "shipment_v4",
+                    "position": "[1,7,1,1]",
+                    "data": [
+                        {
+                            "data": [
+                                {
+                                    "productID": "16210692077",
+                                    "warehouse_info": {
+                                        "warehouse_id": "300404",
+                                        "is_fulfillment": false,
+                                        "district_id": "2213",
+                                        "postal_code": "16123",
+                                        "geolocation": "fw1W4qUalI2kbv7+owc9ezV8ULkrLXG3UlqrNuY6d5zvxqWrnlke330FK3Z9ozFn",
+                                        "city_name": "Kota Bogor",
+                                        "ttsWarehouseID": "7394402142574397200",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": true,
+                                    "metadata": "{\"cd\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"tcd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}],\"td\":{},\"pri\":16210692076,\"tsi\":7495809407130372499,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "16210692078",
+                                    "warehouse_info": {
+                                        "warehouse_id": "300404",
+                                        "is_fulfillment": false,
+                                        "district_id": "2213",
+                                        "postal_code": "16123",
+                                        "geolocation": "FuwaG5vmZ6xNVBBrhiVZYQCuwGhEbxj/vLzAowtmq+nIaMLFqOJxgmiYCQeHC91u",
+                                        "city_name": "Kota Bogor",
+                                        "ttsWarehouseID": "7394402142574397200",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": true,
+                                    "metadata": "{\"cd\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"tcd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}],\"td\":{},\"pri\":16210692076,\"tsi\":7495809407130372499,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "16210692076",
+                                    "warehouse_info": {
+                                        "warehouse_id": "300404",
+                                        "is_fulfillment": false,
+                                        "district_id": "2213",
+                                        "postal_code": "16123",
+                                        "geolocation": "vRoePvd4zwFvry01UpzQAeZv3hsXnfHgC6QzfV/+G2nDQpEbNLZk1b8WZFfWcFMd",
+                                        "city_name": "Kota Bogor",
+                                        "ttsWarehouseID": "7394402142574397200",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"tcd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}],\"td\":{},\"pri\":16210692076,\"tsi\":7495809407130372499,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                }
+                            ],
+                            "__typename": "pdpDataComponentShipmentV4"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "shipping",
+                    "type": "info",
+                    "position": "[1,9,1,1]",
+                    "data": [
+                        {
+                            "icon": "",
+                            "title": "Kurir",
+                            "isApplink": true,
+                            "applink": "",
+                            "content": [],
+                            "__typename": "pdpDataInfo"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "offerings",
+                    "type": "offerings",
+                    "position": "[1,10,1,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "installment_paylater",
+                    "type": "info",
+                    "position": "[1,11,1,1]",
+                    "data": [
+                        {
+                            "icon": "https://images.tokopedia.net/pdp/info/icon/pdp-paylatercicilan@3x.png",
+                            "title": "Paylater & Cicilan",
+                            "isApplink": true,
+                            "applink": "tokopedia://fintech/paylater?category=Android+OS&price=1096000.000000&productID=16210692077&productURL=https%3A%2F%2Fwww.tokopedia.com%2Fxsianstore%2Fredmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                            "content": [],
+                            "__typename": "pdpDataInfo"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "QRCode",
+                    "type": "Web2App",
+                    "position": "[1,12,1,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "wholesale",
+                    "type": "info",
+                    "position": "[1,13,1,1]",
+                    "data": [
+                        {
+                            "icon": "",
+                            "title": "Harga Grosir",
+                            "isApplink": true,
+                            "applink": "",
+                            "content": [],
+                            "__typename": "pdpDataInfo"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "protection",
+                    "type": "info",
+                    "position": "[1,14,1,1]",
+                    "data": [
+                        {
+                            "icon": "https://images.tokopedia.net/pdp/info/icon/pdp-protection@3x.png",
+                            "title": "Proteksi Gadget",
+                            "isApplink": false,
+                            "applink": "",
+                            "content": [],
+                            "__typename": "pdpDataInfo"
+                        }
+                    ],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "report",
+                    "type": "report",
+                    "position": "[1,15,1,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "product_detail_media",
+                    "type": "product_detail_media",
+                    "position": "[0,16,2,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "review",
+                    "type": "review",
+                    "position": "[0,17,2,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "tdn_topads",
+                    "type": "banner_ads",
+                    "position": "[0,18,2,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "discussion_faq",
+                    "type": "discussion_faq",
+                    "position": "[0,19,2,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "pdp_1",
+                    "type": "product_list",
+                    "position": "[0,20,3,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "pdp_2",
+                    "type": "product_list",
+                    "position": "[0,21,3,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "pdp_3",
+                    "type": "product_list",
+                    "position": "[0,22,3,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                },
+                {
+                    "name": "pdp_4",
+                    "type": "product_list",
+                    "position": "[0,23,3,1]",
+                    "data": [],
+                    "__typename": "pdpComponent"
+                }
+            ],
+            "__typename": "pdpLayout"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "shopDomain": "xsianstore",
+  "productKey": "redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+  "layoutID": "",
+  "apiVersion": 1,
+  "tokonow": {
+    "shopID": "11530573",
+    "whID": "0",
+    "serviceType": "ooc"
+  },
+  "deviceID": "",
+  "userLocation": {
+    "cityID": "176",
+    "addressID": "30567671",
+    "districtID": "2276",
+    "postalCode": "10630",
+    "latlon": "-6.154805051853592,106.8552431788207"
+  },
+  "extParam": ""
+}
