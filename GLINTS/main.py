@@ -8,9 +8,10 @@ def main(url, module_name):
 
     try:
         if module_name == 'searchJobs':
-            query = open(f"./GLINTS/{module_name}.txt","r").read()
-            var = open("./GLINTS/variables.json", "r")
-            variables = json.load(var)
+            with open(f"./GLINTS/{module_name}.txt", "r") as query_file:
+                query = query_file.read()
+            with open("./GLINTS/variables.json", "r") as var_file:
+                variables = json.load(var_file)
             payload = {
                 "query": query,
                 "variables": variables  # Ensure this is a dictionary
