@@ -1,0 +1,178 @@
+{
+    "data": {
+        "ShopPageGetHeaderLayout": {
+            "widgets": [
+                {
+                    "widgetID": 1,
+                    "name": "shop_basic_info",
+                    "type": "shop_basic_info",
+                    "component": [
+                        {
+                            "name": "shop_logo",
+                            "type": "image_only",
+                            "data": {
+                                "image": "https://images.tokopedia.net/img/cache/215-square/GAnVPX/2021/11/16/04a1e306-4f90-4ced-b2ad-b3db915c0a9d.jpg",
+                                "imageLink": "",
+                                "isBottomSheet": false,
+                                "__typename": "ImageOnly"
+                            },
+                            "__typename": "componentList"
+                        },
+                        {
+                            "name": "shop_name",
+                            "type": "badge_text_value",
+                            "data": {
+                                "ctaText": "",
+                                "ctaLink": "",
+                                "ctaIcon": "https://images.tokopedia.net/img/chevron_down.png",
+                                "text": [
+                                    {
+                                        "icon": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/Power%20Merchant%20Pro.png",
+                                        "textLink": "https://www.tokopedia.com/chels888/info",
+                                        "textHtml": "Chels888",
+                                        "isBottomSheet": false,
+                                        "__typename": "TextComponent"
+                                    },
+                                    {
+                                        "icon": "",
+                                        "textLink": "",
+                                        "textHtml": "<span class=\"default\" data-testid=\"shopLocationHeader\">Jakarta Utara</span>",
+                                        "isBottomSheet": false,
+                                        "__typename": "TextComponent"
+                                    }
+                                ],
+                                "__typename": "BadgeTextValue"
+                            },
+                            "__typename": "componentList"
+                        }
+                    ],
+                    "__typename": "widgetsDetail"
+                },
+                {
+                    "widgetID": 2,
+                    "name": "shop_performance",
+                    "type": "shop_performance",
+                    "component": [
+                        {
+                            "name": "shop_rating",
+                            "type": "badge_text_value",
+                            "data": {
+                                "ctaText": "",
+                                "ctaLink": "",
+                                "ctaIcon": "",
+                                "text": [
+                                    {
+                                        "icon": "https://images.tokopedia.net/img/autocomplete/rating.png",
+                                        "textLink": "https://www.tokopedia.com/chels888/review",
+                                        "textHtml": "4.9",
+                                        "isBottomSheet": false,
+                                        "__typename": "TextComponent"
+                                    },
+                                    {
+                                        "icon": "",
+                                        "textLink": "",
+                                        "textHtml": "Rating & Ulasan",
+                                        "isBottomSheet": false,
+                                        "__typename": "TextComponent"
+                                    }
+                                ],
+                                "__typename": "BadgeTextValue"
+                            },
+                            "__typename": "componentList"
+                        },
+                        {
+                            "name": "shop_handling",
+                            "type": "badge_text_value",
+                            "data": {
+                                "ctaText": "",
+                                "ctaLink": "",
+                                "ctaIcon": "",
+                                "text": [
+                                    {
+                                        "icon": "",
+                                        "textLink": "",
+                                        "textHtml": "\u00b1 15 menit",
+                                        "isBottomSheet": false,
+                                        "__typename": "TextComponent"
+                                    },
+                                    {
+                                        "icon": "",
+                                        "textLink": "",
+                                        "textHtml": "Pesanan diproses",
+                                        "isBottomSheet": false,
+                                        "__typename": "TextComponent"
+                                    }
+                                ],
+                                "__typename": "BadgeTextValue"
+                            },
+                            "__typename": "componentList"
+                        },
+                        {
+                            "name": "shop_operational_hour",
+                            "type": "badge_text_value",
+                            "data": {
+                                "ctaText": "",
+                                "ctaLink": "",
+                                "ctaIcon": "",
+                                "text": [
+                                    {
+                                        "icon": "",
+                                        "textLink": "",
+                                        "textHtml": "10:00 - 19:00",
+                                        "isBottomSheet": true,
+                                        "__typename": "TextComponent"
+                                    },
+                                    {
+                                        "icon": "",
+                                        "textLink": "",
+                                        "textHtml": "Jam operasi toko",
+                                        "isBottomSheet": true,
+                                        "__typename": "TextComponent"
+                                    }
+                                ],
+                                "__typename": "BadgeTextValue"
+                            },
+                            "__typename": "componentList"
+                        }
+                    ],
+                    "__typename": "widgetsDetail"
+                },
+                {
+                    "widgetID": 3,
+                    "name": "action_button",
+                    "type": "action_button",
+                    "component": [
+                        {
+                            "name": "chat",
+                            "type": "button",
+                            "data": {
+                                "icon": "",
+                                "buttonType": "",
+                                "link": "",
+                                "isBottomSheet": false,
+                                "label": "Chat",
+                                "__typename": "ButtonComponent"
+                            },
+                            "__typename": "componentList"
+                        },
+                        {
+                            "name": "follow_member",
+                            "type": "button",
+                            "data": {
+                                "icon": "",
+                                "buttonType": "",
+                                "link": "",
+                                "isBottomSheet": false,
+                                "label": "",
+                                "__typename": "ButtonComponent"
+                            },
+                            "__typename": "componentList"
+                        }
+                    ],
+                    "__typename": "widgetsDetail"
+                }
+            ],
+            "__typename": "getHeaderLayoutResponse"
+        }
+    }
+}
