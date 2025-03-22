@@ -1,0 +1,156 @@
+query searchJobs($data: JobSearchConditionInput!) {
+  searchJobs(data: $data) {
+    jobsInPage {
+      id
+      title
+      workArrangementOption
+      status
+      createdAt
+      updatedAt
+      isActivelyHiring
+      isHot
+      isApplied
+      shouldShowSalary
+      educationLevel
+      type
+      fraudReportFlag
+      salaryEstimate {
+        minAmount
+        maxAmount
+        CurrencyCode
+        __typename
+      }
+      company {
+        ...CompanyFields
+        __typename
+      }
+      citySubDivision {
+        id
+        name
+        __typename
+      }
+      city {
+        ...CityFields
+        __typename
+      }
+      country {
+        ...CountryFields
+        __typename
+      }
+      salaries {
+        ...SalaryFields
+        __typename
+      }
+      location {
+        ...LocationFields
+        __typename
+      }
+      minYearsOfExperience
+      maxYearsOfExperience
+      source
+      type
+      hierarchicalJobCategory {
+        id
+        level
+        name
+        children {
+          name
+          level
+          id
+          __typename
+        }
+        parents {
+          id
+          level
+          name
+          __typename
+        }
+        __typename
+      }
+      skills {
+        skill {
+          id
+          name
+          __typename
+        }
+        mustHave
+        __typename
+      }
+      traceInfo
+      __typename
+    }
+    numberOfJobsCreatedInLast14Days
+    totalJobs
+    expInfo
+    __typename
+  }
+}
+
+fragment CompanyFields on Company {
+  id
+  name
+  logo
+  status
+  isVIP
+  IndustryId
+  industry {
+    id
+    name
+    __typename
+  }
+  verificationTier {
+    type
+    __typename
+  }
+  __typename
+}
+
+fragment CityFields on City {
+  id
+  name
+  __typename
+}
+
+fragment CountryFields on Country {
+  code
+  name
+  __typename
+}
+
+fragment SalaryFields on JobSalary {
+  id
+  salaryType
+  salaryMode
+  maxAmount
+  minAmount
+  CurrencyCode
+  __typename
+}
+
+fragment LocationFields on HierarchicalLocation {
+  id
+  name
+  administrativeLevelName
+  formattedName
+  level
+  slug
+  latitude
+  longitude
+  parents {
+    id
+    name
+    administrativeLevelName
+    formattedName
+    level
+    slug
+    CountryCode: countryCode
+    parents {
+      level
+      formattedName
+      slug
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
