@@ -10,11 +10,11 @@ def main(url, module_name):
         with open(f"./TOKOPEDIA/{module_name}.txt", "r") as query_file:
             query = query_file.read()
         with open("./TOKOPEDIA/variables.json", "r") as var_file:
-            variables = json.load(var_file)
+            variables = json.load(var_file)[module_name]
         with open("./TOKOPEDIA/headers.json", "r") as var_file:
             headers = json.load(var_file)
         payload = {
-            "operationName":"PDPGetLayoutQuery",
+            "operationName":url.split('/')[-1],
             "query": query,
             "variables": variables  # Ensure this is a dictionary
         }
@@ -35,6 +35,7 @@ def main(url, module_name):
 
 url = {
     "product": "https://gql.tokopedia.com/graphql/PDPGetLayoutQuery",
+    "shop": "https://gql.tokopedia.com/graphql/ShopPageGetHeaderLayout"
 }
 
 if __name__ == '__main__':
