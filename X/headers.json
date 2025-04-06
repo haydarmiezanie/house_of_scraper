@@ -1,0 +1,9 @@
+{
+    "authorization": "Bearer <FILL_WITH_VALID_BEARER_TOKEN>",
+    "x-csrf-token": "<FILL_WITH_VALID_TOKEN_CSRF>",
+    "x-twitter-active-user": "no",
+    "x-twitter-auth-type": "OAuth2Session",
+    "x-twitter-client-language": "en",
+    "cookie": "<FILL_WITH_VALID_COOKIE_SESSION>",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+}
