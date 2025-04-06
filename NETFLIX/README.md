@@ -15,7 +15,7 @@ Follow these steps to retrieve the necessary cookies for authentication:
 
 4. **Expand Cookies**
    - Under **Storage**, expand the **Cookies** section.
-   - Select `https://www.Netflix.com`.
+- Select `https://www.netflix.com`.
 
 5. **Find `NetflixId` and `SecureNetflixId`**
    - Look for `NetflixId` and `SecureNetflixId` in the list of cookies.
