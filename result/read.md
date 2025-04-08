@@ -38,4 +38,8 @@ The `result` directory contains JSON files organized by platform and data type. 
   - `TOKOPEDIA_shop.json`: Contains shop-related data.
 
 - **X**
-  - `X_trending.json`: Contains trending data.
+  - `X_lists.json`: Contains community data.
+  - `X_media.json`: Contains media data.
+  - `X_people.json`: Contains people data.
+  - `X_latest.json`: Contains latest data.
+  - `X_top.json`: Contains top data.
