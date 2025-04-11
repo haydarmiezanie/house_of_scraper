@@ -45,5 +45,5 @@ The `result` directory contains JSON files organized by platform and data type. 
   - `X_top.json`: Contains top data.
 
 - **TIKTOK**
-  - `TIKTOK_reccomendation.json`: Contains reccomendation data.
+  - `TIKTOK_recommendation.json`: Contains recommendation data.
   - `TIKTOK_user.json`: Contains user data.
