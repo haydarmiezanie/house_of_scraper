@@ -29,7 +29,7 @@ Follow these steps to retrieve the necessary cookies for authentication:
       "csrftoken":"YOUR CSRF TOKEN"
    }
    ```
-7. **Go to the Networking Tab**
+7. **Go to the Network Tab**
    - In Developer Tools, navigate to the **API** tab.
 
 8. **Find `X-Ig-App-Id` and `csrf-token`**
