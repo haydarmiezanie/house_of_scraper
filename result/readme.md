@@ -47,3 +47,8 @@ The `result` directory contains JSON files organized by platform and data type. 
 - **TIKTOK**
   - `TIKTOK_recommendation.json`: Contains recommendation data.
   - `TIKTOK_user.json`: Contains user data.
+
+- **INSTAGRAM**
+  - `INSTAGRAM_media.json`: Contains media data.
+  - `INSTAGRAM_follower.json`: Contains followers data.
+  - `INSTAGRAM_following.json`: Contains following data.
