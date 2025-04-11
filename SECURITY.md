@@ -30,7 +30,7 @@ We kindly ask that you follow [responsible disclosure principles](https://en.wik
 
 | Version           | Security Updates |
 |-------------------|------------------|
-| Latest (main)     | ✅ Supported     |
+| Latest (master)     | ✅ Supported     |
 | Older versions    | ❌ Not supported |
 
 We recommend always using the latest version of this project to ensure you have the most up-to-date security patches.
