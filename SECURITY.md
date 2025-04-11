@@ -6,7 +6,7 @@ Thank you for helping to keep **house_of_scraper** secure. We take the security 
 
 If you discover a security vulnerability in this repository, we strongly encourage you to report it privately to minimize any risk to users. You can report potential vulnerabilities by:
 
-- **Email**: Please contact us directly at [haydarmiezanie@gmail.com](mailto:haydarmiezanie@gmail.com).  
+- **Email**: Please contact us directly at [haydarsaja@gmail.com](mailto:haydarsaja@gmail.com).  
 - **GitHub**: Alternatively, you may [open a private security advisory](https://github.com/haydarmiezanie/house_of_scraper/security/advisories/new) on GitHub.
 
 If you prefer to encrypt your message, please reach out via email first to request a PGP key.
