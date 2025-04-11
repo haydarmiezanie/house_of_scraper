@@ -11,7 +11,7 @@ Follow these steps to retrieve the necessary cookies for authentication:
    - Press `F12` or `Ctrl + Shift + I` (Windows/Linux) or `Cmd + Option + I` (Mac) to open Developer Tools.
 
 3. **Go to the Application Tab**
-   - In Developer Tools, navigate to the **Network** tab and `Ctrl + f`.
+   - In Developer Tools, navigate to the **Network** tab and filter the requests.
 
 4. **Expand Cookies**
    - Under **Search Bar**, Search the `api` section. The domain most likely `https://www.tiktok.com/api/`
