@@ -11,7 +11,7 @@ Follow these steps to retrieve the necessary cookies for authentication:
    - Press `F12` or `Ctrl + Shift + I` (Windows/Linux) or `Cmd + Option + I` (Mac) to open Developer Tools.
 
 3. **Go to the Network Tab**
-   - In Developer Tools, navigate to the **Netowrk** tab.
+- In Developer Tools, navigate to the **Network** tab.
 
 4. **Expand Payload**
    - Under **Payload**, exp   and the **Form Data** section.
