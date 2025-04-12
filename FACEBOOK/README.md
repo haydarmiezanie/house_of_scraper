@@ -14,7 +14,7 @@ Follow these steps to retrieve the necessary cookies for authentication:
 - In Developer Tools, navigate to the **Network** tab.
 
 4. **Expand Payload**
-   - Under **Payload**, exp   and the **Form Data** section.
+   - Under **Payload**, expand payload and find the **Form Data** section.
    - Select `view parsed`.
 
 5. **Find `variables` and `doc_id`**
