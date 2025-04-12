@@ -9,7 +9,7 @@ def main(url, module_name):
         payload = {
                 "__a": "1",
                 "__comet_req": "15",
-                "fb_dtsg": "NAcMoT3e_5aIN30ABLE17S3CjOrol5FltmDN8qDtkhlRyuQx9wI-A3A:50:1744419754",
+                "fb_dtsg": "YOUR PAYLOAD",
                 "variables": pyld['variables'],
                 "doc_id": pyld['doc_id'],
             }
