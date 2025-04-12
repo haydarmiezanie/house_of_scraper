@@ -15,7 +15,7 @@ Follow these steps to retrieve the necessary cookies for authentication:
 
 4. **Expand Payload**
    - Under **Payload**, expand payload and find the **Form Data** section.
-   - Select `view parsed`.
+   - Select `view parsed` to view the parsed form data.
 
 5. **Find `variables` and `doc_id`**
    - Look for `variables` and `doc_id` in the list of payload.
