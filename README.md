@@ -28,7 +28,57 @@ House of Scraper is a Python-based web scraping tool designed to extract data fr
    py -m scraper --module "IDX.stocks"
    ```
 Check the result in: `/result` (this directory is automatically created by the tool if it does not already exist).
-   
+
+   ## 🔧 How to Provide Headers, Cookies, and Payloads
+
+You can customize the request details for your scraper by modifying the `scraper_config` dictionary.
+
+```python
+scraper_config = {
+    "headers": {
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json"
+    },
+    "cookies": {
+        "sessionid": "your-session-id"
+    },
+    "payload": {
+        "search": "house",
+        "location": "New York"
+    }
+}
+
+scraper = SomeWebsiteScraper(config=scraper_config)
+scraper.run()
+
+
+---
+
+## ✅ **2. How to Use the Scraper**
+
+Create a "Quick Start" section with a sample script or command-line usage:
+
+### ✨ Suggested README Section:
+```markdown
+## 🚀 Quick Start Guide
+
+### Step 1: Clone and Install
+```bash
+git clone https://github.com/haydarmiezanie/house_of_scraper.git
+cd house_of_scraper
+pip install -r requirements.txt
+
+
+---
+
+## ✅ **3. Fix Typos and Rename Folder**
+You mentioned a folder named `platform` that should likely be renamed to `module` or `scrapers`.
+
+Here’s how to do that:
+1. **Rename the folder** (locally):
+   ```bash
+   mv house_of_scraper/platform house_of_scraper/scrapers
+
 
 ## Any Issue ?
 
