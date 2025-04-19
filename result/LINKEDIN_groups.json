@@ -7,7 +7,7 @@
             "metadata": {
                 "entityResultAttributes": null,
                 "bserpPaginationContext": null,
-                "totalResultCount": 2662716,
+                "totalResultCount": 2563877,
                 "searchAlert": null,
                 "_type": "com.linkedin.voyager.dash.search.SearchClusterCollectionMetadata",
                 "secondaryFilterCluster": null,
@@ -19,7 +19,7 @@
                 "primaryFilterCluster": null,
                 "blockedQuery": false,
                 "entityActionButtonStyle": null,
-                "searchId": "271632e2-e707-4090-984a-61033b08f900",
+                "searchId": "1dcec91c-8c33-43c7-8943-1f4f46c05d47",
                 "filterAppliedCount": 0,
                 "clusterTitleFontSize": null,
                 "simpleInsightAttributes": null,
@@ -55,218 +55,7 @@
                         {
                             "_type": "com.linkedin.voyager.dash.search.SearchItem",
                             "item": {
-                                "entityResult": {
-                                    "template": "UNIVERSAL",
-                                    "actorNavigationContext": null,
-                                    "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Harvard%20Business%20Review%20Discussion%20Group&origin=ENTITY_SEARCH_HOME_HISTORY",
-                                    "trackingUrn": "urn:li:group:3044917",
-                                    "controlName": null,
-                                    "interstitialComponent": null,
-                                    "primaryActions": [
-                                        {
-                                            "trackingUrn": null,
-                                            "_type": "com.linkedin.voyager.dash.search.EntityAction",
-                                            "controlName": null,
-                                            "icon": null,
-                                            "actionRenderStyle": null,
-                                            "_recipeType": "com.linkedin.30dee75e249786a8e1ceb4c1d056ab57",
-                                            "searchActionType": "JOIN_GROUP",
-                                            "actionBannerFeedback": null,
-                                            "buttonCategory": null,
-                                            "text": {
-                                                "textDirection": "USER_LOCALE",
-                                                "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                                "text": "Join",
-                                                "attributesV2": [],
-                                                "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                                "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
-                                            },
-                                            "actionDetails": {
-                                                "magicWandAction": null,
-                                                "notificationSubscribeAction": null,
-                                                "shareViaLinkAction": null,
-                                                "embedHTMLAction": null,
-                                                "primaryProfileAction": null,
-                                                "statefulFollowAction": null,
-                                                "removeConnectionAction": null,
-                                                "navigationAction": null,
-                                                "followAction": null,
-                                                "saveAction": null,
-                                                "upsellAction": null,
-                                                "newsletterSubscribeAction": null,
-                                                "addLearningCourseToProfileAction": null,
-                                                "closeProjectAction": null,
-                                                "primaryProfileActionV2": null,
-                                                "shareViaPostAction": null,
-                                                "leaveGroupAction": {
-                                                    "_type": "com.linkedin.voyager.dash.groups.GroupMembership",
-                                                    "_recipeType": "com.linkedin.7f12f9be2e6b0e371ad2f98ce1324e16",
-                                                    "entityUrn": "urn:li:fsd_groupMembership:(3044917,ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E)",
-                                                    "status": "NON_MEMBER",
-                                                    "group": {
-                                                        "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
-                                                        "_type": "com.linkedin.voyager.dash.groups.Group",
-                                                        "entityUrn": "urn:li:fsd_group:3044917"
-                                                    },
-                                                    "profile": {
-                                                        "_recipeType": "com.linkedin.e0372afc4a18480b00ca7e4906904fd7",
-                                                        "_type": "com.linkedin.voyager.dash.identity.profile.Profile",
-                                                        "entityUrn": "urn:li:fsd_profile:ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E"
-                                                    }
-                                                },
-                                                "reportAction": null,
-                                                "messagePageAction": null,
-                                                "shareViaMessageAction": null
-                                            },
-                                            "actionConfirmationDialog": null
-                                        }
-                                    ],
-                                    "entityCustomTrackingInfo": null,
-                                    "badgeData": null,
-                                    "title": {
-                                        "textDirection": "USER_LOCALE",
-                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                        "text": "Harvard Business Review Discussion Group",
-                                        "attributesV2": [],
-                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                        "accessibilityTextAttributesV2": [],
-                                        "accessibilityText": null
-                                    },
-                                    "overflowActions": [],
-                                    "searchActionType": null,
-                                    "actorInsights": [],
-                                    "insightsResolutionResults": [],
-                                    "badgeIcon": null,
-                                    "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:fsd_group:3044917,SEARCH_SRP,DEFAULT)",
-                                    "showAdditionalCluster": false,
-                                    "ringStatus": null,
-                                    "primarySubtitle": {
-                                        "textDirection": "USER_LOCALE",
-                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                        "text": "3M members",
-                                        "attributesV2": [],
-                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                        "accessibilityTextAttributesV2": [],
-                                        "accessibilityText": null
-                                    },
-                                    "badgeText": null,
-                                    "trackingId": "oKNkOR+bRG67lkVPErA8ZQ==",
-                                    "summary": {
-                                        "textDirection": "USER_LOCALE",
-                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                        "text": "At Harvard Business Review, we believe in management. If the world\u2019s organizations and institutions were run more effectively, if our leaders made better decisions, if people worked more productively, we believe that all of us would be better off.  We\u2019re using this group to have the type of discussions that can make better management happen. We hope this group fosters thoughtful conversation on the topics most important to our lives and work today. While all members have the ability to comment, we're limiting posting to HBR staff and our contributors to keep the discussions focused. We look forward to hearing from you!",
-                                        "attributesV2": [],
-                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                        "accessibilityTextAttributesV2": [],
-                                        "accessibilityText": null
-                                    },
-                                    "addEntityToSearchHistory": true,
-                                    "actorNavigationUrl": null,
-                                    "image": {
-                                        "_type": "com.linkedin.voyager.dash.common.image.ImageViewModel",
-                                        "attributes": [
-                                            {
-                                                "scalingType": null,
-                                                "_type": "com.linkedin.voyager.dash.common.image.ImageAttribute",
-                                                "detailData": {
-                                                    "profilePictureWithoutFrame": null,
-                                                    "profilePictureWithRingStatus": null,
-                                                    "companyLogo": null,
-                                                    "icon": null,
-                                                    "systemImage": null,
-                                                    "nonEntityGroupLogo": {
-                                                        "_type": "com.linkedin.voyager.dash.common.image.NonEntityGroupLogo",
-                                                        "_recipeType": "com.linkedin.14537f958f34fe6d11e2a5ec02e5ca16",
-                                                        "vectorImage": {
-                                                            "digitalmediaAsset": null,
-                                                            "_type": "com.linkedin.common.VectorImage",
-                                                            "attribution": null,
-                                                            "_recipeType": "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9",
-                                                            "c2paManifestData": null,
-                                                            "artifacts": [
-                                                                {
-                                                                    "width": 48,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1732206050649?e=1743174000&v=beta&t=B523W-2mSlLvrtzx_5ZTGolrfMrc0cFs7BtK83U3P_c",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 48
-                                                                },
-                                                                {
-                                                                    "width": 92,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1732206050655?e=1743174000&v=beta&t=SxZd6LKVr1TNH_xw1Jg30p-VMQXNHgmBbxkMEVNvo84",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 92
-                                                                },
-                                                                {
-                                                                    "width": 24,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1732206050655?e=1743174000&v=beta&t=Qo3Uo8dLsT8tXGSQLQCz3nEZ-MW6uScMm2_JVljvAa8",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 24
-                                                                },
-                                                                {
-                                                                    "width": 72,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1732206050655?e=1743174000&v=beta&t=sivE7cHklGqh6o9QBWjU0ujkKLkTDD1rMMY0zX4S6OU",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 72
-                                                                }
-                                                            ],
-                                                            "rootUrl": "https://media.licdn.com/dms/image/v2/D5607AQFfDFUQapYIzg/group-logo_image-shrink_"
-                                                        },
-                                                        "group": {
-                                                            "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
-                                                            "_type": "com.linkedin.voyager.dash.groups.Group",
-                                                            "entityUrn": "urn:li:fsd_group:3044917"
-                                                        }
-                                                    },
-                                                    "vectorImage": null,
-                                                    "nonEntityProfessionalEventLogo": null,
-                                                    "profilePicture": null,
-                                                    "imageUrl": null,
-                                                    "professionalEventLogo": null,
-                                                    "nonEntityCompanyLogo": null,
-                                                    "nonEntitySchoolLogo": null,
-                                                    "groupLogo": null,
-                                                    "schoolLogo": null,
-                                                    "ghostImage": null,
-                                                    "nonEntityProfilePicture": null
-                                                },
-                                                "tintColor": null,
-                                                "_recipeType": "com.linkedin.eb94fbb1518f790c4545aafdf571c64e",
-                                                "tapTargets": [],
-                                                "displayAspectRatio": null
-                                            }
-                                        ],
-                                        "editableAccessibilityText": false,
-                                        "actionTarget": null,
-                                        "_recipeType": "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b",
-                                        "accessibilityTextAttributes": [],
-                                        "totalCount": null,
-                                        "accessibilityText": "Harvard Business Review Discussion Group"
-                                    },
-                                    "lazyLoadedActions": null,
-                                    "secondarySubtitle": null,
-                                    "_type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
-                                    "navigationUrl": "https://www.linkedin.com/groups/3044917",
-                                    "entityEmbeddedObject": null,
-                                    "unreadIndicatorDetails": null,
-                                    "_recipeType": "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109",
-                                    "target": null,
-                                    "actorTrackingUrn": null,
-                                    "navigationContext": {
-                                        "_type": "com.linkedin.voyager.dash.search.NavigationContext",
-                                        "openExternally": false,
-                                        "_recipeType": "com.linkedin.55ee9afd4182671fe7e271f615659525",
-                                        "url": "https://www.linkedin.com/groups/3044917"
-                                    }
-                                },
+                                "entityResult": null,
                                 "cluster": null,
                                 "fifComponentCard": null,
                                 "bannerCard": null,
@@ -280,7 +69,22 @@
                                 "keywordsSuggestionCard": null,
                                 "queryClarificationCard": null,
                                 "topicalQuestionCard": null,
-                                "simpleTextV2": null,
+                                "simpleTextV2": {
+                                    "_type": "com.linkedin.voyager.dash.search.SimpleText",
+                                    "numDashes": 0,
+                                    "text": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "About 2,560,000 results",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "showDashes": false,
+                                    "_recipeType": "com.linkedin.5bbb553a55f0e4d13343716ac69b5f48",
+                                    "textAlignment": "LEFT"
+                                },
                                 "promoCard": null,
                                 "searchFeedUpdate": null,
                                 "searchQuestionAndAnswerCard": null,
@@ -289,7 +93,28 @@
                             },
                             "position": 1,
                             "_recipeType": "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
-                        },
+                        }
+                    ],
+                    "results": [],
+                    "trackingId": "M\u00bf\u0087\u009f/\u00c8@-\u008c\u00f2c\t^\u00f1+|"
+                },
+                {
+                    "image": null,
+                    "quickFilterActions": [],
+                    "clusterRenderType": "LIST",
+                    "dismissable": false,
+                    "totalResultCount": null,
+                    "_type": "com.linkedin.voyager.dash.search.SearchClusterViewModel",
+                    "controlName": null,
+                    "description": null,
+                    "_recipeType": "com.linkedin.5c853aba2154c55483e72bf6cdfaaf3e",
+                    "title": null,
+                    "actionTypeName": null,
+                    "navigationText": null,
+                    "feature": null,
+                    "navigationCardAction": null,
+                    "position": 2,
+                    "items": [
                         {
                             "_type": "com.linkedin.voyager.dash.search.SearchItem",
                             "item": {
@@ -318,7 +143,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Artificial Intelligence, Machine Learning, Data Science & Robotics"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -389,7 +214,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "dO+gdTMoRimlssNYNKzL5A==",
+                                    "trackingId": "P9IPUOzsSA6OwT1qzA3YYQ==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -427,32 +252,32 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1690555735487?e=1743174000&v=beta&t=T1jjqTGWAZGaxGqSQZyVUVwaMgnkbL7SPFlUWH7Gj0E",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1690555735487?e=1745578800&v=beta&t=mrWv0svWjVOng_JsdY0iKoywrJFKYbpDCBY6GuDG5DM",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1690555735487?e=1743174000&v=beta&t=rEhQvKJ8ykKj4UHEzUjjRpvVtsj7xeV5L5JyMWxLgzg",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1690555735487?e=1745578800&v=beta&t=-gONCKuVXID-Dqp5DEXztms92gwBt4WXkiUkYLUWELQ",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1690555735487?e=1743174000&v=beta&t=DVhnzkz3gUjULJy2Q3ZpIBaZhYq0E-l9TzfPFLngu0o",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1690555735487?e=1745578800&v=beta&t=-LhVhfvzRdKrM9zdCeGzwRDpe6u_Q7eQ8taaWN-5cbQ",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1690555735487?e=1743174000&v=beta&t=u32S7MQhETkL2aH0bcAzUNIXCzPCj3SotvTzo3zqBi8",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1690555735487?e=1745578800&v=beta&t=zUE-ik7ZSbWpKB5H497cxMJD9OPhpcsnBjWLuwotYPk",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -525,6 +350,244 @@
                                 "centeredText": null,
                                 "simpleImage": null
                             },
+                            "position": 1,
+                            "_recipeType": "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
+                        },
+                        {
+                            "_type": "com.linkedin.voyager.dash.search.SearchItem",
+                            "item": {
+                                "entityResult": {
+                                    "template": "UNIVERSAL",
+                                    "actorNavigationContext": null,
+                                    "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Harvard%20Business%20Review%20Discussion%20Group&origin=ENTITY_SEARCH_HOME_HISTORY",
+                                    "trackingUrn": "urn:li:group:3044917",
+                                    "controlName": null,
+                                    "interstitialComponent": null,
+                                    "primaryActions": [
+                                        {
+                                            "trackingUrn": null,
+                                            "_type": "com.linkedin.voyager.dash.search.EntityAction",
+                                            "controlName": null,
+                                            "icon": null,
+                                            "actionRenderStyle": null,
+                                            "_recipeType": "com.linkedin.30dee75e249786a8e1ceb4c1d056ab57",
+                                            "searchActionType": "JOIN_GROUP",
+                                            "actionBannerFeedback": null,
+                                            "buttonCategory": null,
+                                            "text": {
+                                                "textDirection": "USER_LOCALE",
+                                                "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                                "text": "Join",
+                                                "attributesV2": [],
+                                                "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                                "accessibilityTextAttributesV2": [],
+                                                "accessibilityText": "Join group Harvard Business Review Discussion Group"
+                                            },
+                                            "actionDetails": {
+                                                "magicWandAction": null,
+                                                "notificationSubscribeAction": null,
+                                                "shareViaLinkAction": null,
+                                                "embedHTMLAction": null,
+                                                "primaryProfileAction": null,
+                                                "statefulFollowAction": null,
+                                                "removeConnectionAction": null,
+                                                "navigationAction": null,
+                                                "followAction": null,
+                                                "saveAction": null,
+                                                "upsellAction": null,
+                                                "newsletterSubscribeAction": null,
+                                                "addLearningCourseToProfileAction": null,
+                                                "closeProjectAction": null,
+                                                "primaryProfileActionV2": null,
+                                                "shareViaPostAction": null,
+                                                "leaveGroupAction": {
+                                                    "_type": "com.linkedin.voyager.dash.groups.GroupMembership",
+                                                    "_recipeType": "com.linkedin.7f12f9be2e6b0e371ad2f98ce1324e16",
+                                                    "entityUrn": "urn:li:fsd_groupMembership:(3044917,ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E)",
+                                                    "status": "NON_MEMBER",
+                                                    "group": {
+                                                        "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
+                                                        "_type": "com.linkedin.voyager.dash.groups.Group",
+                                                        "entityUrn": "urn:li:fsd_group:3044917"
+                                                    },
+                                                    "profile": {
+                                                        "_recipeType": "com.linkedin.e0372afc4a18480b00ca7e4906904fd7",
+                                                        "_type": "com.linkedin.voyager.dash.identity.profile.Profile",
+                                                        "entityUrn": "urn:li:fsd_profile:ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E"
+                                                    }
+                                                },
+                                                "reportAction": null,
+                                                "messagePageAction": null,
+                                                "shareViaMessageAction": null
+                                            },
+                                            "actionConfirmationDialog": null
+                                        }
+                                    ],
+                                    "entityCustomTrackingInfo": null,
+                                    "badgeData": null,
+                                    "title": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "Harvard Business Review Discussion Group",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "overflowActions": [],
+                                    "searchActionType": null,
+                                    "actorInsights": [],
+                                    "insightsResolutionResults": [],
+                                    "badgeIcon": null,
+                                    "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:fsd_group:3044917,SEARCH_SRP,DEFAULT)",
+                                    "showAdditionalCluster": false,
+                                    "ringStatus": null,
+                                    "primarySubtitle": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "3M members",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "badgeText": null,
+                                    "trackingId": "RQmO+FrXTgKSdc/9G5WMnQ==",
+                                    "summary": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "At Harvard Business Review, we believe in management. If the world\u2019s organizations and institutions were run more effectively, if our leaders made better decisions, if people worked more productively, we believe that all of us would be better off.  We\u2019re using this group to have the type of discussions that can make better management happen. We hope this group fosters thoughtful conversation on the topics most important to our lives and work today. While all members have the ability to comment, we're limiting posting to HBR staff and our contributors to keep the discussions focused. We look forward to hearing from you!",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "addEntityToSearchHistory": true,
+                                    "actorNavigationUrl": null,
+                                    "image": {
+                                        "_type": "com.linkedin.voyager.dash.common.image.ImageViewModel",
+                                        "attributes": [
+                                            {
+                                                "scalingType": null,
+                                                "_type": "com.linkedin.voyager.dash.common.image.ImageAttribute",
+                                                "detailData": {
+                                                    "profilePictureWithoutFrame": null,
+                                                    "profilePictureWithRingStatus": null,
+                                                    "companyLogo": null,
+                                                    "icon": null,
+                                                    "systemImage": null,
+                                                    "nonEntityGroupLogo": {
+                                                        "_type": "com.linkedin.voyager.dash.common.image.NonEntityGroupLogo",
+                                                        "_recipeType": "com.linkedin.14537f958f34fe6d11e2a5ec02e5ca16",
+                                                        "vectorImage": {
+                                                            "digitalmediaAsset": null,
+                                                            "_type": "com.linkedin.common.VectorImage",
+                                                            "attribution": null,
+                                                            "_recipeType": "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9",
+                                                            "c2paManifestData": null,
+                                                            "artifacts": [
+                                                                {
+                                                                    "width": 48,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1732206050649?e=1745578800&v=beta&t=MH3QWuWcBSqexUreaChjagHqdzggEYGV5z_-5NjnwGI",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 48
+                                                                },
+                                                                {
+                                                                    "width": 92,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1732206050655?e=1745578800&v=beta&t=I6L6tOgcbkbomTZVD6ptjqpQ4qzZC32cYTJc1vWP474",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 92
+                                                                },
+                                                                {
+                                                                    "width": 24,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1732206050655?e=1745578800&v=beta&t=7uN3zrPoDG0dz6XD_qJ9A6rpw9jdyMcEbgAqR9ghBI4",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 24
+                                                                },
+                                                                {
+                                                                    "width": 72,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1732206050655?e=1745578800&v=beta&t=MVWayoSbNB7CYISw_aDCIrSYMDOXfApwbZgtc54BitY",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 72
+                                                                }
+                                                            ],
+                                                            "rootUrl": "https://media.licdn.com/dms/image/v2/D5607AQFfDFUQapYIzg/group-logo_image-shrink_"
+                                                        },
+                                                        "group": {
+                                                            "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
+                                                            "_type": "com.linkedin.voyager.dash.groups.Group",
+                                                            "entityUrn": "urn:li:fsd_group:3044917"
+                                                        }
+                                                    },
+                                                    "vectorImage": null,
+                                                    "nonEntityProfessionalEventLogo": null,
+                                                    "profilePicture": null,
+                                                    "imageUrl": null,
+                                                    "professionalEventLogo": null,
+                                                    "nonEntityCompanyLogo": null,
+                                                    "nonEntitySchoolLogo": null,
+                                                    "groupLogo": null,
+                                                    "schoolLogo": null,
+                                                    "ghostImage": null,
+                                                    "nonEntityProfilePicture": null
+                                                },
+                                                "tintColor": null,
+                                                "_recipeType": "com.linkedin.eb94fbb1518f790c4545aafdf571c64e",
+                                                "tapTargets": [],
+                                                "displayAspectRatio": null
+                                            }
+                                        ],
+                                        "editableAccessibilityText": false,
+                                        "actionTarget": null,
+                                        "_recipeType": "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b",
+                                        "accessibilityTextAttributes": [],
+                                        "totalCount": null,
+                                        "accessibilityText": "Harvard Business Review Discussion Group"
+                                    },
+                                    "lazyLoadedActions": null,
+                                    "secondarySubtitle": null,
+                                    "_type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+                                    "navigationUrl": "https://www.linkedin.com/groups/3044917",
+                                    "entityEmbeddedObject": null,
+                                    "unreadIndicatorDetails": null,
+                                    "_recipeType": "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109",
+                                    "target": null,
+                                    "actorTrackingUrn": null,
+                                    "navigationContext": {
+                                        "_type": "com.linkedin.voyager.dash.search.NavigationContext",
+                                        "openExternally": false,
+                                        "_recipeType": "com.linkedin.55ee9afd4182671fe7e271f615659525",
+                                        "url": "https://www.linkedin.com/groups/3044917"
+                                    }
+                                },
+                                "cluster": null,
+                                "fifComponentCard": null,
+                                "bannerCard": null,
+                                "searchAlert": null,
+                                "upsellSlot": null,
+                                "coachRealtimeResponse": null,
+                                "searchSuggestionCard": null,
+                                "coachPromptCluster": null,
+                                "feedbackCard": null,
+                                "knowledgeCardV2": null,
+                                "keywordsSuggestionCard": null,
+                                "queryClarificationCard": null,
+                                "topicalQuestionCard": null,
+                                "simpleTextV2": null,
+                                "promoCard": null,
+                                "searchFeedUpdate": null,
+                                "searchQuestionAndAnswerCard": null,
+                                "centeredText": null,
+                                "simpleImage": null
+                            },
                             "position": 2,
                             "_recipeType": "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
                         },
@@ -556,7 +619,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group The Social Media Marketing Group"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -627,7 +690,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "rxj/kR2SQ5CQiKdMDbqAtw==",
+                                    "trackingId": "9AHCZo0jR4KxIBjrov7p2g==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -665,32 +728,32 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1537306442219?e=1743174000&v=beta&t=Ln3wbFf8Xo3hDbZoaIVrZjeEQ5kNq3sjt6uuJ58w8-Q",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1537306442219?e=1745578800&v=beta&t=ZaylXQUPC4W735rHiSmk4F1PFtiCf66qfB0g_kZl_LY",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1537306442230?e=1743174000&v=beta&t=qkjRcm5KGhVaBt16TwBa7-PmXZ-hczK7bwzhqg4yDc0",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1537306442230?e=1745578800&v=beta&t=7Cocjcfmg3kO06yxhGrpMqTQNutbDuqhFoOcb6JfaS4",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1537306442260?e=1743174000&v=beta&t=ABqWwb-WVzvikGe-Nu9nmuGnCp8JxqXxN7vEWSwZcM0",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1537306442260?e=1745578800&v=beta&t=0PUawHdbuyX0izPd3gt5SaluaHHlJjCXPEbqWEKNc0E",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1537306442156?e=1743174000&v=beta&t=3DzZLSLuEbeDUjTc3K8haKanI_33U6ITIJkPvhYPIeY",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1537306442156?e=1745578800&v=beta&t=KIHXHs27EDwrKkGgFuZmnH4OPzPRwCU9wmTZj-ZkUDQ",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -794,7 +857,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Python Developers Community (moderated)"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -865,7 +928,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "Wyh5hsCsTZGwEpFBoJdlqA==",
+                                    "trackingId": "euKVpcZRTR+/KbePhobfWg==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -903,32 +966,32 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631004564272?e=1743174000&v=beta&t=WcgOFgEjstL91vROnhCYsDec-hClQbKB8xXGspFU7Rk",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631004564272?e=1745578800&v=beta&t=TvNRLMESbMl9ZAohcb-yzotR_6IwALliyf62uwD-bu0",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631004564272?e=1743174000&v=beta&t=GlX8RQkKoszTyqhl7Tc4i2UsQR2E4kQHtzx03xyYikU",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631004564272?e=1745578800&v=beta&t=unNJhjLpyX2DDlH91J7tqFpcEPGFsys94WLkDpGVR64",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631004564272?e=1743174000&v=beta&t=EbJ3Dju4CF4r1EebguVvdS3bwM85GAUqLLBIykYMJwY",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631004564272?e=1745578800&v=beta&t=whTiKSA1927TIYbRK8qnSW2fNYxtquXKL9LFshv4KZA",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631004564272?e=1743174000&v=beta&t=QuIHezYBetowhTlfBqGW2wkkowPBlFi3gj1qlRPc7os",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631004564272?e=1745578800&v=beta&t=wrbxbRuy29BNkV-dL-FPW4rXGJDjW60OiLFOOI1-lg0",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -1010,260 +1073,6 @@
                                 "entityResult": {
                                     "template": "UNIVERSAL",
                                     "actorNavigationContext": null,
-                                    "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Digital%20Marketing&origin=ENTITY_SEARCH_HOME_HISTORY",
-                                    "trackingUrn": "urn:li:group:62352",
-                                    "controlName": null,
-                                    "interstitialComponent": null,
-                                    "primaryActions": [
-                                        {
-                                            "trackingUrn": null,
-                                            "_type": "com.linkedin.voyager.dash.search.EntityAction",
-                                            "controlName": null,
-                                            "icon": null,
-                                            "actionRenderStyle": null,
-                                            "_recipeType": "com.linkedin.30dee75e249786a8e1ceb4c1d056ab57",
-                                            "searchActionType": "JOIN_GROUP",
-                                            "actionBannerFeedback": null,
-                                            "buttonCategory": null,
-                                            "text": {
-                                                "textDirection": "USER_LOCALE",
-                                                "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                                "text": "Join",
-                                                "attributesV2": [],
-                                                "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                                "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
-                                            },
-                                            "actionDetails": {
-                                                "magicWandAction": null,
-                                                "notificationSubscribeAction": null,
-                                                "shareViaLinkAction": null,
-                                                "embedHTMLAction": null,
-                                                "primaryProfileAction": null,
-                                                "statefulFollowAction": null,
-                                                "removeConnectionAction": null,
-                                                "navigationAction": null,
-                                                "followAction": null,
-                                                "saveAction": null,
-                                                "upsellAction": null,
-                                                "newsletterSubscribeAction": null,
-                                                "addLearningCourseToProfileAction": null,
-                                                "closeProjectAction": null,
-                                                "primaryProfileActionV2": null,
-                                                "shareViaPostAction": null,
-                                                "leaveGroupAction": {
-                                                    "_type": "com.linkedin.voyager.dash.groups.GroupMembership",
-                                                    "_recipeType": "com.linkedin.7f12f9be2e6b0e371ad2f98ce1324e16",
-                                                    "entityUrn": "urn:li:fsd_groupMembership:(62352,ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E)",
-                                                    "status": "NON_MEMBER",
-                                                    "group": {
-                                                        "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
-                                                        "_type": "com.linkedin.voyager.dash.groups.Group",
-                                                        "entityUrn": "urn:li:fsd_group:62352"
-                                                    },
-                                                    "profile": {
-                                                        "_recipeType": "com.linkedin.e0372afc4a18480b00ca7e4906904fd7",
-                                                        "_type": "com.linkedin.voyager.dash.identity.profile.Profile",
-                                                        "entityUrn": "urn:li:fsd_profile:ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E"
-                                                    }
-                                                },
-                                                "reportAction": null,
-                                                "messagePageAction": null,
-                                                "shareViaMessageAction": null
-                                            },
-                                            "actionConfirmationDialog": null
-                                        }
-                                    ],
-                                    "entityCustomTrackingInfo": null,
-                                    "badgeData": null,
-                                    "title": {
-                                        "textDirection": "USER_LOCALE",
-                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                        "text": "Digital Marketing",
-                                        "attributesV2": [],
-                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                        "accessibilityTextAttributesV2": [],
-                                        "accessibilityText": null
-                                    },
-                                    "overflowActions": [],
-                                    "searchActionType": null,
-                                    "actorInsights": [],
-                                    "insightsResolutionResults": [],
-                                    "badgeIcon": null,
-                                    "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:fsd_group:62352,SEARCH_SRP,DEFAULT)",
-                                    "showAdditionalCluster": false,
-                                    "ringStatus": null,
-                                    "primarySubtitle": {
-                                        "textDirection": "USER_LOCALE",
-                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                        "text": "2M members",
-                                        "attributesV2": [],
-                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                        "accessibilityTextAttributesV2": [],
-                                        "accessibilityText": null
-                                    },
-                                    "badgeText": null,
-                                    "trackingId": "J7fI7Mg1SFiVNY54iAOIeQ==",
-                                    "summary": {
-                                        "textDirection": "USER_LOCALE",
-                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
-                                        "text": "Welcome to Digital Marketing \u2013 The Largest Community for Marketers on LinkedIn With over 2.3 million members, this group is the ultimate destination for digital marketers, strategists, and industry professionals looking to connect, share insights, and stay ahead in the fast-moving world of digital marketing. We cover everything from social media, SEO, content marketing, paid advertising, email marketing, analytics, and beyond. Whether you're looking for expert advice, the latest trends, or networking opportunities, you'll find it here. Why Join? \u2705 Engage in meaningful discussions with top marketing minds \u2705 Stay informed with the latest industry updates and best practices \u2705 Discover reports, whitepapers, and exclusive insights \u2705 Network with peers, brands, and thought leaders \ud83d\udce2 Join the conversation. Share your knowledge. Elevate your marketing game.",
-                                        "attributesV2": [],
-                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
-                                        "accessibilityTextAttributesV2": [],
-                                        "accessibilityText": null
-                                    },
-                                    "addEntityToSearchHistory": true,
-                                    "actorNavigationUrl": null,
-                                    "image": {
-                                        "_type": "com.linkedin.voyager.dash.common.image.ImageViewModel",
-                                        "attributes": [
-                                            {
-                                                "scalingType": null,
-                                                "_type": "com.linkedin.voyager.dash.common.image.ImageAttribute",
-                                                "detailData": {
-                                                    "profilePictureWithoutFrame": null,
-                                                    "profilePictureWithRingStatus": null,
-                                                    "companyLogo": null,
-                                                    "icon": null,
-                                                    "systemImage": null,
-                                                    "nonEntityGroupLogo": {
-                                                        "_type": "com.linkedin.voyager.dash.common.image.NonEntityGroupLogo",
-                                                        "_recipeType": "com.linkedin.14537f958f34fe6d11e2a5ec02e5ca16",
-                                                        "vectorImage": {
-                                                            "digitalmediaAsset": null,
-                                                            "_type": "com.linkedin.common.VectorImage",
-                                                            "attribution": null,
-                                                            "_recipeType": "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9",
-                                                            "c2paManifestData": null,
-                                                            "artifacts": [
-                                                                {
-                                                                    "width": 48,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631007741746?e=1743174000&v=beta&t=qQKX0EwRTqjEu2PlmY6Zrp4gB31eKGF_MNX6poyTXBE",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 48
-                                                                },
-                                                                {
-                                                                    "width": 100,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631007741746?e=1743174000&v=beta&t=CIMDqWW3-y11ONrSg3AIiqpcn3Vs2KM6Q3r7ChVIf0Q",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 50
-                                                                },
-                                                                {
-                                                                    "width": 100,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631007741746?e=1743174000&v=beta&t=wcqjchzFQt8iNMBakQSdHzW9HvTlD_B18YOR5CimnqU",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 50
-                                                                },
-                                                                {
-                                                                    "width": 92,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631007741746?e=1743174000&v=beta&t=g3mFsiVbzm1zSm144lC59_LVWcKnptgDHzPyvnv49Lw",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 92
-                                                                },
-                                                                {
-                                                                    "width": 24,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631007741746?e=1743174000&v=beta&t=35q9hBrLYigSpg4f0oWH5JISYjMBJVzH1NjU08DojRQ",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 24
-                                                                },
-                                                                {
-                                                                    "width": 72,
-                                                                    "_type": "com.linkedin.common.VectorArtifact",
-                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631007741746?e=1743174000&v=beta&t=5YQGsjX6Ts8xM5wBcuIUAA8tbWTgSZ220NwssBoWUl4",
-                                                                    "expiresAt": 1743174000000,
-                                                                    "height": 72
-                                                                }
-                                                            ],
-                                                            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D07AQG_ojpd1_NxIw/group-logo_image-shrink_"
-                                                        },
-                                                        "group": {
-                                                            "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
-                                                            "_type": "com.linkedin.voyager.dash.groups.Group",
-                                                            "entityUrn": "urn:li:fsd_group:62352"
-                                                        }
-                                                    },
-                                                    "vectorImage": null,
-                                                    "nonEntityProfessionalEventLogo": null,
-                                                    "profilePicture": null,
-                                                    "imageUrl": null,
-                                                    "professionalEventLogo": null,
-                                                    "nonEntityCompanyLogo": null,
-                                                    "nonEntitySchoolLogo": null,
-                                                    "groupLogo": null,
-                                                    "schoolLogo": null,
-                                                    "ghostImage": null,
-                                                    "nonEntityProfilePicture": null
-                                                },
-                                                "tintColor": null,
-                                                "_recipeType": "com.linkedin.eb94fbb1518f790c4545aafdf571c64e",
-                                                "tapTargets": [],
-                                                "displayAspectRatio": null
-                                            }
-                                        ],
-                                        "editableAccessibilityText": false,
-                                        "actionTarget": null,
-                                        "_recipeType": "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b",
-                                        "accessibilityTextAttributes": [],
-                                        "totalCount": null,
-                                        "accessibilityText": "Digital Marketing"
-                                    },
-                                    "lazyLoadedActions": null,
-                                    "secondarySubtitle": null,
-                                    "_type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
-                                    "navigationUrl": "https://www.linkedin.com/groups/62352",
-                                    "entityEmbeddedObject": null,
-                                    "unreadIndicatorDetails": null,
-                                    "_recipeType": "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109",
-                                    "target": null,
-                                    "actorTrackingUrn": null,
-                                    "navigationContext": {
-                                        "_type": "com.linkedin.voyager.dash.search.NavigationContext",
-                                        "openExternally": false,
-                                        "_recipeType": "com.linkedin.55ee9afd4182671fe7e271f615659525",
-                                        "url": "https://www.linkedin.com/groups/62352"
-                                    }
-                                },
-                                "cluster": null,
-                                "fifComponentCard": null,
-                                "bannerCard": null,
-                                "searchAlert": null,
-                                "upsellSlot": null,
-                                "coachRealtimeResponse": null,
-                                "searchSuggestionCard": null,
-                                "coachPromptCluster": null,
-                                "feedbackCard": null,
-                                "knowledgeCardV2": null,
-                                "keywordsSuggestionCard": null,
-                                "queryClarificationCard": null,
-                                "topicalQuestionCard": null,
-                                "simpleTextV2": null,
-                                "promoCard": null,
-                                "searchFeedUpdate": null,
-                                "searchQuestionAndAnswerCard": null,
-                                "centeredText": null,
-                                "simpleImage": null
-                            },
-                            "position": 5,
-                            "_recipeType": "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
-                        },
-                        {
-                            "_type": "com.linkedin.voyager.dash.search.SearchItem",
-                            "item": {
-                                "entityResult": {
-                                    "template": "UNIVERSAL",
-                                    "actorNavigationContext": null,
                                     "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Artificial%20Intelligence%2C%20Deep%20Learning%2C%20Machine%20Learning&origin=ENTITY_SEARCH_HOME_HISTORY",
                                     "trackingUrn": "urn:li:group:1814785",
                                     "controlName": null,
@@ -1286,7 +1095,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Artificial Intelligence, Deep Learning, Machine Learning"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -1357,7 +1166,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "M+HyMlCDTPeUrnFhJ9cDQQ==",
+                                    "trackingId": "2qyaFoOdSFG9/qRXiCeU5A==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -1395,32 +1204,32 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1732554739194?e=1743174000&v=beta&t=0x5ldFBGKEGVN2jpSDgLvFjYycRi_6zPKOGP8Lof5gM",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1732554739194?e=1745578800&v=beta&t=HUicGSnPkEj0VDPuz68hph0hl7PpXdaS6hcOgi1B1Bw",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1732554739193?e=1743174000&v=beta&t=azZ3woNXLr2rLfRZX1sdtkv4Am6ReCvSqxt4sXDjGo8",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1732554739193?e=1745578800&v=beta&t=_jml-kUGSNc2-DKWWH9NbvDXKIRwzu4oI9P_GtZayxc",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1732554739193?e=1743174000&v=beta&t=A17FFZ5weC79ZVPxoTKAMRZ13RD6nIOJnsA0xGSNDng",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1732554739193?e=1745578800&v=beta&t=Q70_KawkvobOTsXljyF54g1p-9gnIOWQxdAHWcGAEjs",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1732554739193?e=1743174000&v=beta&t=LwJvJa5BGYBtyQyqcuX2yGVjhiMcG6J26KE90Ws5uBc",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1732554739193?e=1745578800&v=beta&t=3L6V-XAOrfJOS4R1BvNT2gH18nJh0s9UAYwdxK0n7OA",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -1493,6 +1302,260 @@
                                 "centeredText": null,
                                 "simpleImage": null
                             },
+                            "position": 5,
+                            "_recipeType": "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
+                        },
+                        {
+                            "_type": "com.linkedin.voyager.dash.search.SearchItem",
+                            "item": {
+                                "entityResult": {
+                                    "template": "UNIVERSAL",
+                                    "actorNavigationContext": null,
+                                    "bserpEntityNavigationalUrl": "https://www.linkedin.com/search/results/all/?keywords=Digital%20Marketing&origin=ENTITY_SEARCH_HOME_HISTORY",
+                                    "trackingUrn": "urn:li:group:62352",
+                                    "controlName": null,
+                                    "interstitialComponent": null,
+                                    "primaryActions": [
+                                        {
+                                            "trackingUrn": null,
+                                            "_type": "com.linkedin.voyager.dash.search.EntityAction",
+                                            "controlName": null,
+                                            "icon": null,
+                                            "actionRenderStyle": null,
+                                            "_recipeType": "com.linkedin.30dee75e249786a8e1ceb4c1d056ab57",
+                                            "searchActionType": "JOIN_GROUP",
+                                            "actionBannerFeedback": null,
+                                            "buttonCategory": null,
+                                            "text": {
+                                                "textDirection": "USER_LOCALE",
+                                                "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                                "text": "Join",
+                                                "attributesV2": [],
+                                                "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                                "accessibilityTextAttributesV2": [],
+                                                "accessibilityText": "Join group Digital Marketing"
+                                            },
+                                            "actionDetails": {
+                                                "magicWandAction": null,
+                                                "notificationSubscribeAction": null,
+                                                "shareViaLinkAction": null,
+                                                "embedHTMLAction": null,
+                                                "primaryProfileAction": null,
+                                                "statefulFollowAction": null,
+                                                "removeConnectionAction": null,
+                                                "navigationAction": null,
+                                                "followAction": null,
+                                                "saveAction": null,
+                                                "upsellAction": null,
+                                                "newsletterSubscribeAction": null,
+                                                "addLearningCourseToProfileAction": null,
+                                                "closeProjectAction": null,
+                                                "primaryProfileActionV2": null,
+                                                "shareViaPostAction": null,
+                                                "leaveGroupAction": {
+                                                    "_type": "com.linkedin.voyager.dash.groups.GroupMembership",
+                                                    "_recipeType": "com.linkedin.7f12f9be2e6b0e371ad2f98ce1324e16",
+                                                    "entityUrn": "urn:li:fsd_groupMembership:(62352,ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E)",
+                                                    "status": "NON_MEMBER",
+                                                    "group": {
+                                                        "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
+                                                        "_type": "com.linkedin.voyager.dash.groups.Group",
+                                                        "entityUrn": "urn:li:fsd_group:62352"
+                                                    },
+                                                    "profile": {
+                                                        "_recipeType": "com.linkedin.e0372afc4a18480b00ca7e4906904fd7",
+                                                        "_type": "com.linkedin.voyager.dash.identity.profile.Profile",
+                                                        "entityUrn": "urn:li:fsd_profile:ACoAACbYFqIBa9QNgo9_u3VM1VUaPctINR2915E"
+                                                    }
+                                                },
+                                                "reportAction": null,
+                                                "messagePageAction": null,
+                                                "shareViaMessageAction": null
+                                            },
+                                            "actionConfirmationDialog": null
+                                        }
+                                    ],
+                                    "entityCustomTrackingInfo": null,
+                                    "badgeData": null,
+                                    "title": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "Digital Marketing",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "overflowActions": [],
+                                    "searchActionType": null,
+                                    "actorInsights": [],
+                                    "insightsResolutionResults": [],
+                                    "badgeIcon": null,
+                                    "entityUrn": "urn:li:fsd_entityResultViewModel:(urn:li:fsd_group:62352,SEARCH_SRP,DEFAULT)",
+                                    "showAdditionalCluster": false,
+                                    "ringStatus": null,
+                                    "primarySubtitle": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "2M members",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "badgeText": null,
+                                    "trackingId": "urpeuolcQ5Ky844ARV9jCw==",
+                                    "summary": {
+                                        "textDirection": "USER_LOCALE",
+                                        "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
+                                        "text": "Welcome to Digital Marketing \u2013 The Largest Community for Marketers on LinkedIn With over 2.3 million members, this group is the ultimate destination for digital marketers, strategists, and industry professionals looking to connect, share insights, and stay ahead in the fast-moving world of digital marketing. We cover everything from social media, SEO, content marketing, paid advertising, email marketing, analytics, and beyond. Whether you're looking for expert advice, the latest trends, or networking opportunities, you'll find it here. Why Join? \u2705 Engage in meaningful discussions with top marketing minds \u2705 Stay informed with the latest industry updates and best practices \u2705 Discover reports, whitepapers, and exclusive insights \u2705 Network with peers, brands, and thought leaders \ud83d\udce2 Join the conversation. Share your knowledge. Elevate your marketing game.",
+                                        "attributesV2": [],
+                                        "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
+                                        "accessibilityTextAttributesV2": [],
+                                        "accessibilityText": null
+                                    },
+                                    "addEntityToSearchHistory": true,
+                                    "actorNavigationUrl": null,
+                                    "image": {
+                                        "_type": "com.linkedin.voyager.dash.common.image.ImageViewModel",
+                                        "attributes": [
+                                            {
+                                                "scalingType": null,
+                                                "_type": "com.linkedin.voyager.dash.common.image.ImageAttribute",
+                                                "detailData": {
+                                                    "profilePictureWithoutFrame": null,
+                                                    "profilePictureWithRingStatus": null,
+                                                    "companyLogo": null,
+                                                    "icon": null,
+                                                    "systemImage": null,
+                                                    "nonEntityGroupLogo": {
+                                                        "_type": "com.linkedin.voyager.dash.common.image.NonEntityGroupLogo",
+                                                        "_recipeType": "com.linkedin.14537f958f34fe6d11e2a5ec02e5ca16",
+                                                        "vectorImage": {
+                                                            "digitalmediaAsset": null,
+                                                            "_type": "com.linkedin.common.VectorImage",
+                                                            "attribution": null,
+                                                            "_recipeType": "com.linkedin.28db8575bcf1c65bdc4bc15948d50ee9",
+                                                            "c2paManifestData": null,
+                                                            "artifacts": [
+                                                                {
+                                                                    "width": 48,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631007741746?e=1745578800&v=beta&t=t2G1DF-32hs8suN8IhHSanPJp14kQGEqq3ZeLzVDzuk",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 48
+                                                                },
+                                                                {
+                                                                    "width": 100,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631007741746?e=1745578800&v=beta&t=uA1UAxYNNj4XUj37iJiZ5SGGFc_aiw8Z4NXbNgAitro",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 50
+                                                                },
+                                                                {
+                                                                    "width": 100,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631007741746?e=1745578800&v=beta&t=zouh53A6RpmF5ihr4fboKMI3tDAAstyewRVFroOW5cI",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 50
+                                                                },
+                                                                {
+                                                                    "width": 92,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631007741746?e=1745578800&v=beta&t=pI8uuV8mwrs4Pyf0sersRsIGo-riFM2mEVpYd11g1RI",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 92
+                                                                },
+                                                                {
+                                                                    "width": 24,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631007741746?e=1745578800&v=beta&t=cY5ANfANVqcJw9lyiKmaR3QX8EIkqESBQBewUEw1DPQ",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 24
+                                                                },
+                                                                {
+                                                                    "width": 72,
+                                                                    "_type": "com.linkedin.common.VectorArtifact",
+                                                                    "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631007741746?e=1745578800&v=beta&t=YmutEHayyt7aXw5HynqwPs8ofVVuBdU8xZhJmQM3bEo",
+                                                                    "expiresAt": 1745578800000,
+                                                                    "height": 72
+                                                                }
+                                                            ],
+                                                            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D07AQG_ojpd1_NxIw/group-logo_image-shrink_"
+                                                        },
+                                                        "group": {
+                                                            "_recipeType": "com.linkedin.c8f5bf5a9d5e0dbbc3c824c2dfd751a8",
+                                                            "_type": "com.linkedin.voyager.dash.groups.Group",
+                                                            "entityUrn": "urn:li:fsd_group:62352"
+                                                        }
+                                                    },
+                                                    "vectorImage": null,
+                                                    "nonEntityProfessionalEventLogo": null,
+                                                    "profilePicture": null,
+                                                    "imageUrl": null,
+                                                    "professionalEventLogo": null,
+                                                    "nonEntityCompanyLogo": null,
+                                                    "nonEntitySchoolLogo": null,
+                                                    "groupLogo": null,
+                                                    "schoolLogo": null,
+                                                    "ghostImage": null,
+                                                    "nonEntityProfilePicture": null
+                                                },
+                                                "tintColor": null,
+                                                "_recipeType": "com.linkedin.eb94fbb1518f790c4545aafdf571c64e",
+                                                "tapTargets": [],
+                                                "displayAspectRatio": null
+                                            }
+                                        ],
+                                        "editableAccessibilityText": false,
+                                        "actionTarget": null,
+                                        "_recipeType": "com.linkedin.fe5b8a3ac5a4a165c17f53b7eae4209b",
+                                        "accessibilityTextAttributes": [],
+                                        "totalCount": null,
+                                        "accessibilityText": "Digital Marketing"
+                                    },
+                                    "lazyLoadedActions": null,
+                                    "secondarySubtitle": null,
+                                    "_type": "com.linkedin.voyager.dash.search.EntityResultViewModel",
+                                    "navigationUrl": "https://www.linkedin.com/groups/62352",
+                                    "entityEmbeddedObject": null,
+                                    "unreadIndicatorDetails": null,
+                                    "_recipeType": "com.linkedin.cf4b25c18907ea8eafe915c8bfa24109",
+                                    "target": null,
+                                    "actorTrackingUrn": null,
+                                    "navigationContext": {
+                                        "_type": "com.linkedin.voyager.dash.search.NavigationContext",
+                                        "openExternally": false,
+                                        "_recipeType": "com.linkedin.55ee9afd4182671fe7e271f615659525",
+                                        "url": "https://www.linkedin.com/groups/62352"
+                                    }
+                                },
+                                "cluster": null,
+                                "fifComponentCard": null,
+                                "bannerCard": null,
+                                "searchAlert": null,
+                                "upsellSlot": null,
+                                "coachRealtimeResponse": null,
+                                "searchSuggestionCard": null,
+                                "coachPromptCluster": null,
+                                "feedbackCard": null,
+                                "knowledgeCardV2": null,
+                                "keywordsSuggestionCard": null,
+                                "queryClarificationCard": null,
+                                "topicalQuestionCard": null,
+                                "simpleTextV2": null,
+                                "promoCard": null,
+                                "searchFeedUpdate": null,
+                                "searchQuestionAndAnswerCard": null,
+                                "centeredText": null,
+                                "simpleImage": null
+                            },
                             "position": 6,
                             "_recipeType": "com.linkedin.edd11a570456ce19ca1f5ec3c9bb03c1"
                         },
@@ -1524,7 +1587,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Brain Expansion Group"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -1595,7 +1658,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "iYOooizNR/e1WYAvlFF6YA==",
+                                    "trackingId": "f4H2Jh0YRziJjjo9hytIxw==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -1633,32 +1696,32 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631005517730?e=1743174000&v=beta&t=wVKw0Qem2jIxIqt0gcoQ9fY7UOdxziMIYy6UgYBeXlg",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631005517730?e=1745578800&v=beta&t=DtEMGg0d4cXY4oehKxpsSGlCB9w085FgmVWdoLr7M58",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631005517730?e=1743174000&v=beta&t=7_bu1IV4ocjr2CEAKTE94h67Mb2mhJgTKVsArccpYj4",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631005517730?e=1745578800&v=beta&t=Eukjv_w8IJUEMCPf5Brk70QyOp4COBRFnhIhLvCJOFg",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631005517730?e=1743174000&v=beta&t=BBdtzIvo3KSIf30IBIUxH4_I7VsX7UPhnVCID7_P3WI",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631005517730?e=1745578800&v=beta&t=Pyj8UxVNNuxFtS6xwQLL47TIRuAj_Uc9-VUvv9-V7K4",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631005517730?e=1743174000&v=beta&t=cOTKFJGeSaTP1R9_i323PX8Eo-_6ggSC_sSUf_mQPPc",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631005517730?e=1745578800&v=beta&t=dFgJLpbffFb_wkBDQKcOG8xXcMTr8N12pp7LPiftLt8",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -1762,7 +1825,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Digital Marketing: Social Media, Search, AI Marketing, Mobile & more"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -1833,7 +1896,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "mfhEpgmNQ/2xOnQdzY3DmA==",
+                                    "trackingId": "XfHsbsCQQmyNjEzpO6sPwg==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -1871,48 +1934,48 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631359166603?e=1743174000&v=beta&t=gg4IHBmUQyNND4jVxY43XlRqgRT5qNe3tH-5ykeA3ts",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631359166603?e=1745578800&v=beta&t=feGZDdX3BcNONAwAdOAh4vgxPfNyjXAexh2-OCRdws8",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 100,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631359166603?e=1743174000&v=beta&t=3Ym7Wu38MGHIIbRpmzoHWc0CC4wezxUSl1ZojeVeDok",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631359166603?e=1745578800&v=beta&t=AAj5wh1L4MAcDLSbASasgjxOWg93Kwv2YjG6y9KNt50",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 50
                                                                 },
                                                                 {
                                                                     "width": 100,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631359166603?e=1743174000&v=beta&t=0j-Ul86Ps1drrVGPdJgoMpgTWmW2EbScH3wBKfiNQ5c",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631359166603?e=1745578800&v=beta&t=U19ueb1sR-kK6tf_XOh4-Me01j-0InD0-bSVB6amFhs",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 50
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631359166603?e=1743174000&v=beta&t=t2K-5LodRZ-qM0q--ZJQD1KxgwOQKiDU089bA0UqHrE",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631359166603?e=1745578800&v=beta&t=GzZUHJq_kFwjI2wONbDw_kzUzIpdv0FV2xfcAPzpJ1E",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631359166603?e=1743174000&v=beta&t=-thfammWPMH9vkayHtbHdBZgaRQCOKUbwf_uvdKDFik",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631359166603?e=1745578800&v=beta&t=T8V4aZR9ksXjPwNcT_ENgqSr-jFly9bGJvYBJXfJT4U",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631359166603?e=1743174000&v=beta&t=jwWynYuohh1QKVc2CfUEnk9Q8muAEdVlywkgHE21VDI",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631359166603?e=1745578800&v=beta&t=aINjwQWQgbKJnNPqnOYPpucDFzotfSBDCJ-1rPhzTi0",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -2016,7 +2079,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Microsoft Excel Users"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -2087,7 +2150,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "GzExwmYMSlGZ/C66kNSTVA==",
+                                    "trackingId": "EjSagKEdQD+/rKGGmWP/oA==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -2125,48 +2188,48 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631434518179?e=1743174000&v=beta&t=GsNRNd0SXbmWaNn9IVUux6JfFpdLJqqkInh37eCStIc",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1631434518179?e=1745578800&v=beta&t=b_hF_d4ths17Ob-7FUo9qVeLbK6qkf9Y61vRDfYNQmc",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 100,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631434518179?e=1743174000&v=beta&t=6aiVa5-vUgIksa-RSbnbbvxsiqw5wHaVeMgzfZ5VH_M",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "200x200/group-logo_image-shrink_200x200/0/1631434518179?e=1745578800&v=beta&t=xX6wMmgZ_iQdm1022L2rNrIJ7gtp9IPI-_q4T4x_Iek",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 50
                                                                 },
                                                                 {
                                                                     "width": 100,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631434518179?e=1743174000&v=beta&t=o6PFwhJRUIf9boYnhX5EEAYMwNGAIMKLhEw_rsadMzY",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "400x400/group-logo_image-shrink_400x400/0/1631434518179?e=1745578800&v=beta&t=Ozb7xXs9We5A_ZO94JlX6BzO2OaSoIDjM2fVJHZayAg",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 50
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631434518179?e=1743174000&v=beta&t=BjNpWL4eUj22nMY6ZeGoIWTGhqlVKsJLuc6K3XFZzgg",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1631434518179?e=1745578800&v=beta&t=Q7dv3WrNyTzguYZEP2uilkQjKHGcEvZjPZiyGiLJ7Ek",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631434518179?e=1743174000&v=beta&t=AJA-t88xp1EnuDU8gETx7FJlhPDPWw1nNYvdmUyptUQ",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1631434518179?e=1745578800&v=beta&t=3E9iHg0LqByhoierzUDxuzLyVM6bdEbVbuU26ak8WIA",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631434518179?e=1743174000&v=beta&t=I5SRMPynlRXqqp51pgwL6XyqtIEzv4Ejy6UrKRFd-Gc",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1631434518179?e=1745578800&v=beta&t=y55WvBXO1P9TZ4oXrEGECjpxuW6_XQRSDpNLCmlUypk",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -2270,7 +2333,7 @@
                                                 "attributesV2": [],
                                                 "_recipeType": "com.linkedin.6a224ca38654a84754a1eb3e97c0f846",
                                                 "accessibilityTextAttributesV2": [],
-                                                "accessibilityText": null
+                                                "accessibilityText": "Join group Leadership Think Tank"
                                             },
                                             "actionDetails": {
                                                 "magicWandAction": null,
@@ -2341,7 +2404,7 @@
                                         "accessibilityText": null
                                     },
                                     "badgeText": null,
-                                    "trackingId": "B1tvupUsQhShfWnCUc+xGA==",
+                                    "trackingId": "4UjmrJbDT3mjRvwlc5cljg==",
                                     "summary": {
                                         "textDirection": "USER_LOCALE",
                                         "_type": "com.linkedin.voyager.dash.common.text.TextViewModel",
@@ -2379,32 +2442,32 @@
                                                                     "width": 48,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1707315628991?e=1743174000&v=beta&t=p-XbrjSytHuRR38Jb4bDo_IplN8g7NiOUwsL5h7b0KU",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "48x48/group-logo_image-shrink_48x48/0/1707315628991?e=1745578800&v=beta&t=z9Tq9fIrWyd4v1T_9SaLm-VnzNsN2BxFrCbMAVvIug4",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 48
                                                                 },
                                                                 {
                                                                     "width": 92,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1707315628991?e=1743174000&v=beta&t=ekRk_Ydj0FXrF6ZTSwsJKj_hjXNlox97qvA0hOzuyAM",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "92x92/group-logo_image-shrink_92x92/0/1707315628991?e=1745578800&v=beta&t=mHJQ0d4Fpu2bWelBl0tk521Hn01AMgjn05Ci5FyhEz0",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 92
                                                                 },
                                                                 {
                                                                     "width": 24,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1707315628991?e=1743174000&v=beta&t=yEj1yXDGftTgGNaMzfvG4Cbj9ZnvGaowFXtSQRl7LP8",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "24x24/group-logo_image-shrink_24x24/0/1707315628991?e=1745578800&v=beta&t=oKPdwNsqjc78qRTacrGBrpA3KhI0ugoh7KL-rgaLJOk",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 24
                                                                 },
                                                                 {
                                                                     "width": 72,
                                                                     "_type": "com.linkedin.common.VectorArtifact",
                                                                     "_recipeType": "com.linkedin.f0f435b4425ee2990eba8f0a4d614944",
-                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1707315628991?e=1743174000&v=beta&t=CSURCv1GQZOhpnBBvNSKzUKH84NtewNf0tJYOelYERQ",
-                                                                    "expiresAt": 1743174000000,
+                                                                    "fileIdentifyingUrlPathSegment": "72x72/group-logo_image-shrink_72x72/0/1707315628991?e=1745578800&v=beta&t=nMKvOjEjJwqjQ2n7DTqxhoi6Q-lL69TSOA1K7vKDfYQ",
+                                                                    "expiresAt": 1745578800000,
                                                                     "height": 72
                                                                 }
                                                             ],
@@ -2482,7 +2545,7 @@
                         }
                     ],
                     "results": [],
-                    "trackingId": "\u00c993\u00d0,?B\b\u00aa\u0082\u00e6SB\\\u00bf\u0099"
+                    "trackingId": "bD\u000fnYFN\u001a\u00be\u00e7\u00a3\u00e8x\u00a9\u0097\u000b"
                 },
                 {
                     "image": null,
@@ -2499,7 +2562,7 @@
                     "navigationText": null,
                     "feature": null,
                     "navigationCardAction": null,
-                    "position": 2,
+                    "position": 3,
                     "items": [
                         {
                             "_type": "com.linkedin.voyager.dash.search.SearchItem",
@@ -2516,7 +2579,7 @@
                                     "_type": "com.linkedin.voyager.dash.search.FeedbackCard",
                                     "_recipeType": "com.linkedin.2d3e7b4bccc9c85f103b0dc9fdfd3669",
                                     "entityUrn": "urn:li:fsd_feedbackCard:SRP_FEEDBACK_GROUPS",
-                                    "trackingId": "\u00f3h\u0012*\u00edSB\u0084\u00af\u00a3.6P\u00bcn\u00eb"
+                                    "trackingId": "\u001a\u0095Y3\u0014oA\u00d2\u0087\u0005\u00c4\u00cd0,\u00e30"
                                 },
                                 "coachPromptCluster": null,
                                 "knowledgeCardV2": null,
@@ -2535,7 +2598,7 @@
                         }
                     ],
                     "results": [],
-                    "trackingId": "\u00df\u0088\u009f\u008b\u008b?K\u00e1\u0084/\u00c1\u00c2\u000f\u00af\u00aa\u0082"
+                    "trackingId": "\u00fbjT&\u00b1\u0096JT\u008b\u00ef\u00ec\u001b\u0003_0\u0098"
                 }
             ]
         }

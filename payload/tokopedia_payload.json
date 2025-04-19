@@ -1,0 +1,7 @@
+{
+  "operationName":"ShopPageGetHeaderLayout",
+  "query": "fragment ButtonWidgetFrag on ButtonComponent {icon buttonType link isBottomSheet label __typename} fragment ImageWidgetFrag on ImageOnly {image imageLink isBottomSheet __typename} fragment BadgeWidgetFrag on BadgeTextValue {ctaText ctaLink ctaIcon text {icon textLink textHtml isBottomSheet __typename} __typename} fragment ImageTextFrag on ImageText {images {style data {image imageLink isBottomSheet __typename} __typename} textComponent {style data {icon textLink textHtml isBottomSheet __typename} __typename} __typename} query ShopPageGetHeaderLayout($shopID: String!) {ShopPageGetHeaderLayout(shopID: $shopID) {widgets {widgetID name type component {name type data {...ButtonWidgetFrag ...ImageWidgetFrag ...BadgeWidgetFrag ...ImageTextFrag __typename} __typename} __typename} __typename}}",
+  "variables": {
+    "shopID": "13156821"
+  }
+}

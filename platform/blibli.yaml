@@ -1,0 +1,13 @@
+blibli:
+  library: cloudscraper
+  library_settings:
+    browser:
+      browser: 'chrome'
+      platform: 'windows'
+      desktop: True
+  product: 
+    url: 'https://www.blibli.com/backend/product-detail/products/is--NAS-60241-00022-00001/_summary?pickupPointCode=PP-3538616&cnc=false&fetchAllAvailability=true'
+    request_type: 'get'
+  shop: 
+    url: 'https://www.blibli.com/backend/search/merchant/NAS-60241?excludeProductList=true&promoTab=false&pickupPointCode=PP-3538616&multiCategory=true&merchantSearch=false&pickupPointLatLong=&defaultPickupPoint=true&showFacet=false'
+    request_type: 'get'

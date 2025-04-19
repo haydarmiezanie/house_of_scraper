@@ -1,0 +1,17 @@
+instagram:
+  library: cloudscraper
+  media: 
+    url: 'https://www.instagram.com/api/v1/media/3607326182471703618/info/'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  follower: 
+    url: 'https://www.instagram.com/api/v1/friendships/5888663093/followers/?count=100'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  following: 
+    url: 'https://www.instagram.com/api/v1/friendships/1610653794/following/?count=100'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True

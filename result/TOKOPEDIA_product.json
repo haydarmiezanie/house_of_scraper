@@ -1,84 +1,84 @@
 {
     "data": {
         "pdpGetLayout": {
-            "requestID": "cvf9at32okd4ha42vhm0",
+            "requestID": "d01ktkb2okd4g5bptvrg",
             "name": "Default Layout Desktop",
-            "pdpSession": "{\"ttspi\":1730844210197857683,\"ttsku\":1730844210197923219,\"sid\":233728,\"ttssid\":7495809407130372499,\"sd\":\"xsianstore\",\"stier\":3,\"cat\":{\"id\":3054,\"ttsid\":602097,\"d\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"ttsd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}]},\"pid\":16210692076,\"ppn\":\"REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN\",\"dcid\":16210692077,\"cp\":{\"lr\":{}},\"opr\":1096000,\"pr\":1096000,\"mo\":1,\"pn\":\"REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Biru\",\"purl\":\"https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219\",\"pa\":\"redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219\",\"st\":3,\"cn\":\"new\",\"li\":1,\"ln\":\"Default Layout Desktop\",\"w\":0.5,\"sf\":{},\"nid\":3,\"ws\":{},\"stat\":{\"cr\":2,\"r\":5,\"cs\":2,\"mcs\":\"2\"},\"fst\":[{\"FSID\":0,\"PartnerName\":\"\",\"FSType\":0,\"ShopID\":0}],\"mnwhs\":{\"16210692076\":{\"pid\":16210692076,\"wid\":300404,\"pr\":1096000,\"s\":3},\"16210692077\":{\"pid\":16210692077,\"wid\":300404,\"pr\":1096000,\"s\":3},\"16210692078\":{\"pid\":16210692078,\"wid\":300404,\"pr\":1096000,\"s\":5}},\"umps\":3,\"nv\":{\"id\":0,\"n\":\"\",\"c\":[]},\"cr\":{},\"d\":{},\"fscp\":{\"ra\":{},\"tps\":2,\"grp\":100,\"ps\":3},\"exp\":{\"saatc\":true},\"patcs\":{\"lid\":21,\"pi\":16210692077,\"pid\":16210692076,\"whid\":300404,\"pr\":1096000,\"opr\":1096000,\"cat\":{\"id\":3054},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"v\":1,\"vd\":{\"16210692077\":{\"ttsp\":1730844210197857683,\"ttssku\":1730844210197923219,\"cp\":{\"lr\":{}},\"p\":1096000,\"op\":1096000,\"isc\":true,\"whid\":300404,\"mo\":1,\"patcs\":{\"pi\":16210692077,\"pid\":16210692076,\"whid\":300404,\"pr\":1096000,\"opr\":1096000,\"cat\":{\"id\":3054},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":3,\"w\":500,\"ib\":true},\"16210692078\":{\"ttsp\":1730844210197857683,\"ttssku\":1730844210197988755,\"cp\":{\"lr\":{}},\"p\":1096000,\"op\":1096000,\"isc\":true,\"whid\":300404,\"mo\":1,\"patcs\":{\"pi\":16210692078,\"pid\":16210692076,\"whid\":300404,\"pr\":1096000,\"opr\":1096000,\"cat\":{\"id\":3054},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":5,\"w\":500,\"ib\":true}},\"pi\":16210692077,\"pse\":1,\"ps\":\"ACTIVE\",\"fc\":[\"tidak_kadaluwarsa\",\"shipment\"],\"cod\":true,\"cui\":{},\"srq\":{\"rs\":4.9,\"tr\":345,\"trt\":844},\"prtg\":{\"rs\":\"5.0\",\"tr\":2,\"trf\":\"2\",\"trtif\":\"0\"},\"ss\":1,\"ma\":[{\"t\":\"Cara Klaim\",\"v\":[\"Hubungi Merek\"]},{\"t\":\"Periode Garansi\",\"v\":[\"12 Bulan\"]},{\"t\":\"Status Sinyal\",\"v\":[\"Sinyal Aktif\"]},{\"t\":\"Tipe Garansi\",\"v\":[\"Garansi Merek (Resmi)\"]}],\"p2c\":{},\"pm\":true,\"sia\":true,\"swa\":true,\"etm\":true,\"ispt\":true,\"zid\":\"XhiEffEjG3M3IGm\"}",
+            "pdpSession": "{\"ttspi\":1730142585166726513,\"ttsku\":1730142585166857585,\"sid\":13156821,\"ttssid\":7495818283284466033,\"sd\":\"smilling-baby\",\"stier\":3,\"cat\":{\"id\":471,\"ttsid\":869256,\"d\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"ttsd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}]},\"pid\":14795765252,\"ppn\":\"Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL\",\"dcid\":14795765253,\"cp\":{\"lr\":{}},\"opr\":300000,\"pr\":300000,\"mo\":1,\"pn\":\"Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - 1 PC BLINDBOX \",\"purl\":\"https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-1-pc-blindbox-0c7af\",\"pa\":\"ready-stock-popmart-labubu-have-a-seat-v-2-original-1-pc-blindbox-0c7af\",\"st\":5,\"cn\":\"new\",\"li\":1,\"ln\":\"Default Layout Desktop\",\"w\":1.8,\"sf\":{},\"nid\":3,\"ws\":{},\"stat\":{\"cr\":52,\"r\":4.9,\"cs\":104,\"mcs\":\"100+\"},\"fst\":[{\"FSID\":0,\"PartnerName\":\"\",\"FSType\":0,\"ShopID\":0}],\"mnwhs\":{\"14795765252\":{\"pid\":14795765252,\"wid\":13068202,\"pr\":3000000,\"s\":1},\"14795765253\":{\"pid\":14795765253,\"wid\":13068202,\"pr\":300000,\"s\":5},\"14795765254\":{\"pid\":14795765254,\"wid\":13068202,\"pr\":3000000,\"s\":1},\"15381281504\":{\"pid\":15381281504,\"wid\":13068202,\"pr\":350000,\"s\":1},\"15381281505\":{\"pid\":15381281505,\"wid\":13068202,\"pr\":425000,\"s\":1},\"15381281506\":{\"pid\":15381281506,\"wid\":13068202,\"pr\":350000,\"s\":1},\"15528860877\":{\"pid\":15528860877,\"wid\":13068202,\"pr\":350000,\"s\":1},\"15566585168\":{\"pid\":15566585168,\"wid\":13068202,\"pr\":350000,\"s\":1},\"15566585169\":{\"pid\":15566585169,\"wid\":13068202,\"pr\":350000,\"s\":1}},\"umps\":3,\"nv\":{\"id\":0,\"n\":\"\",\"c\":[]},\"cr\":{},\"d\":{},\"fscp\":{\"ra\":{},\"tps\":103,\"grp\":96.15,\"wc\":47,\"ps\":5},\"exp\":{\"saatc\":true},\"patcs\":{\"lid\":21,\"pi\":14795765253,\"pid\":14795765252,\"whid\":13068202,\"pr\":300000,\"opr\":300000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"v\":1,\"vd\":{\"14795765253\":{\"ttsp\":1730142585166726513,\"ttssku\":1730142585166857585,\"cp\":{\"lr\":{}},\"p\":300000,\"op\":300000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":14795765253,\"pid\":14795765252,\"whid\":13068202,\"pr\":300000,\"opr\":300000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":5,\"w\":1800,\"ib\":true},\"14795765254\":{\"ttsp\":1730142585166726513,\"ttssku\":1730142585166792049,\"cp\":{\"lr\":{}},\"p\":3000000,\"op\":3000000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":14795765254,\"pid\":14795765252,\"whid\":13068202,\"pr\":3000000,\"opr\":3000000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800},\"15381281504\":{\"ttsp\":1730142585166726513,\"ttssku\":1730240611960849777,\"cp\":{\"lr\":{}},\"p\":350000,\"op\":350000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":15381281504,\"pid\":14795765252,\"whid\":13068202,\"pr\":350000,\"opr\":350000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800},\"15381281505\":{\"ttsp\":1730142585166726513,\"ttssku\":1730240611960980849,\"cp\":{\"lr\":{}},\"p\":425000,\"op\":425000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":15381281505,\"pid\":14795765252,\"whid\":13068202,\"pr\":425000,\"opr\":425000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800},\"15381281506\":{\"ttsp\":1730142585166726513,\"ttssku\":1730240611960915313,\"cp\":{\"lr\":{}},\"p\":350000,\"op\":350000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":15381281506,\"pid\":14795765252,\"whid\":13068202,\"pr\":350000,\"opr\":350000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800,\"ib\":true},\"15528860877\":{\"ttsp\":1730142585166726513,\"ttssku\":1730298263278552433,\"cp\":{\"lr\":{}},\"p\":350000,\"op\":350000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":15528860877,\"pid\":14795765252,\"whid\":13068202,\"pr\":350000,\"opr\":350000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800},\"15566585168\":{\"ttsp\":1730142585166726513,\"ttssku\":1730313669999297905,\"cp\":{\"lr\":{}},\"p\":350000,\"op\":350000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":15566585168,\"pid\":14795765252,\"whid\":13068202,\"pr\":350000,\"opr\":350000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800,\"ib\":true},\"15566585169\":{\"ttsp\":1730142585166726513,\"ttssku\":1730313669999232369,\"cp\":{\"lr\":{}},\"p\":350000,\"op\":350000,\"whid\":13068202,\"mo\":1,\"patcs\":{\"pi\":15566585169,\"pid\":14795765252,\"whid\":13068202,\"pr\":350000,\"opr\":350000,\"cat\":{\"id\":471},\"cn\":\"NEW\",\"ofr\":{},\"stf\":{}},\"s\":1,\"w\":1800,\"ib\":true}},\"pi\":14795765253,\"pse\":1,\"ps\":\"ACTIVE\",\"fc\":[\"tidak_kadaluwarsa\",\"shipment\"],\"cui\":{},\"srq\":{\"rs\":4.9,\"tr\":299,\"trt\":1231},\"prtg\":{\"rs\":\"4.9\",\"tr\":52,\"trf\":\"52\",\"trti\":21,\"trtif\":\"21\",\"tm\":24},\"wc\":47,\"ss\":1,\"p2c\":{},\"pm\":true,\"ispt\":true,\"zid\":\"uWJC3JFiYfEJS32\"}",
             "basicInfo": {
-                "alias": "redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
-                "createdAt": "2025-02-08T13:29:15+07:00",
+                "alias": "ready-stock-popmart-labubu-have-a-seat-v-2-original-1-pc-blindbox-0c7af",
+                "createdAt": "2024-09-20T04:07:27+07:00",
                 "isQA": false,
-                "id": "16210692077",
-                "shopID": "233728",
-                "shopName": "XsianStore",
+                "id": "14795765253",
+                "shopID": "13156821",
+                "shopName": "Smilling Baby El Chikako",
                 "minOrder": 1,
-                "maxOrder": 3,
-                "weight": 500,
+                "maxOrder": 5,
+                "weight": 1800,
                 "weightUnit": "GRAM",
                 "condition": "NEW",
                 "status": "ACTIVE",
-                "url": "https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                "url": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-1-pc-blindbox-0c7af",
                 "needPrescription": false,
                 "catalogID": "0",
                 "isLeasing": false,
                 "isBlacklisted": false,
                 "isTokoNow": false,
                 "menu": {
-                    "id": "26829056",
-                    "name": "Redmi Baru",
-                    "url": "https://www.tokopedia.com/xsianstore/etalase/redmi-baru",
+                    "id": "0",
+                    "name": "",
+                    "url": "",
                     "__typename": "pdpMenu"
                 },
                 "category": {
-                    "id": "3054",
-                    "name": "Android OS",
+                    "id": "471",
+                    "name": "Action Figure",
                     "title": "",
-                    "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet/handphone/android-os",
+                    "breadcrumbURL": "https://www.tokopedia.com/p/mainan-hobi/figure/action-figure",
                     "isAdult": false,
                     "isKyc": false,
                     "minAge": 0,
                     "detail": [
                         {
-                            "id": "65",
-                            "name": "Handphone & Tablet",
-                            "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet",
+                            "id": "55",
+                            "name": "Mainan & Hobi",
+                            "breadcrumbURL": "https://www.tokopedia.com/p/mainan-hobi",
                             "isAdult": false,
                             "__typename": "pdpCategoryDetail"
                         },
                         {
-                            "id": "24",
-                            "name": "Handphone",
-                            "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet/handphone",
+                            "id": "12",
+                            "name": "Figure",
+                            "breadcrumbURL": "https://www.tokopedia.com/p/mainan-hobi/figure",
                             "isAdult": false,
                             "__typename": "pdpCategoryDetail"
                         },
                         {
-                            "id": "3054",
-                            "name": "Android OS",
-                            "breadcrumbURL": "https://www.tokopedia.com/p/handphone-tablet/handphone/android-os",
+                            "id": "471",
+                            "name": "Action Figure",
+                            "breadcrumbURL": "https://www.tokopedia.com/p/mainan-hobi/figure/action-figure",
                             "isAdult": false,
                             "__typename": "pdpCategoryDetail"
                         }
                     ],
-                    "ttsID": "602097",
+                    "ttsID": "869256",
                     "ttsDetail": [
                         {
-                            "id": "601739",
-                            "name": "Phones & Electronics",
+                            "id": "604206",
+                            "name": "Toys & Hobbies",
                             "breadcrumbURL": "",
                             "isAdult": false,
                             "__typename": "pdpCategoryDetail"
                         },
                         {
-                            "id": "995976",
-                            "name": "Phones & Tablets",
+                            "id": "860296",
+                            "name": "Classic & Novelty Toys",
                             "breadcrumbURL": "",
                             "isAdult": false,
                             "__typename": "pdpCategoryDetail"
                         },
                         {
-                            "id": "602097",
-                            "name": "Mobile Phones",
+                            "id": "869256",
+                            "name": "Action & Toy Figures",
                             "breadcrumbURL": "",
                             "isAdult": false,
                             "__typename": "pdpCategoryDetail"
@@ -87,24 +87,24 @@
                     "__typename": "pdpCategory"
                 },
                 "txStats": {
-                    "transactionSuccess": "2",
+                    "transactionSuccess": "91",
                     "transactionReject": "0",
-                    "countSold": "2",
-                    "paymentVerified": "2",
-                    "itemSoldFmt": "2",
+                    "countSold": "103",
+                    "paymentVerified": "91",
+                    "itemSoldFmt": "100+",
                     "__typename": "pdpTxStats"
                 },
                 "stats": {
                     "countView": "0",
-                    "countReview": "2",
+                    "countReview": "52",
                     "countTalk": "0",
-                    "rating": 5,
+                    "rating": 4.9,
                     "__typename": "pdpStats"
                 },
-                "productID": "16210692077",
-                "ttsPID": "1730844210197857683",
-                "ttsSKUID": "1730844210197923219",
-                "ttsShopID": "7495809407130372499",
+                "productID": "14795765253",
+                "ttsPID": "1730142585166726513",
+                "ttsSKUID": "1730142585166857585",
+                "ttsShopID": "7495818283284466033",
                 "isAggregatedWithTTS": false,
                 "__typename": "pdpBasicInfo"
             },
@@ -118,110 +118,182 @@
                             "media": [
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/d0ec8233-761d-4649-8754-6d3b23dd4cf4.jpg",
+                                    "suffix": "/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
+                                    "description": "",
+                                    "variantOptionID": "0",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "video",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
+                                    "videoUrl": "https://vod-stream.tokopedia.net/view/ttvideo?source=QeEaKL&ttvid=v10c21g50000cqtc6vnog65seovrvhcg",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2024/8/13/22cf4d97-1e7f-4f45-b3be-3d5fd4952140.png",
                                     "description": "",
                                     "variantOptionID": "0",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/82cc6838-f488-40b1-b76f-a3581b0317c2.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/82cc6838-f488-40b1-b76f-a3581b0317c2.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/82cc6838-f488-40b1-b76f-a3581b0317c2.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/a2beec76-e709-4c2c-8b3b-ef5e2e8bbcf7.jpg",
+                                    "suffix": "/VqbcmM/2024/8/13/82cc6838-f488-40b1-b76f-a3581b0317c2.jpg",
                                     "description": "",
                                     "variantOptionID": "0",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/20f3a863-b710-48e1-85fa-2caa75be12dc.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/20f3a863-b710-48e1-85fa-2caa75be12dc.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/20f3a863-b710-48e1-85fa-2caa75be12dc.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/29aff977-d534-41ac-816f-8cbd13aab60c.jpg",
+                                    "suffix": "/VqbcmM/2024/8/13/20f3a863-b710-48e1-85fa-2caa75be12dc.jpg",
                                     "description": "",
                                     "variantOptionID": "0",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/02b5f5f2-5998-4c68-93f6-0a6fe0b51d3a.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/02b5f5f2-5998-4c68-93f6-0a6fe0b51d3a.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/02b5f5f2-5998-4c68-93f6-0a6fe0b51d3a.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/44852752-3b5b-408f-8507-be4ea436802e.jpg",
+                                    "suffix": "/VqbcmM/2024/8/13/02b5f5f2-5998-4c68-93f6-0a6fe0b51d3a.jpg",
                                     "description": "",
                                     "variantOptionID": "0",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/58a5be2b-f34b-431c-8519-71fbaf9abd19.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/58a5be2b-f34b-431c-8519-71fbaf9abd19.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/58a5be2b-f34b-431c-8519-71fbaf9abd19.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/27686cc3-5cb9-4401-809f-9779a4d2514a.jpg",
+                                    "suffix": "/VqbcmM/2024/8/13/58a5be2b-f34b-431c-8519-71fbaf9abd19.jpg",
                                     "description": "",
                                     "variantOptionID": "0",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/f1e7e8af-e6ab-4dec-9b2a-9fb7aa6780e1.png",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2024/8/13/f1e7e8af-e6ab-4dec-9b2a-9fb7aa6780e1.png",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/8/13/f1e7e8af-e6ab-4dec-9b2a-9fb7aa6780e1.png",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/5dc66c2f-8b22-47f6-bc9c-5312d42d242a.jpg",
+                                    "suffix": "/VqbcmM/2024/8/13/f1e7e8af-e6ab-4dec-9b2a-9fb7aa6780e1.png",
                                     "description": "",
                                     "variantOptionID": "0",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/200/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/bfa1587c-2d0e-47ff-9c21-bc2bd0f8ce7c.jpg",
-                                    "description": "",
-                                    "variantOptionID": "0",
+                                    "suffix": "/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
+                                    "description": "1 PC BLINDBOX ",
+                                    "variantOptionID": "2889255814",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
-                                    "description": "Biru",
-                                    "variantOptionID": "3428593351",
+                                    "suffix": "/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                    "description": "1SET SEGEL(6PC)",
+                                    "variantOptionID": "2889255815",
                                     "__typename": "pdpContentSnapshotMedia"
                                 },
                                 {
                                     "type": "image",
-                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
-                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
-                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
                                     "videoUrl": "",
                                     "prefix": "https://images.tokopedia.net/img/cache/",
-                                    "suffix": "/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
-                                    "description": "Hitam",
-                                    "variantOptionID": "3428593352",
+                                    "suffix": "/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                    "description": "DADA",
+                                    "variantOptionID": "3107494480",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                    "description": "ZIZI",
+                                    "variantOptionID": "3107494481",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                    "description": "QUQU",
+                                    "variantOptionID": "3107494482",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                    "description": "BABA",
+                                    "variantOptionID": "3163909797",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                    "description": "HEHE",
+                                    "variantOptionID": "3178819279",
+                                    "__typename": "pdpContentSnapshotMedia"
+                                },
+                                {
+                                    "type": "image",
+                                    "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                    "urlThumbnail": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                    "urlMaxRes": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                    "videoUrl": "",
+                                    "prefix": "https://images.tokopedia.net/img/cache/",
+                                    "suffix": "/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                    "description": "SISI",
+                                    "variantOptionID": "3178819280",
                                     "__typename": "pdpContentSnapshotMedia"
                                 }
                             ],
@@ -251,11 +323,11 @@
                     "position": "[1,1,1,1]",
                     "data": [
                         {
-                            "name": "REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Biru",
+                            "name": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - 1 PC BLINDBOX ",
                             "price": {
-                                "value": 1096000,
+                                "value": 300000,
                                 "currency": "IDR",
-                                "priceFmt": "Rp1.096.000",
+                                "priceFmt": "Rp300.000",
                                 "slashPriceFmt": "",
                                 "discPercentage": "",
                                 "__typename": "pdpContentSnapshotPrice"
@@ -292,13 +364,13 @@
                             },
                             "stock": {
                                 "useStock": true,
-                                "value": "3",
-                                "stockWording": "Stok <b style='color:red'>tersisa &lt;5,</b> beli segera!",
+                                "value": "5",
+                                "stockWording": "Stok <b>tersisa &lt;10,</b> beli segera!",
                                 "__typename": "pdpContentSnapshotStock"
                             },
                             "variant": {
                                 "isVariant": true,
-                                "parentID": "16210692076",
+                                "parentID": "14795765252",
                                 "__typename": "pdpContentSnapshotVariant"
                             },
                             "wholesale": [],
@@ -310,7 +382,7 @@
                             "isOS": false,
                             "isPowerMerchant": true,
                             "isWishlist": false,
-                            "isCOD": true,
+                            "isCOD": false,
                             "preorder": {
                                 "duration": 0,
                                 "timeUnit": "UNKNOWN",
@@ -330,41 +402,119 @@
                     "data": [
                         {
                             "errorCode": 0,
-                            "parentID": "16210692076",
-                            "defaultChild": "16210692077",
+                            "parentID": "14795765252",
+                            "defaultChild": "14795765253",
                             "sizeChart": "",
                             "totalStockFmt": "8",
                             "variants": [
                                 {
-                                    "productVariantID": "976271384",
+                                    "productVariantID": "845235119",
                                     "variantID": "1",
                                     "name": "warna",
                                     "identifier": "colour",
                                     "option": [
                                         {
                                             "picture": {
-                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
-                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
                                                 "__typename": "pdpProductVariantPicture"
                                             },
-                                            "productVariantOptionID": "3428593351",
+                                            "productVariantOptionID": "2889255814",
                                             "variantUnitValueID": "0",
-                                            "value": "Biru",
+                                            "value": "1 PC BLINDBOX ",
                                             "hex": "",
-                                            "stock": "3",
+                                            "stock": "5",
                                             "__typename": "pdpProductVariantOption"
                                         },
                                         {
                                             "picture": {
-                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
-                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
                                                 "__typename": "pdpProductVariantPicture"
                                             },
-                                            "productVariantOptionID": "3428593352",
+                                            "productVariantOptionID": "3107494481",
                                             "variantUnitValueID": "0",
-                                            "value": "Hitam",
+                                            "value": "ZIZI",
                                             "hex": "",
-                                            "stock": "5",
+                                            "stock": "1",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3178819279",
+                                            "variantUnitValueID": "0",
+                                            "value": "HEHE",
+                                            "hex": "",
+                                            "stock": "1",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3178819280",
+                                            "variantUnitValueID": "0",
+                                            "value": "SISI",
+                                            "hex": "",
+                                            "stock": "1",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "2889255815",
+                                            "variantUnitValueID": "0",
+                                            "value": "1SET SEGEL(6PC)",
+                                            "hex": "",
+                                            "stock": "0",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3107494480",
+                                            "variantUnitValueID": "0",
+                                            "value": "DADA",
+                                            "hex": "",
+                                            "stock": "0",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3107494482",
+                                            "variantUnitValueID": "0",
+                                            "value": "QUQU",
+                                            "hex": "",
+                                            "stock": "0",
+                                            "__typename": "pdpProductVariantOption"
+                                        },
+                                        {
+                                            "picture": {
+                                                "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                                "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                                "__typename": "pdpProductVariantPicture"
+                                            },
+                                            "productVariantOptionID": "3163909797",
+                                            "variantUnitValueID": "0",
+                                            "value": "BABA",
+                                            "hex": "",
+                                            "stock": "0",
                                             "__typename": "pdpProductVariantOption"
                                         }
                                     ],
@@ -373,85 +523,22 @@
                             ],
                             "children": [
                                 {
-                                    "productID": "16210692077",
-                                    "price": 1096000,
-                                    "priceFmt": "Rp1.096.000",
+                                    "productID": "14795765253",
+                                    "price": 300000,
+                                    "priceFmt": "Rp300.000",
                                     "slashPriceFmt": "",
                                     "discPercentage": "",
                                     "optionID": [
-                                        3428593351
+                                        2889255814
                                     ],
                                     "optionName": [
-                                        "Biru"
+                                        "1 PC BLINDBOX "
                                     ],
-                                    "productName": "REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Biru",
-                                    "productURL": "https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - 1 PC BLINDBOX ",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-1-pc-blindbox-0c7af",
                                     "picture": {
-                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
-                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/09f239e2-cd27-49bc-a2c3-8061cb600821.jpg",
-                                        "__typename": "pdpProductVariantPicture"
-                                    },
-                                    "stock": {
-                                        "stock": "3",
-                                        "isBuyable": true,
-                                        "stockWordingHTML": "Stok <b style='color:red'>tersisa &lt;5,</b> beli segera!",
-                                        "minimumOrder": "1",
-                                        "maximumOrder": "3",
-                                        "__typename": "pdpProductVariantStock"
-                                    },
-                                    "isCOD": true,
-                                    "isWishlist": false,
-                                    "campaignInfo": {
-                                        "campaignID": "0",
-                                        "campaignType": "0",
-                                        "campaignTypeName": "",
-                                        "campaignIdentifier": 0,
-                                        "background": "",
-                                        "discountPercentage": 0,
-                                        "originalPrice": 0,
-                                        "discountPrice": 0,
-                                        "stock": 0,
-                                        "stockSoldPercentage": 0,
-                                        "startDate": "",
-                                        "endDate": "",
-                                        "endDateUnix": "0",
-                                        "appLinks": "",
-                                        "isAppsOnly": false,
-                                        "isActive": false,
-                                        "hideGimmick": false,
-                                        "isCheckImei": false,
-                                        "minOrder": 0,
-                                        "showStockBar": false,
-                                        "__typename": "pdpProductVariantCampaign"
-                                    },
-                                    "thematicCampaign": {
-                                        "additionalInfo": "",
-                                        "background": "",
-                                        "campaignName": "",
-                                        "icon": "",
-                                        "__typename": "pdpContentSnapshotThematicCampaign"
-                                    },
-                                    "ttsPID": "1730844210197857683",
-                                    "ttsSKUID": "1730844210197923219",
-                                    "__typename": "pdpProductVariantChildren"
-                                },
-                                {
-                                    "productID": "16210692078",
-                                    "price": 1096000,
-                                    "priceFmt": "Rp1.096.000",
-                                    "slashPriceFmt": "",
-                                    "discPercentage": "",
-                                    "optionID": [
-                                        3428593352
-                                    ],
-                                    "optionName": [
-                                        "Hitam"
-                                    ],
-                                    "productName": "REDMI A3 RAM 4+4/128GB - SEGEL BOX GARANSI RESMI 15 BULAN - Hitam",
-                                    "productURL": "https://www.tokopedia.com/xsianstore/redmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197988755",
-                                    "picture": {
-                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
-                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2025/2/8/f1f1281b-e012-4ab5-ac5b-786fb7b83fa1.jpg",
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/a268be8e-b7fd-4f93-b094-bf4cbb80e281.jpg",
                                         "__typename": "pdpProductVariantPicture"
                                     },
                                     "stock": {
@@ -462,7 +549,7 @@
                                         "maximumOrder": "5",
                                         "__typename": "pdpProductVariantStock"
                                     },
-                                    "isCOD": true,
+                                    "isCOD": false,
                                     "isWishlist": false,
                                     "campaignInfo": {
                                         "campaignID": "0",
@@ -494,8 +581,449 @@
                                         "icon": "",
                                         "__typename": "pdpContentSnapshotThematicCampaign"
                                     },
-                                    "ttsPID": "1730844210197857683",
-                                    "ttsSKUID": "1730844210197988755",
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730142585166857585",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "14795765254",
+                                    "price": 3000000,
+                                    "priceFmt": "Rp3.000.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        2889255815
+                                    ],
+                                    "optionName": [
+                                        "1SET SEGEL(6PC)"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - 1SET SEGEL(6PC)",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-1set-segel-6pc-9d1ea",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/98696e24-94e7-4b94-9728-29f1f7870b97.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": false,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730142585166792049",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "15381281504",
+                                    "price": 350000,
+                                    "priceFmt": "Rp350.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3107494482
+                                    ],
+                                    "optionName": [
+                                        "QUQU"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - QUQU",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-ququ-1bfe0",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/ba9f0b7a-e76f-4be8-a238-d6b052541434.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": false,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730240611960849777",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "15381281505",
+                                    "price": 425000,
+                                    "priceFmt": "Rp425.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3107494480
+                                    ],
+                                    "optionName": [
+                                        "DADA"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - DADA",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-dada-e6eb3",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/8885f4f8-e653-4f89-b963-1111627f39a7.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": false,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730240611960980849",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "15381281506",
+                                    "price": 350000,
+                                    "priceFmt": "Rp350.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3107494481
+                                    ],
+                                    "optionName": [
+                                        "ZIZI"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - ZIZI",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-zizi-5f144",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/57e2985f-ef31-4858-a251-13090494560a.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": true,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730240611960915313",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "15528860877",
+                                    "price": 350000,
+                                    "priceFmt": "Rp350.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3163909797
+                                    ],
+                                    "optionName": [
+                                        "BABA"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - BABA",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-baba-26de7",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/16/94128719-074e-42cd-aec2-b1592202cd33.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": false,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730298263278552433",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "15566585168",
+                                    "price": 350000,
+                                    "priceFmt": "Rp350.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3178819279
+                                    ],
+                                    "optionName": [
+                                        "HEHE"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - HEHE",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-hehe-fc225",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/19/343117be-776e-4990-b5fd-026c895713d4.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": true,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730313669999297905",
+                                    "__typename": "pdpProductVariantChildren"
+                                },
+                                {
+                                    "productID": "15566585169",
+                                    "price": 350000,
+                                    "priceFmt": "Rp350.000",
+                                    "slashPriceFmt": "",
+                                    "discPercentage": "",
+                                    "optionID": [
+                                        3178819280
+                                    ],
+                                    "optionName": [
+                                        "SISI"
+                                    ],
+                                    "productName": "Ready Stock Popmart Labubu Have A Seat V.2 ORIGINAL - SISI",
+                                    "productURL": "https://www.tokopedia.com/smilling-baby/ready-stock-popmart-labubu-have-a-seat-v-2-original-sisi-e4b9d",
+                                    "picture": {
+                                        "urlOriginal": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                        "urlThumbnail": "https://images.tokopedia.net/img/cache/150/VqbcmM/2024/10/19/68a08a24-e7dc-4ec9-9741-59c6b8225fda.jpg",
+                                        "__typename": "pdpProductVariantPicture"
+                                    },
+                                    "stock": {
+                                        "stock": "1",
+                                        "isBuyable": true,
+                                        "stockWordingHTML": "<b style='color:red'>Stok terakhir,</b> beli sekarang!",
+                                        "minimumOrder": "1",
+                                        "maximumOrder": "1",
+                                        "__typename": "pdpProductVariantStock"
+                                    },
+                                    "isCOD": false,
+                                    "isWishlist": false,
+                                    "campaignInfo": {
+                                        "campaignID": "0",
+                                        "campaignType": "0",
+                                        "campaignTypeName": "",
+                                        "campaignIdentifier": 0,
+                                        "background": "",
+                                        "discountPercentage": 0,
+                                        "originalPrice": 0,
+                                        "discountPrice": 0,
+                                        "stock": 0,
+                                        "stockSoldPercentage": 0,
+                                        "startDate": "",
+                                        "endDate": "",
+                                        "endDateUnix": "0",
+                                        "appLinks": "",
+                                        "isAppsOnly": false,
+                                        "isActive": false,
+                                        "hideGimmick": false,
+                                        "isCheckImei": false,
+                                        "minOrder": 0,
+                                        "showStockBar": false,
+                                        "__typename": "pdpProductVariantCampaign"
+                                    },
+                                    "thematicCampaign": {
+                                        "additionalInfo": "",
+                                        "background": "",
+                                        "campaignName": "",
+                                        "icon": "",
+                                        "__typename": "pdpContentSnapshotThematicCampaign"
+                                    },
+                                    "ttsPID": "1730142585166726513",
+                                    "ttsSKUID": "1730313669999232369",
                                     "__typename": "pdpProductVariantChildren"
                                 }
                             ],
@@ -521,7 +1049,7 @@
                                 },
                                 {
                                     "title": "Berat Satuan",
-                                    "subtitle": "500 g",
+                                    "subtitle": "1,8 kg",
                                     "applink": "",
                                     "showAtFront": false,
                                     "isAnnotation": false,
@@ -537,58 +1065,26 @@
                                 },
                                 {
                                     "title": "Kategori",
-                                    "subtitle": "Android OS",
-                                    "applink": "https://www.tokopedia.com/p/handphone-tablet/handphone/android-os",
+                                    "subtitle": "Action Figure",
+                                    "applink": "https://www.tokopedia.com/p/mainan-hobi/figure/action-figure",
                                     "showAtFront": false,
                                     "isAnnotation": false,
                                     "__typename": "pdpContentProductDetail"
                                 },
                                 {
                                     "title": "Etalase",
-                                    "subtitle": "Redmi Baru",
-                                    "applink": "https://www.tokopedia.com/xsianstore/etalase/redmi-baru",
+                                    "subtitle": "Semua Etalase",
+                                    "applink": "https://www.tokopedia.com/smilling-baby/etalase/all",
                                     "showAtFront": true,
                                     "isAnnotation": false,
                                     "__typename": "pdpContentProductDetail"
                                 },
                                 {
                                     "title": "Deskripsi",
-                                    "subtitle": "FITUR UNGGULAN\n\nTriple slot untuk dua kartu SIM dan microSD\n\nSistem operasi Android edisi Go yang ringan\n\nLayar 6,71 inci yang lebar dan sudah mendukung refresh rate 90 Hz\n\nPenampilan bodi kece\n\nBaca kelebihan & kekurangan selengkapnya \u2192\n\nSPESIFIKASI\n\nUMUM\n\nTahun Rilis2024Jaringan2G, 3G, 4GSIM CardDual SIM (Slot Khusus)eSIMTidak\n\nBODY\n\nDimensi168.3 x 76.3 x 8.32 mmBerat193 gramKetahanan-Fitur Lainnya- Penutup belakang kaca atau kulit sintetis\n- Berat: 199 g (Midnight Black dan Lake Blue) | 193 g (Olive Green)\n\nLAYAR UTAMA\n\nJenisIPS LCDUkuran6.71 inciRefresh Rate90 HzResolusi720 x 1650 pikselRasio20:9Kerapatan268 ppiProteksiCorning Gorilla Glass 3Fitur Lainnya- Tingkat kecerahan 400 nit\n- Touch sampling rate 120 Hz\n- Rasio layar ke bodi 82,9%\n\nHARDWARE\n\nChipsetMediaTek Helio G36CPUOcta-core (4x2.2 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)GPUPowerVR GE8320\n\nMEMORI\n\nRAM4 GBJenis RAMLPDDR4XMemori Internal128 GBJenis MemorieMMC 5.1Memori EksternalAda (Slot Khusus)\n\nKAMERA UTAMA\n\nJumlah Kamera2Konfigurasi\n\n8 MP (wide),\n\nMP (monochrome),\n\nFiturAF, LED flash, Video: 1080p@30fps\n\nKAMERA DEPAN\n\nJumlah Kamera1Konfigurasi\n\n5 MP (wide), f/2.2\n\nFiturVideo: 1080p@30fps\n\nKONEKTIVITAS\n\nWLANWi-Fi 802.11 a/b/g/n/Bluetooth5.0, A2DP, LEInfraredTidak AdaNFCTidak AdaGPSGPS, A-GPS, GLONASS, GALILEO, BDSUSBTipe-C 2.0, USB On-The-Go\n\nBATERAI\n\nJenisLi-PoKapasitas5000 mAhFiturPengisian 10W\n\nFITUR\n\nOS (Saat Rilis)Android 14 (edisi Go)SensorFingerprint (menyatu dengan tombol power), akselerometer, cahaya, proksimitasJack 3.5mmAdaWarnaMidnight Black, Star BlueFitur Lainnya- Virtual RAM hingga 4 GB\n- Dukungan microSD sampai 1 TB\n- Radio FM\n\n* Harap bertanya terlebih dahulu untuk ketersediaan unit.\n* Harga dapat berubah sewaktu-waktu\n* Untuk berat sudah termasuk packing & belum termasuk packing kayu.\n\nNote:\n-Toko buka setiap saat hari\n-Pengiriman mulai dari pukul 12.00 WIB s/d 17.00 WIB\n\nHappy Shopping :)\n",
+                                    "subtitle": "LABUBU HAVE A  SEAT VOLUME 2  ORIGINAL BOX FOIL \nBLIND BOX \n1 BOX \n\nHarga Cuci Gudang (Habisin Stok)!\n\nDijamin Original 100%\n\n\ufe0fNOTE:  \n- CARA CEK KEASLIAN SILAHKAN SCAN BARCODE POPMART PADA DUS LABUBU DAN VERIFIKASI CODE (GOSOK BARCODE HOLOGRAM)\n- JADI KK BISA LANGSUNG GAS DIORDER SEBELUM KEHABISAN YA \n",
                                     "applink": "",
                                     "showAtFront": true,
                                     "isAnnotation": false,
-                                    "__typename": "pdpContentProductDetail"
-                                },
-                                {
-                                    "title": "Cara Klaim",
-                                    "subtitle": "Hubungi Merek",
-                                    "applink": "",
-                                    "showAtFront": false,
-                                    "isAnnotation": true,
-                                    "__typename": "pdpContentProductDetail"
-                                },
-                                {
-                                    "title": "Periode Garansi",
-                                    "subtitle": "12 Bulan",
-                                    "applink": "",
-                                    "showAtFront": false,
-                                    "isAnnotation": true,
-                                    "__typename": "pdpContentProductDetail"
-                                },
-                                {
-                                    "title": "Status Sinyal",
-                                    "subtitle": "Sinyal Aktif",
-                                    "applink": "",
-                                    "showAtFront": false,
-                                    "isAnnotation": true,
-                                    "__typename": "pdpContentProductDetail"
-                                },
-                                {
-                                    "title": "Tipe Garansi",
-                                    "subtitle": "Garansi Merek (Resmi)",
-                                    "applink": "",
-                                    "showAtFront": false,
-                                    "isAnnotation": true,
                                     "__typename": "pdpContentProductDetail"
                                 }
                             ],
@@ -619,54 +1115,156 @@
                         {
                             "data": [
                                 {
-                                    "productID": "16210692077",
+                                    "productID": "14795765253",
                                     "warehouse_info": {
-                                        "warehouse_id": "300404",
+                                        "warehouse_id": "13068202",
                                         "is_fulfillment": false,
-                                        "district_id": "2213",
-                                        "postal_code": "16123",
-                                        "geolocation": "MbeLP6gmUPbE4U9Qzv1TBks6iuu7SIcWIb1ahRl5iVA/u+97pQIa2/+dI9UnIb1y",
-                                        "city_name": "Kota Bogor",
-                                        "ttsWarehouseID": "7394402142574397200",
-                                        "__typename": "warehouseInfo"
-                                    },
-                                    "useBOVoucher": false,
-                                    "isCOD": true,
-                                    "metadata": "{\"cd\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"tcd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}],\"td\":{},\"pri\":16210692076,\"tsi\":7495809407130372499,\"pse\":1,\"mo\":1}",
-                                    "__typename": "pdpDataComponentShipmentV4Data"
-                                },
-                                {
-                                    "productID": "16210692078",
-                                    "warehouse_info": {
-                                        "warehouse_id": "300404",
-                                        "is_fulfillment": false,
-                                        "district_id": "2213",
-                                        "postal_code": "16123",
-                                        "geolocation": "60JWyY8rZMLtEkp5k2qK32N8wRZbuM1zYFgkWn9Grrzhk7tVBDaHJkmhC1pO7Cpc",
-                                        "city_name": "Kota Bogor",
-                                        "ttsWarehouseID": "7394402142574397200",
-                                        "__typename": "warehouseInfo"
-                                    },
-                                    "useBOVoucher": false,
-                                    "isCOD": true,
-                                    "metadata": "{\"cd\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"tcd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}],\"td\":{},\"pri\":16210692076,\"tsi\":7495809407130372499,\"pse\":1,\"mo\":1}",
-                                    "__typename": "pdpDataComponentShipmentV4Data"
-                                },
-                                {
-                                    "productID": "16210692076",
-                                    "warehouse_info": {
-                                        "warehouse_id": "300404",
-                                        "is_fulfillment": false,
-                                        "district_id": "2213",
-                                        "postal_code": "16123",
-                                        "geolocation": "BCTBUeeFZyQu9QiQBIE8oabMAPmRKv/vg8tlHq3dcfd1Z7zc/3wrX5QKxq8VJBrM",
-                                        "city_name": "Kota Bogor",
-                                        "ttsWarehouseID": "7394402142574397200",
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "FkwkW4IfGFlRZ14WQiaz63LcawIxwnnm13mjOsI/gFXII+o4hfqWi1AfJeBN+v4/StkDrJTmNRcvi7L/7+9mYA==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
                                         "__typename": "warehouseInfo"
                                     },
                                     "useBOVoucher": false,
                                     "isCOD": false,
-                                    "metadata": "{\"cd\":[{\"name\":\"Handphone \\u0026 Tablet\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet\",\"id\":65},{\"name\":\"Handphone\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone\",\"id\":24},{\"name\":\"Android OS\",\"burl\":\"https://www.tokopedia.com/p/handphone-tablet/handphone/android-os\",\"id\":3054}],\"tcd\":[{\"name\":\"Phones \\u0026 Electronics\",\"id\":601739},{\"name\":\"Phones \\u0026 Tablets\",\"id\":995976},{\"name\":\"Mobile Phones\",\"id\":602097}],\"td\":{},\"pri\":16210692076,\"tsi\":7495809407130372499,\"pse\":1,\"mo\":1}",
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "14795765254",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "rKsrvLKxjxaHvBGw4N50nAgr/gS27bZ6P6YjrEhr4w4YgCahAicsyai4mwf2vQ27PiiqXPnxsd8JM//i0Dkx9Q==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":3,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "15381281504",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "EsMf7i5j9MfoD1R2ZfJZJYd9fD10t/ATePk7gNQDt4XpNWvtlq/rI4g7b68hOsxgq92LE849gPqtdciKEJkiWQ==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":3,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "15381281505",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "VTZ83Nq29P4VImEJRaFxWOfBk/YfKWJxUdqG9GBcLmLM/eYiwAfwvKxBv0Cq5vpTgueOCKsZ8WT5iw9htTW1Zg==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":3,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "15381281506",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "NXoTuimpeX0pU06FxEyBK9xFM7DnhPdfDB4lyyMvFbvlbkm06wNRQzF8Wd7LFBph32y0ArU/Do2RhDgKhRdp8A==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "15528860877",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "Iv+s6KVDtQKqetgMKApdRNjMTbXFAHisGU78Z+qnHl8tz/Nkd4zylkNviFw9LBG8vkxH/OlX7i8GJQEskROMQw==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":3,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "15566585168",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "OHpSHfmeFxSzuJbzz6MnO3keVZQod7ZjcPvWuU9/rms9RenHIJph8t5b+pVGsfht6W4Y62f9hsG/qiflXKE8Sw==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "15566585169",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "04liW2oDxGpw959l1OxhDSuJd7SFwf/f8cQATJe8E9Z9FbgyuRSy7oM3ZPkYSKO6BtBwFETxdMDiOpkM+v1/yQ==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":1,\"mo\":1}",
+                                    "__typename": "pdpDataComponentShipmentV4Data"
+                                },
+                                {
+                                    "productID": "14795765252",
+                                    "warehouse_info": {
+                                        "warehouse_id": "13068202",
+                                        "is_fulfillment": false,
+                                        "district_id": "2260",
+                                        "postal_code": "11230",
+                                        "geolocation": "Ous2tIaqL5e5F8IPA6mhnJBcMqywfGosmWBOz+XAk0IGrPXcyeI10MNo0+rgB3ebrB8O+hVF+p0aTDaIm59BKA==",
+                                        "city_name": "Jakarta Barat",
+                                        "ttsWarehouseID": "7395531235840165633",
+                                        "__typename": "warehouseInfo"
+                                    },
+                                    "useBOVoucher": false,
+                                    "isCOD": false,
+                                    "metadata": "{\"cd\":[{\"name\":\"Mainan \\u0026 Hobi\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi\",\"id\":55},{\"name\":\"Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure\",\"id\":12},{\"name\":\"Action Figure\",\"burl\":\"https://www.tokopedia.com/p/mainan-hobi/figure/action-figure\",\"id\":471}],\"tcd\":[{\"name\":\"Toys \\u0026 Hobbies\",\"id\":604206},{\"name\":\"Classic \\u0026 Novelty Toys\",\"id\":860296},{\"name\":\"Action \\u0026 Toy Figures\",\"id\":869256}],\"td\":{},\"pri\":14795765252,\"tsi\":7495818283284466033,\"pse\":1,\"mo\":1}",
                                     "__typename": "pdpDataComponentShipmentV4Data"
                                 }
                             ],
@@ -707,7 +1305,7 @@
                             "icon": "https://images.tokopedia.net/pdp/info/icon/pdp-paylatercicilan@3x.png",
                             "title": "Paylater & Cicilan",
                             "isApplink": true,
-                            "applink": "tokopedia://fintech/paylater?category=Android+OS&price=1096000.000000&productID=16210692077&productURL=https%3A%2F%2Fwww.tokopedia.com%2Fxsianstore%2Fredmi-a3-ram-4-4-128gb-segel-box-garansi-resmi-15-bulan-1730844210197923219",
+                            "applink": "tokopedia://fintech/paylater?category=Action+Figure&price=300000.000000&productID=14795765253&productURL=https%3A%2F%2Fwww.tokopedia.com%2Fsmilling-baby%2Fready-stock-popmart-labubu-have-a-seat-v-2-original-1-pc-blindbox-0c7af",
                             "content": [],
                             "__typename": "pdpDataInfo"
                         }

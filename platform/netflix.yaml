@@ -1,0 +1,7 @@
+netflix:
+  library: cloudscraper
+  movie: 
+    url: "https://web.prod.cloud.netflix.com/graphql"
+    request_type: 'post'
+    insert_payload: True
+    insert_cookies: True

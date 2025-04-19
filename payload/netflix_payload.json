@@ -1,0 +1,24 @@
+{
+    "operationName": "DetailModal",
+    "variables": {
+        "opaqueImageFormat": "WEBP",
+        "transparentImageFormat": "WEBP",
+        "videoMerchEnabled": "true",
+        "fetchPromoVideoOverride": "false",
+        "hasPromoVideoOverride": "false",
+        "promoVideoId": 0,
+        "videoMerchContext": "BROWSE",
+        "isLiveEpisodic": "false",
+        "artworkContext": {
+            "groupLoc": "eyJrLnR5cGUiOiJjb250aW51ZXdhdGNoaW5nIn0."
+        },
+        "textEvidenceUiContext": "ODP",
+        "unifiedEntityId": "Video:70300472"
+    },
+    "extensions": {
+        "persistedQuery": {
+            "id": "ecdd7d08-5135-458c-a111-0e9cb3b6ac21",
+            "version": 102
+        }
+    }
+}
