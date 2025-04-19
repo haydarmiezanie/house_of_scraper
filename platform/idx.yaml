@@ -1,0 +1,16 @@
+idx:
+  library: cloudscraper
+  library_settings:
+    browser:
+      browser: 'chrome'
+      platform: 'windows'
+      desktop: True
+  broker: 
+    url: 'https://www.idx.co.id/primary/TradingSummary/GetBrokerSummary?length=9999&start=0'
+    request_type: 'get'
+  stocks:
+    url: 'https://www.idx.co.id/primary/TradingSummary/GetStockSummary?length=9999&start=0'
+    request_type: 'get'
+  index: 
+    url: 'https://www.idx.co.id/primary/TradingSummary/GetIndexSummary?length=9999&start=0'
+    request_type: 'get'

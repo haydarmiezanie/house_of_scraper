@@ -1,0 +1,56 @@
+linkedin:
+  library: requests
+  people:
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(PEOPLE))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  content: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(CONTENT)))),count:50)&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  companies: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(COMPANIES))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  products: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(PRODUCTS))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  groups: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(GROUPS))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  events: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(EVENTS))),includeFiltersInResponse:false,orderBy:LATEST))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  learning: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(LEARNING))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  schools: 
+    url: 'https://www.linkedin.com/voyager/api/graphql?includeWebMetadata=true&variables=(start:0,origin:SWITCH_SEARCH_VERTICAL,query:(flagshipSearchIntent:SEARCH_SRP,queryParameters:List((key:resultType,value:List(SCHOOLS))),includeFiltersInResponse:false))&queryId=voyagerSearchDashClusters.9c3177ca40ed191b452e1074f52445a8'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  job_list:
+    url: 'https://www.linkedin.com/voyager/api/voyagerJobsDashJobCards?decorationId=com.linkedin.voyager.dash.deco.jobs.search.JobSearchCardsCollection-218&count=50&q=jobSearch&query=(origin:JOB_COLLECTION_PAGE_SEARCH_BUTTON,locationUnion:(geoId:102478259),spellCorrectionEnabled:true)&start=0'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+  job:
+    url: 'https://www.linkedin.com/voyager/api/jobs/jobPostings/{url_id}?decorationId=com.linkedin.voyager.deco.jobs.web.shared.WebFullJobPosting-65&topN=1&topNRequestedFlavors=List(TOP_APPLICANT,IN_NETWORK,COMPANY_RECRUIT,SCHOOL_RECRUIT,HIDDEN_GEM,ACTIVELY_HIRING_COMPANY)'
+    request_type: 'get'
+    insert_headers: True
+    insert_cookies: True
+    loop_scraper: True
+    main_list: 'job_list'
+    cleanup_list: '["metadata"]["jobCardPrefetchQueries"][0]["prefetchJobPostingCardUrns"]'
+    additional_cleanup: True

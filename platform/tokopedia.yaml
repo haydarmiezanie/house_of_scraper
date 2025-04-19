@@ -1,0 +1,12 @@
+tokopedia:
+  library: cloudscraper
+  product: 
+    url: "https://gql.tokopedia.com/graphql/PDPGetLayoutQuery"
+    request_type: 'post'
+    insert_payload: True
+    insert_headers: True
+  shop:
+    url: "https://gql.tokopedia.com/graphql/ShopPageGetHeaderLayout"
+    request_type: 'post'
+    insert_payload: True
+    insert_headers: True

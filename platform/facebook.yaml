@@ -1,0 +1,9 @@
+facebook:
+  library: requests
+  profile: 
+    url: "https://www.facebook.com/api/graphql/"
+    request_type: 'post'
+    insert_data: True
+    insert_headers: True
+    insert_cookies: True
+    result_transform: True

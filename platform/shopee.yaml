@@ -1,0 +1,15 @@
+shopee:
+  library: cloudscraper
+  library_settings:
+    browser:
+      browser: 'chrome'
+      platform: 'android'
+      desktop: False
+  product: 
+    url: 'https://shopee.co.id/product/318201981/11251238244'
+    request_type: 'get'
+    result_transform: True
+  shop: 
+    url: 'https://shopee.co.id/herbalstore_naturindo'
+    request_type: 'get'
+    result_transform: True
