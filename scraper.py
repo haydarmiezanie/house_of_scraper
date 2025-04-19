@@ -1,5 +1,8 @@
 import argparse, json, yaml, os, importlib, re
-from typing import Optional, List, Union, Dict, Any, Callable
+from typing import Optional, List, Union, Dict, Any
+from helpers.http_helpers import make_request
+from helpers.load_optional import load_optional
+from helpers.load_config import load_config
 def create_scraper(library, options=None):
     libraries = {
         'cloudscraper': 'cloudscraper',
@@ -20,21 +23,6 @@ def create_scraper(library, options=None):
         return module.create_scraper(**(options or {}))
     elif library == 'requests':
         return module.Session()
-    
-
-def load_config(filepath):
-    _, ext = os.path.splitext(filepath.lower())
-
-    try:
-        with open(filepath, 'r') as f:
-            if ext in ['.yaml', '.yml']:
-                return yaml.safe_load(f)
-            elif ext == '.json':
-                return json.load(f)
-            else:
-                raise ValueError("Unsupported file format. Only .json and .yaml/.yml are supported.")
-    except (yaml.YAMLError, json.JSONDecodeError, ValueError, FileNotFoundError) as e:
-        raise RuntimeError(f"Error loading config file: {e}") from e
 
 def get_nested_value(d, path):
     # Parse the path into components
@@ -98,47 +86,39 @@ def generate_request(
     # Pre-load transformation modules if specified
     transform_fn = None
     cleanup_fn = None
-    
+
     if result_transform:
         try:
             module = importlib.import_module(f"transform_code.{result_transform}")
             transform_fn = module.transform
         except ImportError as e:
-            raise ImportError(f"Failed to load transform module: {e}")
+            raise ImportError(f"Failed to load transform module: {e}") from e
 
     if additional_cleanup:
         try:
             module = importlib.import_module(f"cleanup_code.{additional_cleanup}")
             cleanup_fn = module.cleanup
         except ImportError as e:
-            raise ImportError(f"Failed to load cleanup module: {e}")
+            raise ImportError(f"Failed to load cleanup module: {e}") from e
 
-    def make_request(url: str) -> Any:
-        """Inner function to handle single request"""
-        try:
-            if request_type == 'GET':
-                response = scraper.get(url, headers=headers, cookies=cookies, timeout=timeout)
-            else:
-                response = scraper.post(url, headers=headers, data=data, json=payload, cookies=cookies, timeout=timeout)
-            
-            response.raise_for_status()
-            
-            result = transform_fn(response) if transform_fn else response.json()
-            return result
-            
-        except Exception as e:
-            raise ValueError(f"Request failed: {str(e)}")
-
-    if loop_scraper:
-        if not item_list:
-            raise ValueError("item_list required when loop_scraper=True")
-            
-        return [
-            make_request(url.format(url_id=cleanup_fn(item) if cleanup_fn else item))
-            for item in item_list
-        ]
-    else:
-        return make_request(url)
+    if not loop_scraper:
+        return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
+    if not item_list:
+        raise ValueError("item_list required when loop_scraper=True")
+    return [
+        make_request(
+            scraper,
+            request_type,
+            url.format(url_id=cleanup_fn(item) if cleanup_fn else item),
+            headers,
+            data,
+            payload,
+            cookies,
+            timeout,
+            transform_fn
+        )
+        for item in item_list
+    ]
 
 def save_result(
     data: Any,
@@ -191,8 +171,10 @@ def main():
 
     try:
         main_module, sub_module = args.module.split('.', 1)
-    except ValueError:
-        raise ValueError("The '--module' argument must be in the format 'main.sub'")
+    except ValueError as e:
+        raise ValueError(
+            "The '--module' argument must be in the format 'main.sub'"
+        ) from e
 
     config = load_config(f"platform/{main_module}.yaml")
     module_config = config.get(main_module, {})
@@ -203,17 +185,16 @@ def main():
         options=module_config.get('library_settings')
     )
 
-    # Load optional files conditionally
-    def load_optional(flag, path):
-        return load_config(path) if sub_config.get(flag) else None
+    data = load_optional(sub_config,'insert_data', f"data/{main_module}_data.json")
+    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")
+    cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
+    headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
 
-    data = load_optional('insert_data', f"data/{main_module}_data.json")
-    payload = load_optional('insert_payload', f"payload/{main_module}_payload.json")
-    cookies = load_optional('insert_cookies', f"cookies/{main_module}_cookies.json")
-    headers = load_optional('insert_headers', f"headers/{main_module}_headers.json")
+    transform_value = sub_config.get('result_transform')
+    transform = f"{main_module}_transform" if transform_value is True else transform_value
 
-    transform = f"{main_module}_transform" if sub_config.get('result_transform') else sub_config.get('result_transform')
-    additional_cleanup = f"{main_module}_cleanup" if sub_config.get('additional_cleanup') else sub_config.get('additional_cleanup')
+    additional_cleanup_value = sub_config.get('additional_cleanup')
+    additional_cleanup = f"{main_module}_cleanup" if additional_cleanup_value is True else additional_cleanup_value
 
     if not sub_config.get('loop_scraper'):
         get_data = generate_request(
