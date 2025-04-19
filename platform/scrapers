@@ -1,0 +1,4 @@
+from house_of_scraper.scrapers.example_scraper import ExampleScraper
+
+scraper = ExampleScraper()
+scraper.run()
