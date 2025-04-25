@@ -1,17 +1,35 @@
-import argparse, json, yaml, os, importlib, re
 from typing import Optional, List, Union, Dict, Any
-from helpers.http_helpers import make_request
-from helpers.load_optional import load_optional
-from helpers.load_config import load_config
+
 def create_scraper(library, options=None):
+    """Creates a web scraper instance based on the specified library.
+
+    This function supports creating scrapers using either 'cloudscraper' or 'requests'. It handles importing the necessary library and creating the scraper instance with provided options.
+
+    Args:
+        library: The name of the scraping library ('cloudscraper' or 'requests').
+        options: Optional dictionary of settings to pass to the scraper's constructor.
+
+    Returns:
+        A scraper instance (either a cloudscraper object or a requests.Session object).
+
+    Raises:
+        ValueError: If the specified library is not supported.
+        ImportError: If the specified library is not installed.
+    """
+    # Define supported libraries and their import paths
+    import importlib
+
+    # Define the mapping of library names to their import paths
     libraries = {
         'cloudscraper': 'cloudscraper',
         'requests': 'requests'
     }
 
+    # Check if the specified library is supported
     if library not in libraries:
         raise ValueError(f"Unsupported library: {library}. Supported libraries are: {', '.join(libraries.keys())}.")
 
+    # Attempt to import the specified library
     try:
         module = importlib.import_module(libraries[library])
     except ImportError as e:
@@ -19,15 +37,32 @@ def create_scraper(library, options=None):
             f"{libraries[library]} module is not installed. Please install it using 'pip install {libraries[library]}'."
         ) from e
 
+    # Create the scraper instance based on the specified library
     if library == 'cloudscraper':
         return module.create_scraper(**(options or {}))
     elif library == 'requests':
         return module.Session()
 
 def get_nested_value(d, path):
+    """Retrieves a nested value from a dictionary using a string path.
+
+    This function extracts a value from a nested dictionary 'd' using 'path' which describes the nested keys or indices. The path uses square brackets for indexing and supports both string keys and numeric indices.
+
+    Args:
+        d: The nested dictionary.
+        path: The string path to the desired value (e.g., "[results][0][name]").
+
+    Returns:
+        The value at the specified path.
+
+    Raises:
+        KeyError: If a key or index in the path is not found.
+    """
+    import re
     # Parse the path into components
     parts = re.findall(r'\[(.*?)\]', path)
 
+    # If the path is empty, return the original dictionary
     current = d
     for part in parts:
         # Handle both string keys and numeric indices
@@ -38,7 +73,7 @@ def get_nested_value(d, path):
                 key = int(part)  # Try to convert to integer
             except ValueError:
                 key = part  # Fall back to string
-
+        
         try:
             current = current[key]
         except (KeyError, IndexError) as e:
@@ -59,7 +94,9 @@ def generate_request(
     item_list: Optional[list] = None,
     additional_cleanup: Optional[str] = None,
     timeout: int = 10
-) -> Union[List[Any], Dict[str, Any], Any]:
+    ) -> Union[List[Any], Dict[str, Any], Any]:
+    import importlib
+    from helpers.http_helpers import make_request
     """Generate and process HTTP requests with optional transformations.
     
     Args:
@@ -79,6 +116,7 @@ def generate_request(
     Returns:
         Processed response(s) as JSON or transformed data
     """
+    # Validate request type
     request_type = request_type.upper()
     if request_type not in ('GET', 'POST'):
         raise ValueError("Request type must be 'GET' or 'POST'")
@@ -87,6 +125,7 @@ def generate_request(
     transform_fn = None
     cleanup_fn = None
 
+    # Check if result_transform is provided and import the module
     if result_transform:
         try:
             module = importlib.import_module(f"transform_code.{result_transform}")
@@ -94,6 +133,7 @@ def generate_request(
         except ImportError as e:
             raise ImportError(f"Failed to load transform module: {e}") from e
 
+    # Check if additional_cleanup is provided and import the module
     if additional_cleanup:
         try:
             module = importlib.import_module(f"cleanup_code.{additional_cleanup}")
@@ -101,6 +141,7 @@ def generate_request(
         except ImportError as e:
             raise ImportError(f"Failed to load cleanup module: {e}") from e
 
+    # If loop_scraper is enabled, ensure item_list is provided
     if not loop_scraper:
         return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
@@ -127,7 +168,7 @@ def save_result(
     result_dir: str = None,
     indent: int = None,
     verbose: bool = True
-) -> str:
+    ) -> str:
     """Save data to JSON file in organized directory structure.
     
     Args:
@@ -141,6 +182,7 @@ def save_result(
     Returns:
         Absolute path to the saved file
     """
+    import json, os
     # Determine output directory
     base_dir = result_dir if result_dir is not None else os.path.join(os.getcwd(), 'result')
 
@@ -165,10 +207,21 @@ def save_result(
 
 
 def main():
+    """Main execution function for the scraper.
+
+    This function parses command-line arguments, loads configuration, creates a scraper instance, makes requests, and saves the results. It supports both single requests and looped requests based on configuration settings.
+    """
+    # Import necessary modules
+    import argparse
+    from helpers.load_optional import load_optional
+    from helpers.load_config import load_config
+
+    # Parse command-line arguments
     parser = argparse.ArgumentParser()
     parser.add_argument('--module', help='The Python module to run', required=True)
     args = parser.parse_args()
 
+    # Validate module argument
     try:
         main_module, sub_module = args.module.split('.', 1)
     except ValueError as e:
@@ -176,26 +229,28 @@ def main():
             "The '--module' argument must be in the format 'main.sub'"
         ) from e
 
+    # Load configuration
     config = load_config(f"platform/{main_module}.yaml")
     module_config = config.get(main_module, {})
     sub_config = module_config.get(sub_module, {})
 
+    # Check if the module is enabled
     scraper = create_scraper(
         library=module_config['library'],
         options=module_config.get('library_settings')
     )
 
+    # Check if the module is enabled
     data = load_optional(sub_config,'insert_data', f"data/{main_module}_data.json")
     payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")
     cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
-
     transform_value = sub_config.get('result_transform')
     transform = f"{main_module}_transform" if transform_value is True else transform_value
-
     additional_cleanup_value = sub_config.get('additional_cleanup')
     additional_cleanup = f"{main_module}_cleanup" if additional_cleanup_value is True else additional_cleanup_value
 
+    
     if not sub_config.get('loop_scraper'):
         get_data = generate_request(
             scraper=scraper,

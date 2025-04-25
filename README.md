@@ -1,37 +1,64 @@
-# House of Scraper
-### A Python-based tool for efficient web data extraction
+# 🏠 House of Scraper 🚀
 
-## Overview
-House of Scraper is a Python-based web scraping tool designed to extract data from various websites efficiently. Leveraging libraries such as `cloudscraper`, `beautifulsoup` and `requests`, which helps bypass anti-bot measures and captchas, this tool simplifies the process of collecting and processing web data.
+**Your Swiss Army Knife for Web Scraping & Automation!**  
 
-## Features
+House of Scraper is a powerful Python-based toolkit designed to simplify web scraping, automation, and data extraction. Whether you're a developer, data scientist, or hobbyist, this repository provides ready-to-use scripts for scraping popular websites like **Netflix, Linkedin, Tiktok, and more!**  
 
-- **Flexible Targeting**: Customize the scraper to extract specific elements from web pages.
-- **JSON Export**: Save scraped data into JSON files for easy analysis and integration.
-- **Error Handling**: Robust mechanisms to handle exceptions and ensure continuous operation.
 
-## Installation
+## 🌟 Features  
 
-1. **Clone the Repository**:
+✅ **Multi-Platform Support**: Scrape property listings, job postings, and product data from various websites.  
+✅ **Easy-to-Use**: Pre-built scripts with clear instructions—just run and extract!  
+✅ **Customizable**: Modify scripts to fit your specific scraping needs.  
+✅ **Automation Ready**: Integrate with workflows for scheduled scraping.  
+✅ **Data Export**: Save scraped data in semi structured formats (JSON).  
+
+## ⚡ Quick Start  
+
+### Prerequisites  
+- Python 3.8+  
+- Libraries: `requests`, `BeautifulSoup`, `pandas`, `cloudscraper`  
+
+### Installation  
+1. Clone the repo:  
    ```bash
    git clone https://github.com/haydarmiezanie/house_of_scraper.git
-2. **Install Package**:
+   cd house_of_scraper
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3. **Running Code**:
+3. Run a Scraper (example for tokopedia):
    ```bash
-   py -m scraper --module "Folder.sub_folder"
-   ```
-   The `--module` argument specifies the Python module path where your scraping logic is implemented. This is necessary for the tool to locate and execute the scraping code. Replace `"Folder.sub_folder"` with the actual module path in your project.
-   Example:
-   ```bash
-   py -m scraper --module "IDX.stocks"
-   ```
-Check the result in: `/result` (this directory is automatically created by the tool if it does not already exist).
-   
+   py -m scraper --module "tokopedia.shop"
+## 🛠 Customization
+Each script is modular and adjustable:
+- **Modify URLs**: Change the target website URL in the yaml.
+- **Add Data Fields**: Extract additional data by editing the parsing logic.
 
-## Any Issue ?
+[Example Custom](https://github.com/haydarmiezanie/house_of_scraper/blob/master/platform/linkedin.yaml)
 
-If you encounter any issues with the code, feel free to reach out:
-- GitHub Issues: [Open an issue](https://github.com/haydarmiezanie/house_of_scraper/issues)
-- LinkedIn: [Haydar Miezanie](https://www.linkedin.com/in/haydar-miezanie-abdul-jamil-916302162/)
+## 📂 Data Output
+Scraped data is saved in `/result` as:
+- JSON (for APIs/databases)
+
+[Example Output](https://github.com/haydarmiezanie/house_of_scraper/blob/master/result/TOKOPEDIA_shop.json)
+
+## 🤖 Ethical Scraping & Legal Note
+**⚠ Use responsibly!**
+- Respect robots.txt and website terms.
+- Add delays (time.sleep()) to avoid overwhelming servers.
+
+## 💬 Need Help?
+Got questions or suggestions? Open an [**Issue**](https://github.com/haydarmiezanie/house_of_scraper/issues) or reach out:
+- 📧 Email: haydarsaja@gmail.com
+- 🐦 Linkedin: [Haydar Miezanie Abdul Jamil](https://www.linkedin.com/in/haydar-miezanie-abdul-jamil-916302162/)
+
+## 📜 License
+MIT © Haydar Miezanie Abdul Jamil – Free for personal and commercial use.
+
+### How to Download This File:  
+1. Copy the entire text above.  
+2. Save it as `README.md` in your repository.  
+3. Commit and push!  
+
+Let me know if you'd like any modifications! 🎯
