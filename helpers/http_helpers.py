@@ -1,3 +1,7 @@
+from helpers.logger import setup_logger
+
+logger = setup_logger(__name__)
+
 def make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn=None):
     """Makes an HTTP request using the provided scraper.
 
@@ -30,4 +34,4 @@ def make_request(scraper, request_type, url, headers, data, payload, cookies, ti
         response.raise_for_status()
         return transform_fn(response) if transform_fn else response.json()
     except Exception as e:
-        raise ValueError(f"Request failed: {str(e)}") from e
+        raise logger.critical(f"Request failed: {str(e)}") from e

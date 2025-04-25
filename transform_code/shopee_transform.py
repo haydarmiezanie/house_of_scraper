@@ -1,3 +1,7 @@
+from helpers.logger import setup_logger
+
+logger = setup_logger(__name__)
+
 def transform(response):
     """Extracts JSON data from a Shopee response.
 
@@ -24,6 +28,6 @@ def transform(response):
     
     # If the script tag is not found, raise a ValueError
     if script_tag is None:
-        raise ValueError("No script tag found with type 'text/mfe-initial-data'")
+        raise logger.error("No script tag found with type 'text/mfe-initial-data'")
     
     return json.loads(script_tag.text.strip())

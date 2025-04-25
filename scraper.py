@@ -1,5 +1,7 @@
 from typing import Optional, List, Union, Dict, Any
+from helpers.logger import setup_logger
 
+logger = setup_logger(__name__)
 def create_scraper(library, options=None):
     """Creates a web scraper instance based on the specified library.
 
@@ -33,7 +35,7 @@ def create_scraper(library, options=None):
     try:
         module = importlib.import_module(libraries[library])
     except ImportError as e:
-        raise ImportError(
+        raise logger.error(
             f"{libraries[library]} module is not installed. Please install it using 'pip install {libraries[library]}'."
         ) from e
 
@@ -77,7 +79,7 @@ def get_nested_value(d, path):
         try:
             current = current[key]
         except (KeyError, IndexError) as e:
-            raise KeyError(f"Key '{key}' not found in the nested structure.") from e
+            raise logger.error(f"Key '{key}' not found in the nested structure.") from e
 
     return current
 
@@ -119,7 +121,7 @@ def generate_request(
     # Validate request type
     request_type = request_type.upper()
     if request_type not in ('GET', 'POST'):
-        raise ValueError("Request type must be 'GET' or 'POST'")
+        raise logger.warning("Request type must be 'GET' or 'POST'")
 
     # Pre-load transformation modules if specified
     transform_fn = None
@@ -131,7 +133,7 @@ def generate_request(
             module = importlib.import_module(f"transform_code.{result_transform}")
             transform_fn = module.transform
         except ImportError as e:
-            raise ImportError(f"Failed to load transform module: {e}") from e
+            raise logger.error(f"Failed to load transform module: {e}") from e
 
     # Check if additional_cleanup is provided and import the module
     if additional_cleanup:
@@ -139,13 +141,13 @@ def generate_request(
             module = importlib.import_module(f"cleanup_code.{additional_cleanup}")
             cleanup_fn = module.cleanup
         except ImportError as e:
-            raise ImportError(f"Failed to load cleanup module: {e}") from e
+            raise logger.error(f"Failed to load cleanup module: {e}") from e
 
     # If loop_scraper is enabled, ensure item_list is provided
     if not loop_scraper:
         return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
-        raise ValueError("item_list required when loop_scraper=True")
+        raise logger.warning("item_list required when loop_scraper=True")
     return [
         make_request(
             scraper,
@@ -198,10 +200,10 @@ def save_result(
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=indent, ensure_ascii=False)
     except (IOError, TypeError) as e:
-        raise RuntimeError(f"Failed to save data: {str(e)}") from e
+        raise logger.error(f"Failed to save data: {str(e)}") from e
 
     if verbose:
-        print(f"Successfully saved {sub_module} data to {os.path.abspath(filepath)}")
+        logger.info(f"Successfully saved {sub_module} data to {os.path.abspath(filepath)}")
 
     return filepath
 
@@ -225,7 +227,7 @@ def main():
     try:
         main_module, sub_module = args.module.split('.', 1)
     except ValueError as e:
-        raise ValueError(
+        raise logger.error(
             "The '--module' argument must be in the format 'main.sub'"
         ) from e
 
@@ -245,10 +247,10 @@ def main():
     payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")   
     cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
     if cookies is not None and "FIND THIS ITEM IN COOKIES" in cookies.values():
-        raise ValueError(f"The cookies is not configure correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
+        raise logger.error(f"The cookies is not configure correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
     if headers is not None and "FIND THIS ITEM IN HEADERS" in headers.values():
-        raise ValueError(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
+        raise logger.error(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
     transform_value = sub_config.get('result_transform')
     transform = f"{main_module}_transform" if transform_value is True else transform_value
     additional_cleanup_value = sub_config.get('additional_cleanup')
