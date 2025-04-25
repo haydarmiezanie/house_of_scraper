@@ -2,3 +2,5 @@ cloudscraper
 requests
 beautifulsoup4
 colorama
+pytest
+pyyaml
