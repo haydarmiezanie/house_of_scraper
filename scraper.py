@@ -242,9 +242,13 @@ def main():
 
     # Check if the module is enabled
     data = load_optional(sub_config,'insert_data', f"data/{main_module}_data.json")
-    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")
+    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")   
     cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
+    if cookies is not None and "FIND THIS ITEM IN COOKIES" in cookies.values():
+        raise ValueError(f"The cookies is not configure correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
+    if headers is not None and "FIND THIS ITEM IN HEADERS" in headers.values():
+        raise ValueError(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
     transform_value = sub_config.get('result_transform')
     transform = f"{main_module}_transform" if transform_value is True else transform_value
     additional_cleanup_value = sub_config.get('additional_cleanup')
