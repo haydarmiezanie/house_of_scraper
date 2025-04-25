@@ -1,9 +1,9 @@
 {
-    "authorization": "YOUR AUTHORIZATION (Bearer)",
-    "x-csrf-token": "YOUR CSRF TOKEN",
+    "authorization": "FIND THIS ITEM IN HEADERS",
+    "x-csrf-token": "FIND THIS ITEM IN HEADERS",
     "x-twitter-active-user": "no",
     "x-twitter-auth-type": "OAuth2Session",
     "x-twitter-client-language": "en",
-    "cookie": "YOUR COOKIES",
+    "cookie": "FIND THIS ITEM IN HEADERS",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 }

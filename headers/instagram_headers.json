@@ -1,6 +1,6 @@
 {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     "X-Requested-With": "XMLHttpRequest",
-    "X-CSRFToken": "YOUR CSRF TOKEN",
-    "X-Ig-App-Id":"YOUR IG APP ID"
+    "X-CSRFToken": "FIND THIS ITEM IN HEADERS",
+    "X-Ig-App-Id":"FIND THIS ITEM IN HEADERS"
 }

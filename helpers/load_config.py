@@ -1,3 +1,6 @@
+from helpers.logger import setup_logger
+
+logger = setup_logger(__name__)
 def load_config(filepath):
     """Loads configuration data from a file.
 
@@ -28,6 +31,6 @@ def load_config(filepath):
             elif ext == '.json':
                 return json.load(f)
             else:
-                raise ValueError("Unsupported file format. Only .json and .yaml/.yml are supported.")
+                raise logger.error("Unsupported file format. Only .json and .yaml/.yml are supported.")
     except (yaml.YAMLError, json.JSONDecodeError, ValueError, FileNotFoundError) as e:
-        raise RuntimeError(f"Error loading config file: {e}") from e
+        raise logger.error(f"Error loading config file: {e}") from e

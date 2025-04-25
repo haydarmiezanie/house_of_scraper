@@ -1,5 +1,5 @@
 {
-    "csrf-token": "YOUR CSRF TOKEN",
+    "csrf-token": "FIND THIS ITEM IN HEADERS",
     "x-restli-protocol-version": "2.0.0",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     "Accept": "application/json"
