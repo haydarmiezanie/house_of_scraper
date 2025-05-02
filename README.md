@@ -30,9 +30,14 @@ House of Scraper is a powerful Python-based toolkit designed to simplify web scr
 3. Run a Scraper as code (example for tokopedia):
    ```bash
    py -m scraper --module "tokopedia.shop" --output json
+   ```
+   Use this mode when you want to run the scraper as a standalone script. It executes the full scraping process with default settings, which is ideal for quick execution or command line integration.
+   
 4. Run a scraper as function (example for tokopedia):
    ```bash
    py -m scraper --module "tokopedia.shop"
+   ```
+   Use this mode when you prefer to integrate the scraping functionality into your own Python code. It allows you to call the scraper as a function, offering better flexibility for customization within larger applications.
 ## 🛠 Customization
 Each script is modular and adjustable:
 - **Modify URLs**: Change the target website URL in the yaml.

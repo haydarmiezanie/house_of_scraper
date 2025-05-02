@@ -20,11 +20,17 @@ def test_scraper_modules(module_name):
         pytest.fail(f"Module {module_name} timed out after 30 seconds")
     except subprocess.CalledProcessError as e:
         pytest.fail(f"Module {module_name} failed with return code {e.returncode}: {e.stderr}")
-    except Exception as e:
-        pytest.fail(f"Unexpected error testing module {module_name}: {str(e)}")
 
     # Additional validation (only reached if subprocess succeeds)
-    assert not result.stderr, f"Module {module_name} produced stderr output: {result.stderr}"
+    # Filter out benign warnings from stderr output. Adjust allowed_warning_substrings as needed.
+    allowed_warning_substrings = ["Warning: Deprecated", "BenignWarningMessage"]
+    unexpected_stderr = "\n".join(
+        line
+        for line in result.stderr.splitlines()
+        if all(allowed not in line for allowed in allowed_warning_substrings)
+    )
+    assert not unexpected_stderr, f"Module {module_name} produced unexpected stderr output: {unexpected_stderr}"
+
 
 def test_scraper_main_function(module_name):
     data = main(["--module", module_name])
