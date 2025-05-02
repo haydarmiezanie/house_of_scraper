@@ -246,6 +246,8 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
     config = load_config(f"platform/{main_module}.yaml")
     module_config = config.get(main_module, {})
     sub_config = module_config.get(sub_module, {})
+    if not sub_config or not module_config:
+        raise logger.error(f"The module does not exist. Please check the configuration: /platfomrm/{main_module}.json")
 
     # Check if the module is enabled
     scraper = create_scraper(
