@@ -27,7 +27,10 @@ House of Scraper is a powerful Python-based toolkit designed to simplify web scr
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3. Run a Scraper (example for tokopedia):
+3. Run a Scraper as code (example for tokopedia):
+   ```bash
+   py -m scraper --module "tokopedia.shop" --output json
+4. Run a scraper as function (example for tokopedia):
    ```bash
    py -m scraper --module "tokopedia.shop"
 ## 🛠 Customization
