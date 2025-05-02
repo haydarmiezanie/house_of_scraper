@@ -208,10 +208,20 @@ def save_result(
     return filepath
 
 
-def main():
-    """Main execution function for the scraper.
+def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
+    """Executes the scraping process based on command-line arguments.
 
-    This function parses command-line arguments, loads configuration, creates a scraper instance, makes requests, and saves the results. It supports both single requests and looped requests based on configuration settings.
+    Loads configuration, creates a scraper, makes requests, transforms results,
+    and saves or returns the data.
+    Args:
+        args: Optional list of command-line arguments.
+
+    Returns:
+        A dictionary containing the scraped data if no output file is specified.
+
+    Raises:
+        ValueError: If the '--module' argument is not in the correct format.
+        ImportError: If the specified transform or cleanup module cannot be loaded.
     """
     # Import necessary modules
     import argparse
@@ -221,7 +231,8 @@ def main():
     # Parse command-line arguments
     parser = argparse.ArgumentParser()
     parser.add_argument('--module', help='The Python module to run', required=True)
-    args = parser.parse_args()
+    parser.add_argument("--output", help="Output file (default: print to stdout)")
+    args = parser.parse_args(args=args)
 
     # Validate module argument
     try:
@@ -286,7 +297,11 @@ def main():
             additional_cleanup=additional_cleanup
         )
 
-    save_result(data=get_data, main_module=main_module, sub_module=sub_module)
+    # Check if output is not parsing then return dictionary
+    if args.output is not None:
+        save_result(data=get_data, main_module=main_module, sub_module=sub_module)
+    else:
+        return get_data
 
 if __name__ == '__main__':
     main()
