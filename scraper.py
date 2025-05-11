@@ -193,8 +193,11 @@ def save_result(
     """
     import json, os, csv
     import pandas as pd
+
+    if output not in ['json', 'csv', 'parquet', 'db']:
+        raise logger.error(f"Unsupported output: {output}")
     # Determine output directory
-    base_dir = result_dir if result_dir is not None else os.path.join(os.getcwd(), f'result/{output}')
+    base_dir =  os.path.join(result_dir, output) if result_dir is not None else os.path.join(os.getcwd(), 'result', output)
 
     # Ensure directory exists
     os.makedirs(base_dir, exist_ok=True)
