@@ -169,8 +169,7 @@ def save_result(
     sub_module: str,
     output: str,
     result_dir: str = None,
-    indent: int = None,
-    verbose: bool = True
+    indent: int = None
     ) -> str:
     """Saves the provided data to a file in the specified format.
 
@@ -210,10 +209,20 @@ def save_result(
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=indent, ensure_ascii=False)
         elif output == 'csv':
+            # Validate and normalize data
+            if isinstance(data, list):
+                if not data:
+                    raise logger.error("Cannot write CSV: data list is empty")
+                rows = data
+            elif isinstance(data, dict):
+                rows = [data]
+            else:
+                raise logger.error("Cannot write CSV: data must be a dict or list of dicts")
+            fieldnames = rows[0].keys()
             with open(filepath, 'w', newline='') as csvfile:
-                writer = csv.DictWriter(csvfile, fieldnames=data[0].keys() if type(data) is list else data.keys())
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
-                writer.writerows(data) if type(data) is list else writer.writerow(data)
+                writer.writerows(rows)
         elif output=='parquet':
             df = pd.DataFrame(data if type(data) is list else [data])
             df.to_parquet(filepath, index=False)
@@ -236,8 +245,7 @@ def save_result(
     except (IOError, TypeError) as e:
         raise logger.error(f"Failed to save data: {str(e)}") from e
 
-    if verbose:
-        logger.info(f"Successfully saved {sub_module} data to {os.path.abspath(filepath)}")
+    logger.info(f"Successfully saved {sub_module} data to {os.path.abspath(filepath)}")
 
     return filepath
 

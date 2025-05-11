@@ -13,12 +13,14 @@
     "stockLimitedThreshold": 6,
     "uniqueSellingPoint": "• Nabati wafer \n<br>• Makanan ringan yang sehat \n<br>• Mengandung vitamin (A, B1, B2, B6, B12) \n<br>• Cocok untuk dinikmati siapa saja dan kapan saja \n<br>• Berat bersih : 288 g",
     "ampUrl": "https://www.blibli.com/amp/p/nabati-coklat-wafer-kaleng-240-g/is--NAS-60241-00022-00001",
-    "brand.name": "Nabati",
-    "brand.code": "nabati",
-    "brand.official": true,
-    "brand.anchor": "",
-    "brand.level": "REGULAR",
-    "brand.ownerCode": "NAO-60091",
+    "brand": {
+        "name": "Nabati",
+        "code": "nabati",
+        "official": true,
+        "anchor": "",
+        "level": "REGULAR",
+        "ownerCode": "NAO-60091"
+    },
     "images": [
         {
             "full": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-30109863/nabati_nabati_coklat_wafer_-300_g-_full05_rmljyh7b.jpg",
@@ -32,6 +34,8 @@
         "COD",
         "RETURNABLE"
     ],
+    "warranty": {},
+    "expiration": {},
     "type": "REGULAR",
     "attributes": [],
     "options": [
@@ -150,58 +154,74 @@
             "url": "/c/4/wafer/WA-1000040/BL-1000030"
         }
     ],
-    "merchant.name": "Nabati Snack",
-    "merchant.code": "NAS-60241",
-    "merchant.rating.value": 99,
-    "merchant.rating.review": 4.9,
-    "merchant.rating.badgeUrl": "https://www.static-src.com/siva/asset/07_2020/icon-top-rated-diamond.png",
-    "merchant.rating.badge": "DIAMOND",
-    "merchant.rating.positiveReview": 100,
-    "merchant.rating.onTimeFulfillment": 100,
-    "merchant.rating.activeResponse": 99,
-    "merchant.rating.successfulTransaction": 100,
-    "merchant.rating.reviewCount": 13412,
-    "merchant.rating.new": true,
-    "merchant.international": false,
-    "merchant.official": true,
-    "merchant.location": "Gudang Blibli",
-    "merchant.warehouses": [
-        "Kab. Bekasi"
-    ],
-    "merchant.warehouseLocations": [],
-    "merchant.warehouseInfo": [
-        {
-            "label": "Kab. Bekasi"
-        }
-    ],
-    "merchant.url": "/merchant/nabati-snack/NAS-60241",
-    "merchant.commissionType": "TD",
-    "merchant.level": "REGULAR",
-    "merchant.logo": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/mlogo/NAS-60241-8b03f3fd-f5d8-4e7f-8671-35e95961217b.jpg",
-    "merchant.joinDate": 1636690218975,
-    "merchant.pickupHours": [],
-    "merchant.poweredBy": [],
-    "merchant.status": "ACTIVE",
-    "review.rating": 4,
-    "review.count": 2205,
-    "review.decimalRating": 4.9,
-    "shippingAddress.provinceName": "DKI Jakarta",
-    "shippingAddress.subdistrictName": "Slipi",
-    "shippingAddress.postalCode": "11410",
-    "shippingAddress.districtName": "Palmerah",
-    "shippingAddress.cityName": "Kota Jakarta Barat",
-    "statistics.sold": 65805,
-    "statistics.seen": 107820,
-    "statistics.soldLabel": "65,8 rb",
-    "statistics.seenLabel": "107,8 rb",
+    "merchant": {
+        "name": "Nabati Snack",
+        "code": "NAS-60241",
+        "rating": {
+            "value": 99,
+            "review": 4.9,
+            "badgeUrl": "https://www.static-src.com/siva/asset/07_2020/icon-top-rated-diamond.png",
+            "badge": "DIAMOND",
+            "positiveReview": 100,
+            "onTimeFulfillment": 100,
+            "activeResponse": 99,
+            "successfulTransaction": 100,
+            "reviewCount": 13415,
+            "new": true
+        },
+        "international": false,
+        "official": true,
+        "location": "Gudang Blibli",
+        "warehouses": [
+            "Kab. Bekasi"
+        ],
+        "warehouseLocations": [],
+        "warehouseInfo": [
+            {
+                "label": "Kab. Bekasi"
+            }
+        ],
+        "url": "/merchant/nabati-snack/NAS-60241",
+        "commissionType": "TD",
+        "level": "REGULAR",
+        "logo": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/mlogo/NAS-60241-8b03f3fd-f5d8-4e7f-8671-35e95961217b.jpg",
+        "joinDate": 1636690218975,
+        "pickupHours": [],
+        "poweredBy": [],
+        "status": "ACTIVE"
+    },
+    "review": {
+        "rating": 4,
+        "count": 2205,
+        "decimalRating": 4.9
+    },
+    "shippingAddress": {
+        "provinceName": "DKI Jakarta",
+        "subdistrictName": "Slipi",
+        "postalCode": "11410",
+        "districtName": "Palmerah",
+        "cityName": "Kota Jakarta Barat"
+    },
+    "statistics": {
+        "sold": 65805,
+        "seen": 107820,
+        "soldLabel": "65,8 rb",
+        "seenLabel": "107,8 rb"
+    },
     "documents": [],
-    "preOrder.isPreOrder": false,
+    "preOrder": {
+        "isPreOrder": false
+    },
     "freshnessInDays": 0,
-    "fulfillmentTypes.delivery": "AVAILABLE",
-    "fulfillmentTypes.pickup": "UNAVAILABLE",
-    "fulfillmentTypes.selected": "DELIVERY",
-    "fulfillmentTypes.otherPickupPoints": 0,
-    "pickupPoint.international": false,
+    "fulfillmentTypes": {
+        "delivery": "AVAILABLE",
+        "pickup": "UNAVAILABLE",
+        "selected": "DELIVERY",
+        "otherPickupPoints": 0
+    },
+    "pickupPoint": {
+        "international": false
+    },
     "allSalesCategories": [
         "BI-1000034",
         "AN-1000092",
@@ -212,7 +232,9 @@
         "MA-1000330"
     ],
     "fbbCategoryUrl": "https://www.blibli.com/catalog/dijual-disediakan-blibli?location=Kab.+Bekasi&category=BI-1000034",
-    "suitability.features": [],
-    "suitability.problems": [],
+    "suitability": {
+        "features": [],
+        "problems": []
+    },
     "specificationButtonText": "Rasa, Jenis Produk, Berat Bersih"
 }
