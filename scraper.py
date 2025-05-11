@@ -167,43 +167,85 @@ def save_result(
     data: Any,
     main_module: str,
     sub_module: str,
+    output: str,
     result_dir: str = None,
-    indent: int = None,
-    verbose: bool = True
+    indent: int = None
     ) -> str:
-    """Save data to JSON file in organized directory structure.
-    
+    """Saves the provided data to a file in the specified format.
+
+    This function supports saving data as JSON, CSV, Parquet, or to a DuckDB database. It creates the output directory if it does not exist and returns the path to the saved file.
+
     Args:
-        data: Data to be serialized to JSON
-        main_module: Primary module/category name
-        sub_module: Secondary module/subcategory name
-        result_dir: Custom output directory (defaults to './result')
-        indent: JSON indentation (None for compact, int for pretty-print)
-        verbose: Whether to print save confirmation
-        
+        data: The data to be saved.
+        main_module: The main module name, used in the filename.
+        sub_module: The submodule name, used in the filename.
+        output: The output format ('json', 'csv', 'parquet', or 'db').
+        result_dir: Optional directory to save the result.
+        indent: Indentation level for JSON output.
+        verbose: Whether to log a success message.
+
     Returns:
-        Absolute path to the saved file
+        The absolute path to the saved file.
+
+    Raises:
+        IOError: If there is an error writing the file.
+        TypeError: If the data is not serializable in the chosen format.
     """
-    import json, os
+    import json, os, csv
+    import pandas as pd
     # Determine output directory
-    base_dir = result_dir if result_dir is not None else os.path.join(os.getcwd(), 'result')
+    base_dir = result_dir if result_dir is not None else os.path.join(os.getcwd(), f'result/{output}')
 
     # Ensure directory exists
     os.makedirs(base_dir, exist_ok=True)
 
     # Create safe filename
-    filename = f"{main_module}_{sub_module}.json".replace(' ', '_').lower()
+    filename = f"{main_module}_{sub_module}.{output}".replace(' ', '_').lower() if output != 'db' else f"{main_module}.{output}".replace(' ', '_').lower()
     filepath = os.path.join(base_dir, filename)
 
     # Atomic write operation
     try:
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=indent, ensure_ascii=False)
+        if output == 'json':
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=indent, ensure_ascii=False)
+        elif output == 'csv':
+            # Validate and normalize data
+            if isinstance(data, list):
+                if not data:
+                    raise logger.error("Cannot write CSV: data list is empty")
+                rows = data
+            elif isinstance(data, dict):
+                rows = [data]
+            else:
+                raise logger.error("Cannot write CSV: data must be a dict or list of dicts")
+            fieldnames = rows[0].keys()
+            with open(filepath, 'w', newline='') as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(rows)
+        elif output=='parquet':
+            df = pd.DataFrame(data if type(data) is list else [data])
+            df.to_parquet(filepath, index=False)
+        elif output=='db':
+            import duckdb
+            df = pd.DataFrame(data if type(data) is list else [data])
+            conn = duckdb.connect(database=filepath)
+
+            # Register the DataFrames as temporary views
+            conn.register(f"{main_module}_{sub_module}", df)
+
+            # Create tables from the DataFrames
+            conn.execute(f"CREATE OR REPLACE TABLE {main_module}.{sub_module} AS SELECT * FROM df")
+
+            # Optional: Unregister the temporary views
+            conn.unregister(f"{main_module}_{sub_module}")
+
+            # Verify and close
+            conn.close()
     except (IOError, TypeError) as e:
         raise logger.error(f"Failed to save data: {str(e)}") from e
 
-    if verbose:
-        logger.info(f"Successfully saved {sub_module} data to {os.path.abspath(filepath)}")
+    logger.info(f"Successfully saved {sub_module} data to {os.path.abspath(filepath)}")
 
     return filepath
 
@@ -301,7 +343,11 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
 
     # Check if output is not parsing then return dictionary
     if args.output is not None:
-        save_result(data=get_data, main_module=main_module, sub_module=sub_module)
+        save_result(data=get_data, 
+                    main_module=main_module, 
+                    sub_module=sub_module, 
+                    output=args.output,
+                    indent=4)
     else:
         return get_data
 
