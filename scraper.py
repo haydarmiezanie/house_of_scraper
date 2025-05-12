@@ -271,9 +271,8 @@ def save_result(
                 rows = [data]
             else:
                 raise logger.error("Cannot write CSV: data must be a dict or list of dicts")
-            fieldnames = set()
-            for row in data:
-                fieldnames.update(row.keys())
+             # Use the first row’s key order for consistent CSV columns
+             fieldnames = list(data[0].keys())
             with open(filepath, 'w', newline='') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
