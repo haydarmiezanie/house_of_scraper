@@ -1,6 +1,6 @@
 from typing import Optional, List, Union, Dict, Any
 from helpers.logger import setup_logger
-
+from helpers.regex_helpers import get_first_level
 logger = setup_logger(__name__)
 def create_scraper(library, options=None):
     """Creates a web scraper instance based on the specified library.
@@ -45,43 +45,55 @@ def create_scraper(library, options=None):
     elif library == 'requests':
         return module.Session()
 
-def get_nested_value(d, path):
-    """Retrieves a nested value from a dictionary using a string path.
+def _traverse_path(d: Any, path: str) -> Any:
+    """Retrieves a value from a nested dictionary or list using a string path.
 
-    This function extracts a value from a nested dictionary 'd' using 'path' which describes the nested keys or indices. The path uses square brackets for indexing and supports both string keys and numeric indices.
+    This function supports both string and integer keys, and raises an error if a key or index is not found.
 
     Args:
-        d: The nested dictionary.
-        path: The string path to the desired value (e.g., "[results][0][name]").
+        d (Any): The dictionary or list to traverse.
+        path (str): The string path representing the nested keys and/or indices.
 
     Returns:
-        The value at the specified path.
+        Any: The value found at the specified path.
 
     Raises:
-        KeyError: If a key or index in the path is not found.
+        KeyError: If a key or index is not found in the nested structure.
     """
     import re
-    # Parse the path into components
     parts = re.findall(r'\[(.*?)\]', path)
-
-    # If the path is empty, return the original dictionary
     current = d
     for part in parts:
-        # Handle both string keys and numeric indices
         if part.startswith('"') and part.endswith('"'):
-            key = part[1:-1]  # Remove quotes
+            key = part[1:-1]
         else:
             try:
-                key = int(part)  # Try to convert to integer
+                key = int(part)
             except ValueError:
-                key = part  # Fall back to string
-        
+                key = part
         try:
             current = current[key]
         except (KeyError, IndexError) as e:
-            raise logger.error(f"Key '{key}' not found in the nested structure.") from e
-
+            logger.error(f"Key '{key}' not found in the nested structure.")
+            raise KeyError(key) from e
     return current
+
+def get_nested_value(d, path):
+    """Retrieves a value or list of values from a nested dictionary or list using a string path.
+
+    Supports indexed access for lists when '{}' is present in the path, otherwise returns a single value.
+
+    Args:
+        d: The dictionary or list to traverse.
+        path: The string path representing the nested keys and/or indices.
+
+    Returns:
+        Any: The value(s) found at the specified path.
+    """
+    if '{}' in path:
+        count = len(get_first_level(d, path))
+        return [_traverse_path(d, path.format(i)) for i in range(count)]
+    return _traverse_path(d, path)
 
 def generate_request(
     scraper,
@@ -94,30 +106,40 @@ def generate_request(
     cookies: Optional[dict] = None,
     loop_scraper: bool = False,
     item_list: Optional[list] = None,
+    subitem_list: Optional[list] = None,
     additional_cleanup: Optional[str] = None,
     timeout: int = 10
     ) -> Union[List[Any], Dict[str, Any], Any]:
-    import importlib
-    from helpers.http_helpers import make_request
-    """Generate and process HTTP requests with optional transformations.
-    
+    """Generates and executes HTTP requests using the provided scraper and parameters.
+
+    Supports single or looped requests, optional result transformation, and additional cleanup logic.
+
     Args:
-        scraper: HTTP client instance
-        request_type: 'GET' or 'POST'
-        url: Endpoint URL (may contain {url_id} placeholder)
-        headers: Request headers
-        data: Form data for POST
-        result_transform: Module name for response transformation
-        payload: JSON payload for POST
-        cookies: Request cookies
-        loop_scraper: Whether to process multiple items
-        item_list: Items to process in loop mode
-        additional_cleanup: Module name for ID cleanup
-        timeout: Request timeout in seconds
+        scraper: The scraper instance to use for making requests.
+        request_type (str): The HTTP request type ('GET' or 'POST').
+        url (str): The URL or URL template for the request(s).
+        headers (Optional[dict]): Optional HTTP headers to include.
+        data (Optional[dict]): Optional data to send in the request.
+        result_transform (Optional[str]): Optional name of a result transformation module.
+        payload (Optional[dict]): Optional payload to send in the request.
+        cookies (Optional[dict]): Optional cookies to include in the request.
+        loop_scraper (bool): Whether to loop over a list of items to make multiple requests.
+        item_list (Optional[list]): List of items to use in URL formatting if looping.
+        subitem_list (Optional[list]): Optional list of subitems for additional URL formatting.
+        additional_cleanup (Optional[str]): Optional name of a cleanup module to apply to items.
+        timeout (int): Timeout for the request(s) in seconds.
 
     Returns:
-        Processed response(s) as JSON or transformed data
+        Union[List[Any], Dict[str, Any], Any]: The result(s) of the HTTP request(s).
+
+    Raises:
+        Warning: If the request type is not 'GET' or 'POST', or if item_list is missing when loop_scraper is True.
+        ImportError: If the specified transform or cleanup module cannot be loaded.
     """
+    import importlib
+    from helpers.http_helpers import make_request
+    from itertools import zip_longest 
+
     # Validate request type
     request_type = request_type.upper()
     if request_type not in ('GET', 'POST'):
@@ -148,19 +170,25 @@ def generate_request(
         return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
         raise logger.warning("item_list required when loop_scraper=True")
+    fmt_id = cleanup_fn or (lambda x: x)
+
     return [
         make_request(
             scraper,
             request_type,
-            url.format(url_id=cleanup_fn(item) if cleanup_fn else item),
-            headers,
-            data,
-            payload,
-            cookies,
+            url.format(
+                url_id=fmt_id(item),
+                **(
+                    {"additional_url": fmt_id(subitem)}
+                    if subitem_list and subitem is not None
+                    else {}
+                )
+            ),
+            headers, data, payload, cookies,
             timeout,
             transform_fn
         )
-        for item in item_list
+        for item, subitem in zip(item_list, subitem_list or [None]*len(item_list))
     ]
 
 def save_result(
@@ -221,7 +249,9 @@ def save_result(
                 rows = [data]
             else:
                 raise logger.error("Cannot write CSV: data must be a dict or list of dicts")
-            fieldnames = rows[0].keys()
+            fieldnames = set()
+            for row in data:
+                fieldnames.update(row.keys())
             with open(filepath, 'w', newline='') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
@@ -313,7 +343,7 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
     transform = f"{main_module}_transform" if transform_value is True else transform_value
     additional_cleanup_value = sub_config.get('additional_cleanup')
     additional_cleanup = f"{main_module}_cleanup" if additional_cleanup_value is True else additional_cleanup_value
-
+    subcleanup_list = sub_config.get('subcleanup_list',None)
     
     if not sub_config.get('loop_scraper'):
         get_data = generate_request(
@@ -327,13 +357,15 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
             cookies=cookies
         )
     else:
-        main_list = load_config(f"result/{main_module}_{sub_config['main_list']}.json")
+        main_list = load_config(f"result/json/{main_module}_{sub_config['main_list']}.json")
         list_url = get_nested_value(main_list, sub_config['cleanup_list'])
-
+        if subcleanup_list is not None:
+           subcleanup_list = get_nested_value(main_list, sub_config['subcleanup_list'])
         get_data = generate_request(
             scraper=scraper,
             request_type=sub_config['request_type'].upper(),
             url=sub_config['url'],
+            subitem_list=subcleanup_list,
             data=data,
             payload=payload,
             headers=headers,
