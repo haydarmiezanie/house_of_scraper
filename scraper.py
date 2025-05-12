@@ -89,7 +89,8 @@ def get_nested_value(d, path):
                 try:
                     current = current[key]
                 except (KeyError, IndexError) as e:
-                    print(f"Key '{key}' not found in the nested structure.")
+                    logger.error(f"Key '{key}' not found in the nested structure.")
+                    raise KeyError(key) from e
 
             list_item.append(current)
         return list_item
