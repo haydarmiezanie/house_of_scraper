@@ -138,6 +138,7 @@ def generate_request(
     """
     import importlib
     from helpers.http_helpers import make_request
+    from itertools import zip_longest 
 
     # Validate request type
     request_type = request_type.upper()
@@ -164,40 +165,30 @@ def generate_request(
         except ImportError as e:
             raise logger.error(f"Failed to load cleanup module: {e}") from e
 
-    def build_url(item, subitem=None):
-        """Builds a formatted URL using the provided item and optional subitem.
-
-        Applies cleanup functions if specified and formats the URL template accordingly.
-
-        Args:
-            item: The main item to use in URL formatting.
-            subitem: An optional subitem for additional URL formatting.
-
-        Returns:
-            str: The formatted URL.
-        """
-        fmt = {'url_id': cleanup_fn(item) if cleanup_fn else item}
-        if subitem_list is not None:
-            fmt['additional_url'] = (
-                cleanup_fn(subitem) if cleanup_fn else subitem
-            )
-        return url.format(**fmt)
-
     # If loop_scraper is enabled, ensure item_list is provided
     if not loop_scraper:
         return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
         raise logger.warning("item_list required when loop_scraper=True")
-    urls = [
-        build_url(item, subitem)
-        for item, subitem in zip(
-            item_list,
-            subitem_list or [None]*len(item_list)
-        )
-    ]
+    fmt_id = cleanup_fn or (lambda x: x)
+
     return [
-        make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
-        for url in urls
+        make_request(
+            scraper,
+            request_type,
+            url.format(
+                url_id=fmt_id(item),
+                **(
+                    {"additional_url": fmt_id(subitem)}
+                    if subitem_list and subitem is not None
+                    else {}
+                )
+            ),
+            headers, data, payload, cookies,
+            timeout,
+            transform_fn
+        )
+        for item, subitem in zip(item_list, subitem_list or [None]*len(item_list))
     ]
 
 def save_result(
