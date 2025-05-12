@@ -6,10 +6,21 @@ blibli:
       platform: 'windows'
       desktop: True
   product: 
-    url: 'https://www.blibli.com/backend/product-detail/products/is--NAS-60241-00022-00001/_summary?pickupPointCode=PP-3538616&cnc=false&fetchAllAvailability=true'
+    url: 'https://www.blibli.com/backend/product-detail/products/{url_id}/_summary?pickupPointCode=PP-3538616&cnc=false&fetchAllAvailability=true'
     request_type: 'get'
     result_transform: True
+    loop_scraper: True
+    main_list: 'category'
+    cleanup_list: '["products"][{}]["formattedId"]'
   shop: 
-    url: 'https://www.blibli.com/backend/search/merchant/NAS-60241?excludeProductList=true&promoTab=false&pickupPointCode=PP-3538616&multiCategory=true&merchantSearch=false&pickupPointLatLong=&defaultPickupPoint=true&showFacet=false'
+    url: 'https://www.blibli.com/backend/search/merchant/{url_id}?excludeProductList=true&promoTab=false&pickupPointCode={additional_url}&multiCategory=true&merchantSearch=false&pickupPointLatLong=&defaultPickupPoint=true&showFacet=false'
+    request_type: 'get'
+    result_transform: True
+    loop_scraper: True
+    main_list: 'category'
+    cleanup_list: '["products"][{}]["merchantCode"]'
+    subcleanup_list: '["products"][{}]["pickupPointCode"]'
+  category:
+    url: 'https://www.blibli.com/backend/search/products?categoryLevel=3&category=AK-1000373&channelId=web&isMobileBCA=false&showFacet=false&userIdentifier=1742617939.0628d198-f248-4b9b-a0b3-1b6ef0415c9f'
     request_type: 'get'
     result_transform: True
