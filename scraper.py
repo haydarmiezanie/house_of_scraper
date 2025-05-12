@@ -45,77 +45,55 @@ def create_scraper(library, options=None):
     elif library == 'requests':
         return module.Session()
 
-def get_nested_value(d, path):
-    """Retrieves a value from a nested dictionary or list structure using a string path.
+def _traverse_path(d: Any, path: str) -> Any:
+    """Retrieves a value from a nested dictionary or list using a string path.
 
-    Supports both direct and indexed access, and can handle lists of items when '{}' is present in the path.
+    This function supports both string and integer keys, and raises an error if a key or index is not found.
 
     Args:
-        d (dict): The dictionary or list to extract the value from.
+        d (Any): The dictionary or list to traverse.
         path (str): The string path representing the nested keys and/or indices.
 
     Returns:
-        Any: The value(s) found at the specified path. Returns a list if '{}' is in the path, otherwise a single value.
+        Any: The value found at the specified path.
 
     Raises:
         KeyError: If a key or index is not found in the nested structure.
     """
     import re
-
-    if '{}' in path:
-        ls_item = []
-        list_item = []
-        for item in range(len(get_first_level(d, path))):
-            pt = path.format(item)
-            ls_item.append(pt)
-
-            import re
-            # Parse the path into components
-            parts = re.findall(r'\[(.*?)\]', pt)
-            # If the path is empty, return the original dictionary
-            current = d
-            for part in parts:
-                # Handle both string keys and numeric indices
-                if part.startswith('"') and part.endswith('"'):
-                    key = part[1:-1]  # Remove quotes
-
-                else:
-                    try:
-                        key = int(part)  # Try to convert to integer
-
-                    except ValueError:
-                        key = part  # Fall back to string
-
-                try:
-                    current = current[key]
-                except (KeyError, IndexError) as e:
-                    logger.error(f"Key '{key}' not found in the nested structure.")
-                    raise KeyError(key) from e
-
-            list_item.append(current)
-        return list_item
-    else:
-        # Parse the path into components
-        parts = re.findall(r'\[(.*?)\]', path)
-
-        # If the path is empty, return the original dictionary
-        current = d
-        for part in parts:
-            # Handle both string keys and numeric indices
-            if part.startswith('"') and part.endswith('"'):
-                key = part[1:-1]  # Remove quotes
-            else:
-                try:
-                    key = int(part)  # Try to convert to integer
-                except ValueError:
-                    key = part  # Fall back to string
-
+    parts = re.findall(r'\[(.*?)\]', path)
+    current = d
+    for part in parts:
+        if part.startswith('"') and part.endswith('"'):
+            key = part[1:-1]
+        else:
             try:
-                current = current[key]
-            except (KeyError, IndexError) as e:
-                raise logger.error(f"Key '{key}' not found in the nested structure.") from e
+                key = int(part)
+            except ValueError:
+                key = part
+        try:
+            current = current[key]
+        except (KeyError, IndexError) as e:
+            logger.error(f"Key '{key}' not found in the nested structure.")
+            raise KeyError(key) from e
+    return current
 
-        return current
+def get_nested_value(d, path):
+    """Retrieves a value or list of values from a nested dictionary or list using a string path.
+
+    Supports indexed access for lists when '{}' is present in the path, otherwise returns a single value.
+
+    Args:
+        d: The dictionary or list to traverse.
+        path: The string path representing the nested keys and/or indices.
+
+    Returns:
+        Any: The value(s) found at the specified path.
+    """
+    if '{}' in path:
+        count = len(get_first_level(d, path))
+        return [_traverse_path(d, path.format(i)) for i in range(count)]
+    return _traverse_path(d, path)
 
 def generate_request(
     scraper,
@@ -160,6 +138,7 @@ def generate_request(
     """
     import importlib
     from helpers.http_helpers import make_request
+
     # Validate request type
     request_type = request_type.upper()
     if request_type not in ('GET', 'POST'):
@@ -185,32 +164,40 @@ def generate_request(
         except ImportError as e:
             raise logger.error(f"Failed to load cleanup module: {e}") from e
 
+    def build_url(item, subitem=None):
+        """Builds a formatted URL using the provided item and optional subitem.
+
+        Applies cleanup functions if specified and formats the URL template accordingly.
+
+        Args:
+            item: The main item to use in URL formatting.
+            subitem: An optional subitem for additional URL formatting.
+
+        Returns:
+            str: The formatted URL.
+        """
+        fmt = {'url_id': cleanup_fn(item) if cleanup_fn else item}
+        if subitem_list is not None:
+            fmt['additional_url'] = (
+                cleanup_fn(subitem) if cleanup_fn else subitem
+            )
+        return url.format(**fmt)
+
     # If loop_scraper is enabled, ensure item_list is provided
     if not loop_scraper:
         return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
         raise logger.warning("item_list required when loop_scraper=True")
-    return [
-        make_request(
-            scraper,
-            request_type,
-            url.format(
-                url_id=cleanup_fn(item) if cleanup_fn else item,
-                additional_url=cleanup_fn(subitem) if (subitem_list is not None and cleanup_fn) else subitem
-            ) if subitem_list is not None else url.format(
-                url_id=cleanup_fn(item) if cleanup_fn else item
-            ),
-            headers,
-            data,
-            payload,
-            cookies,
-            timeout,
-            transform_fn
-        )
+    urls = [
+        build_url(item, subitem)
         for item, subitem in zip(
             item_list,
-            subitem_list if subitem_list is not None else [None] * len(item_list)
+            subitem_list or [None]*len(item_list)
         )
+    ]
+    return [
+        make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
+        for url in urls
     ]
 
 def save_result(
@@ -271,8 +258,9 @@ def save_result(
                 rows = [data]
             else:
                 raise logger.error("Cannot write CSV: data must be a dict or list of dicts")
-             # Use the first row’s key order for consistent CSV columns
-             fieldnames = list(data[0].keys())
+            fieldnames = set()
+            for row in data:
+                fieldnames.update(row.keys())
             with open(filepath, 'w', newline='') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()

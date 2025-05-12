@@ -217,8 +217,7 @@
             ],
             "businessOperational": {
                 "day": "MONDAY",
-                "status": "CLOSE",
-                "nextOperationalDay": "MONDAY"
+                "status": "OPEN"
             },
             "joinDate": 1660297990277,
             "pickupHours": [],
