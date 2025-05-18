@@ -9,7 +9,15 @@ def transform(response):
     Returns:
         The first 'entries' list found in the instructions, or None if not present.
     """
-    payload = response.json()['data']['search_by_raw_query']["search_timeline"]["timeline"]["instructions"]
+    json_data = response.json()
+    payload = (
+        json_data
+        .get('data', {})
+        .get('search_by_raw_query', {})
+        .get('search_timeline', {})
+        .get('timeline', {})
+        .get('instructions', [])
+    )
     return next(
         (instr['entries'] for instr in payload if 'entries' in instr), None
     )
