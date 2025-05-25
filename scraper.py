@@ -104,42 +104,42 @@ def generate_request(
     result_transform: Optional[str] = None,
     payload: Optional[dict] = None,
     cookies: Optional[dict] = None,
+    manual_headers: Optional[dict] = None,
     loop_scraper: bool = False,
     item_list: Optional[list] = None,
     subitem_list: Optional[list] = None,
     additional_cleanup: Optional[str] = None,
     timeout: int = 10
     ) -> Union[List[Any], Dict[str, Any], Any]:
-    """Generates and executes HTTP requests using the provided scraper and parameters.
+    import importlib
+    from helpers.http_helpers import make_request
+    """Sends HTTP requests using the specified scraper and parameters.
 
-    Supports single or looped requests, optional result transformation, and additional cleanup logic.
+    Supports both single and looped requests, optional result transformation, and additional cleanup. Returns the response(s) from the request(s).
 
     Args:
         scraper: The scraper instance to use for making requests.
-        request_type (str): The HTTP request type ('GET' or 'POST').
-        url (str): The URL or URL template for the request(s).
-        headers (Optional[dict]): Optional HTTP headers to include.
-        data (Optional[dict]): Optional data to send in the request.
-        result_transform (Optional[str]): Optional name of a result transformation module.
-        payload (Optional[dict]): Optional payload to send in the request.
-        cookies (Optional[dict]): Optional cookies to include in the request.
-        loop_scraper (bool): Whether to loop over a list of items to make multiple requests.
-        item_list (Optional[list]): List of items to use in URL formatting if looping.
-        subitem_list (Optional[list]): Optional list of subitems for additional URL formatting.
-        additional_cleanup (Optional[str]): Optional name of a cleanup module to apply to items.
-        timeout (int): Timeout for the request(s) in seconds.
+        request_type: The HTTP method to use ('GET' or 'POST').
+        url: The URL or URL template for the request(s).
+        headers: Optional dictionary of HTTP headers.
+        data: Optional dictionary of data to send in the request body.
+        result_transform: Optional name of a result transformation module.
+        payload: Optional dictionary of payload data.
+        cookies: Optional dictionary of cookies.
+        manual_headers: Optional dictionary of headers to override defaults.
+        loop_scraper: Whether to perform requests in a loop over item_list.
+        item_list: Optional list of items to iterate over in looped requests.
+        subitem_list: Optional list of subitems for nested URL formatting.
+        additional_cleanup: Optional name of a cleanup module to apply to items.
+        timeout: Timeout in seconds for the request(s).
 
     Returns:
-        Union[List[Any], Dict[str, Any], Any]: The result(s) of the HTTP request(s).
+        A single response, or a list of responses if loop_scraper is True.
 
     Raises:
         Warning: If the request type is not 'GET' or 'POST', or if item_list is missing when loop_scraper is True.
-        ImportError: If the specified transform or cleanup module cannot be loaded.
+        ImportError: If a specified transform or cleanup module cannot be loaded.
     """
-    import importlib
-    from helpers.http_helpers import make_request
-    from itertools import zip_longest 
-
     # Validate request type
     request_type = request_type.upper()
     if request_type not in ('GET', 'POST'):
@@ -166,6 +166,8 @@ def generate_request(
             raise logger.error(f"Failed to load cleanup module: {e}") from e
 
     # If loop_scraper is enabled, ensure item_list is provided
+    if manual_headers:
+        headers = manual_headers
     if not loop_scraper:
         return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
@@ -339,6 +341,9 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
     if headers is not None and "FIND THIS ITEM IN HEADERS" in headers.values():
         raise logger.error(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
+    if data is not None and "FIND THIS ITEM IN DATA" in data.values():
+        raise logger.error(f"The data is not configure correctly. Please check the configuration: /data/{main_module}_data.json")
+    manual_headers = sub_config.get('manual_headers', None)
     transform_value = sub_config.get('result_transform')
     transform = f"{main_module}_transform" if transform_value is True else transform_value
     additional_cleanup_value = sub_config.get('additional_cleanup')
@@ -354,7 +359,8 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
             result_transform=transform,
             payload=payload,
             headers=headers,
-            cookies=cookies
+            cookies=cookies,
+            manual_headers=manual_headers,
         )
     else:
         main_list = load_config(f"result/json/{main_module}_{sub_config['main_list']}.json")
@@ -373,6 +379,7 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
             result_transform=transform,
             loop_scraper=True,
             item_list=list_url,
+            manual_headers=manual_headers,
             additional_cleanup=additional_cleanup
         )
 
