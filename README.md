@@ -49,7 +49,7 @@ Each script is modular and adjustable:
 Scraped data is saved in `/result` as:
 - JSON (for APIs/databases)
 
-[Example Output](https://github.com/haydarmiezanie/house_of_scraper/blob/master/result/TOKOPEDIA_shop.json)
+[Example Output](https://github.com/haydarmiezanie/house_of_scraper/tree/master/result)
 
 ## 🤖 Ethical Scraping & Legal Note
 **⚠ Use responsibly!**
