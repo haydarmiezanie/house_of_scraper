@@ -367,7 +367,7 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
 
     cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
     if cookies is not None and "FIND THIS ITEM IN COOKIES" in cookies.values():
-        raise logger.error(f"The cookies is not configure correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
+        raise logger.error(f"Cookies are not configured correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
 
     # Check if the module is enabled
     scraper = create_scraper(
@@ -381,12 +381,12 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
     payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json") 
     params = load_optional(sub_config,'insert_params', f"params/{main_module}_{sub_module}_params.json")
     if params is not None and "FIND THIS ITEM IN PARAMS" in params.values():
-        raise logger.error(f"The params is not configure correctly. Please check the configuration: /params/{main_module}_{sub_module}_params.json")
+        raise logger.error(f"Params are not configured correctly. Please check the configuration: /params/{main_module}_{sub_module}_params.json")
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
     if headers is not None and "FIND THIS ITEM IN HEADERS" in headers.values():
-        raise logger.error(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
+        raise logger.error(f"Headers are not configured correctly. Please check the configuration: /headers/{main_module}_headers.json")
     if data is not None and "FIND THIS ITEM IN DATA" in data.values():
-        raise logger.error(f"The data is not configure correctly. Please check the configuration: /data/{main_module}_data.json")
+        raise logger.error(f"Data is not configured correctly. Please check the configuration: /data/{main_module}_data.json")
     manual_headers = sub_config.get('manual_headers', None)
     transform_value = sub_config.get('result_transform')
     transform = f"{main_module}_transform" if transform_value is True else transform_value
