@@ -29,7 +29,7 @@ def create_scraper(
     # Factory functions for creating scraper instances
     factories = {
         "cloudscraper": lambda: _create_cloudscraper(options, cookies),
-        "requests": lambda: _create_requests_session(cookies),
+        "requests": lambda: _create_requests_session(),
     }
 
     # Validate library choice
