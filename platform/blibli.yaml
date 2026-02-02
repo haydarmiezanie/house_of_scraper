@@ -21,6 +21,9 @@ blibli:
     cleanup_list: '["products"][{}]["merchantCode"]'
     subcleanup_list: '["products"][{}]["pickupPointCode"]'
   category:
-    url: 'https://www.blibli.com/backend/search/products?categoryLevel=3&category=AK-1000373&channelId=web&isMobileBCA=false&showFacet=false&userIdentifier=1742617939.0628d198-f248-4b9b-a0b3-1b6ef0415c9f'
+    url: 'https://www.blibli.com/backend/search/products'
     request_type: 'get'
     result_transform: True
+    insert_cookies: True
+    insert_params: True
+    insert_headers: True

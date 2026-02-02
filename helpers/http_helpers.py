@@ -2,7 +2,7 @@ from helpers.logger import setup_logger
 
 logger = setup_logger(__name__)
 
-def make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn=None):
+def make_request(scraper, request_type, url, params, headers, data, payload, cookies, timeout, transform_fn=None):
     """Makes an HTTP request using the provided scraper.
 
     This function handles both GET and POST requests and raises an exception if the request fails.  It also allows for custom transformation of the response.
@@ -28,7 +28,7 @@ def make_request(scraper, request_type, url, headers, data, payload, cookies, ti
     try:
         # Validate request type
         if request_type == 'GET':
-            response = scraper.get(url, headers=headers, cookies=cookies, timeout=timeout)
+            response = scraper.get(url, params=params, headers=headers, cookies=cookies, timeout=timeout)
         else:
             response = scraper.post(url, headers=headers, data=data, json=payload, cookies=cookies, timeout=timeout)
         response.raise_for_status()

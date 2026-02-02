@@ -2,48 +2,85 @@ from typing import Optional, List, Union, Dict, Any
 from helpers.logger import setup_logger
 from helpers.regex_helpers import get_first_level
 logger = setup_logger(__name__)
-def create_scraper(library, options=None):
-    """Creates a web scraper instance based on the specified library.
+def create_scraper(
+        library: str,
+        options: Optional[Dict[str, Any]] = None,
+        cookies: Optional[Dict[str, str]] = None,
+        ):
+    """Creates and configures an HTTP scraper session using the chosen library.
 
-    This function supports creating scrapers using either 'cloudscraper' or 'requests'. It handles importing the necessary library and creating the scraper instance with provided options.
+    Initializes either a cloudscraper or requests session, optionally applying configuration options and cookies.
 
     Args:
-        library: The name of the scraping library ('cloudscraper' or 'requests').
-        options: Optional dictionary of settings to pass to the scraper's constructor.
+        library: The HTTP library to use for scraping ('cloudscraper' or 'requests').
+        options: Optional configuration dictionary passed to the underlying library when using cloudscraper.
+        cookies: Optional dictionary of cookies to attach to the session when using cloudscraper.
 
     Returns:
-        A scraper instance (either a cloudscraper object or a requests.Session object).
+        A configured scraper/session object from the selected library.
 
     Raises:
         ValueError: If the specified library is not supported.
-        ImportError: If the specified library is not installed.
+        ImportError: If the required library for the chosen scraper cannot be imported.
     """
-    # Define supported libraries and their import paths
-    import importlib
+    # Set default options if none provided
+    options = options or {}
 
-    # Define the mapping of library names to their import paths
-    libraries = {
-        'cloudscraper': 'cloudscraper',
-        'requests': 'requests'
+    # Factory functions for creating scraper instances
+    factories = {
+        "cloudscraper": lambda: _create_cloudscraper(options, cookies),
+        "requests": lambda: _create_requests_session(),
     }
 
-    # Check if the specified library is supported
-    if library not in libraries:
-        raise ValueError(f"Unsupported library: {library}. Supported libraries are: {', '.join(libraries.keys())}.")
+    # Validate library choice
+    if library not in factories:
+        raise ValueError(
+            f"Unsupported library '{library}'. "
+            f"Supported libraries are: {', '.join(factories.keys())}"
+        )
 
-    # Attempt to import the specified library
+    # Create and return the scraper instance
     try:
-        module = importlib.import_module(libraries[library])
+        return factories[library]()
     except ImportError as e:
-        raise logger.error(
-            f"{libraries[library]} module is not installed. Please install it using 'pip install {libraries[library]}'."
+        raise ImportError(
+            f"Required library '{library}' is not installed. "
+            f"Install it using: pip install {library}"
         ) from e
 
-    # Create the scraper instance based on the specified library
-    if library == 'cloudscraper':
-        return module.create_scraper(**(options or {}))
-    elif library == 'requests':
-        return module.Session()
+
+def _create_cloudscraper(options: Dict[str, Any], cookies: Optional[Dict[str, str]]):
+    """Creates a configured cloudscraper instance for making HTTP requests.
+
+    Applies the provided options and optionally attaches cookies to the scraper session.
+
+    Args:
+        options: Dictionary of configuration options passed to `cloudscraper.create_scraper`.
+        cookies: Optional dictionary of cookies to be added to the scraper session.
+
+    Returns:
+        A configured cloudscraper scraper instance ready for use.
+    """
+    import cloudscraper
+
+    # Create the cloudscraper instance with provided options
+    scraper = cloudscraper.create_scraper(**options)
+    if cookies:
+        scraper.cookies.update(cookies)
+    return scraper
+
+
+def _create_requests_session():
+    """Creates and returns a new requests session for HTTP communication.
+
+    Provides a reusable session object that can maintain connection pooling and shared settings across multiple requests.
+
+    Returns:
+        A new instance of `requests.Session`.
+    """
+    import requests
+    return requests.Session()
+   
 
 def _traverse_path(d: Any, path: str) -> Any:
     """Retrieves a value from a nested dictionary or list using a string path.
@@ -99,6 +136,7 @@ def generate_request(
     scraper,
     request_type: str,
     url: str,
+    params: Optional[dict] = None,
     headers: Optional[dict] = None,
     data: Optional[dict] = None,
     result_transform: Optional[str] = None,
@@ -169,7 +207,7 @@ def generate_request(
     if manual_headers:
         headers = manual_headers
     if not loop_scraper:
-        return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
+        return make_request(scraper, request_type, url, params, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
         raise logger.warning("item_list required when loop_scraper=True")
     fmt_id = cleanup_fn or (lambda x: x)
@@ -326,23 +364,29 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
     if not sub_config or not module_config:
         raise logger.error(f"The module does not exist. Please check the configuration: /platfomrm/{main_module}.json")
 
+
+    cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
+    if cookies is not None and "FIND THIS ITEM IN COOKIES" in cookies.values():
+        raise logger.error(f"Cookies are not configured correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
+
     # Check if the module is enabled
     scraper = create_scraper(
         library=module_config['library'],
-        options=module_config.get('library_settings')
+        options=module_config.get('library_settings'),
+        cookies=cookies if cookies is not None else None
     )
-
+    
     # Check if the module is enabled
     data = load_optional(sub_config,'insert_data', f"data/{main_module}_data.json")
-    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")   
-    cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
-    if cookies is not None and "FIND THIS ITEM IN COOKIES" in cookies.values():
-        raise logger.error(f"The cookies is not configure correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
+    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json") 
+    params = load_optional(sub_config,'insert_params', f"params/{main_module}_{sub_module}_params.json")
+    if params is not None and "FIND THIS ITEM IN PARAMS" in params.values():
+        raise logger.error(f"Params are not configured correctly. Please check the configuration: /params/{main_module}_{sub_module}_params.json")
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
     if headers is not None and "FIND THIS ITEM IN HEADERS" in headers.values():
-        raise logger.error(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
+        raise logger.error(f"Headers are not configured correctly. Please check the configuration: /headers/{main_module}_headers.json")
     if data is not None and "FIND THIS ITEM IN DATA" in data.values():
-        raise logger.error(f"The data is not configure correctly. Please check the configuration: /data/{main_module}_data.json")
+        raise logger.error(f"Data is not configured correctly. Please check the configuration: /data/{main_module}_data.json")
     manual_headers = sub_config.get('manual_headers', None)
     transform_value = sub_config.get('result_transform')
     transform = f"{main_module}_transform" if transform_value is True else transform_value
@@ -355,6 +399,7 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
             scraper=scraper,
             request_type=sub_config['request_type'].upper(),
             url=sub_config['url'],
+            params=params,
             data=data,
             result_transform=transform,
             payload=payload,
