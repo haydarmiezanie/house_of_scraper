@@ -28,7 +28,6 @@ def make_request(scraper, request_type, url, params, headers, data, payload, coo
     try:
         # Validate request type
         if request_type == 'GET':
-            print('here')
             response = scraper.get(url, params=params, headers=headers, cookies=cookies, timeout=timeout)
         else:
             response = scraper.post(url, headers=headers, data=data, json=payload, cookies=cookies, timeout=timeout)
