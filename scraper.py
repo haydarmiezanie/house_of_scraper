@@ -2,7 +2,7 @@ from typing import Optional, List, Union, Dict, Any
 from helpers.logger import setup_logger
 from helpers.regex_helpers import get_first_level
 logger = setup_logger(__name__)
-def create_scraper(library, options=None):
+def create_scraper(library, options=None, cookies=None):
     """Creates a web scraper instance based on the specified library.
 
     This function supports creating scrapers using either 'cloudscraper' or 'requests'. It handles importing the necessary library and creating the scraper instance with provided options.
@@ -41,7 +41,10 @@ def create_scraper(library, options=None):
 
     # Create the scraper instance based on the specified library
     if library == 'cloudscraper':
-        return module.create_scraper(**(options or {}))
+        module = module.create_scraper(**(options or {}))
+        if cookies is not None:
+            module.cookies.update(cookies)
+        return module
     elif library == 'requests':
         return module.Session()
 
@@ -99,6 +102,7 @@ def generate_request(
     scraper,
     request_type: str,
     url: str,
+    params: Optional[dict] = None,
     headers: Optional[dict] = None,
     data: Optional[dict] = None,
     result_transform: Optional[str] = None,
@@ -169,7 +173,7 @@ def generate_request(
     if manual_headers:
         headers = manual_headers
     if not loop_scraper:
-        return make_request(scraper, request_type, url, headers, data, payload, cookies, timeout, transform_fn)
+        return make_request(scraper, request_type, url, params, headers, data, payload, cookies, timeout, transform_fn)
     if not item_list:
         raise logger.warning("item_list required when loop_scraper=True")
     fmt_id = cleanup_fn or (lambda x: x)
@@ -326,18 +330,24 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
     if not sub_config or not module_config:
         raise logger.error(f"The module does not exist. Please check the configuration: /platfomrm/{main_module}.json")
 
-    # Check if the module is enabled
-    scraper = create_scraper(
-        library=module_config['library'],
-        options=module_config.get('library_settings')
-    )
 
-    # Check if the module is enabled
-    data = load_optional(sub_config,'insert_data', f"data/{main_module}_data.json")
-    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json")   
     cookies = load_optional(sub_config,'insert_cookies', f"cookies/{main_module}_cookies.json")
     if cookies is not None and "FIND THIS ITEM IN COOKIES" in cookies.values():
         raise logger.error(f"The cookies is not configure correctly. Please check the configuration: /cookies/{main_module}_cookies.json")
+
+    # Check if the module is enabled
+    scraper = create_scraper(
+        library=module_config['library'],
+        options=module_config.get('library_settings'),
+        cookies=cookies if cookies is not None else None
+    )
+    
+    # Check if the module is enabled
+    data = load_optional(sub_config,'insert_data', f"data/{main_module}_data.json")
+    payload = load_optional(sub_config,'insert_payload', f"payload/{main_module}_payload.json") 
+    params = load_optional(sub_config,'insert_params', f"params/{main_module}_{sub_module}_params.json")
+    if params is not None and "FIND THIS ITEM IN PARAMS" in params.values():
+        raise logger.error(f"The params is not configure correctly. Please check the configuration: /params/{main_module}_params.json")
     headers = load_optional(sub_config,'insert_headers', f"headers/{main_module}_headers.json")
     if headers is not None and "FIND THIS ITEM IN HEADERS" in headers.values():
         raise logger.error(f"The headers is not configure correctly. Please check the configuration: /headers/{main_module}_headers.json")
@@ -355,6 +365,7 @@ def main(args: Optional[List[str]] = None)-> Dict[str, Any]:
             scraper=scraper,
             request_type=sub_config['request_type'].upper(),
             url=sub_config['url'],
+            params=params,
             data=data,
             result_transform=transform,
             payload=payload,
